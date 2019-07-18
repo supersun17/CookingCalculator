@@ -14,6 +14,11 @@
 		6EF10C9722DFFC3600C14591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10C9622DFFC3600C14591 /* Assets.xcassets */; };
 		6EF10C9A22DFFC3600C14591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10C9822DFFC3600C14591 /* LaunchScreen.storyboard */; };
 		6EF10CA522DFFC3600C14591 /* CookingCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF10CA422DFFC3600C14591 /* CookingCalculatorTests.swift */; };
+		6EF10CB022DFFE5A00C14591 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10CAF22DFFE5A00C14591 /* README.md */; };
+		6EF10CB222DFFE7300C14591 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10CB122DFFE7300C14591 /* LICENSE */; };
+		6EF10CB522E003AD00C14591 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF10CB422E003AD00C14591 /* Recipe.swift */; };
+		6EF10CB722E0053100C14591 /* Recipe.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10CB622E0053100C14591 /* Recipe.xml */; };
+		6EF10CB922E0081E00C14591 /* RecipeClass.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10CB822E0081E00C14591 /* RecipeClass.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		6EF10CA022DFFC3600C14591 /* CookingCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF10CA422DFFC3600C14591 /* CookingCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingCalculatorTests.swift; sourceTree = "<group>"; };
 		6EF10CA622DFFC3600C14591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF10CAF22DFFE5A00C14591 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6EF10CB122DFFE7300C14591 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6EF10CB422E003AD00C14591 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		6EF10CB622E0053100C14591 /* Recipe.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Recipe.xml; sourceTree = "<group>"; };
+		6EF10CB822E0081E00C14591 /* RecipeClass.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RecipeClass.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,8 @@
 		6EF10C8022DFFC3400C14591 = {
 			isa = PBXGroup;
 			children = (
+				6EF10CB122DFFE7300C14591 /* LICENSE */,
+				6EF10CAF22DFFE5A00C14591 /* README.md */,
 				6EF10C8B22DFFC3400C14591 /* CookingCalculator */,
 				6EF10CA322DFFC3600C14591 /* CookingCalculatorTests */,
 				6EF10C8A22DFFC3400C14591 /* Products */,
@@ -79,6 +91,7 @@
 		6EF10C8B22DFFC3400C14591 /* CookingCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				6EF10CB322E0039E00C14591 /* Models */,
 				6EF10C8C22DFFC3400C14591 /* AppDelegate.swift */,
 				6EF10C8E22DFFC3400C14591 /* ViewController.swift */,
 				6EF10C9022DFFC3400C14591 /* Main.storyboard */,
@@ -97,6 +110,16 @@
 				6EF10CA622DFFC3600C14591 /* Info.plist */,
 			);
 			path = CookingCalculatorTests;
+			sourceTree = "<group>";
+		};
+		6EF10CB322E0039E00C14591 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EF10CB622E0053100C14591 /* Recipe.xml */,
+				6EF10CB822E0081E00C14591 /* RecipeClass.xml */,
+				6EF10CB422E003AD00C14591 /* Recipe.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +205,11 @@
 			files = (
 				6EF10C9A22DFFC3600C14591 /* LaunchScreen.storyboard in Resources */,
 				6EF10C9722DFFC3600C14591 /* Assets.xcassets in Resources */,
+				6EF10CB022DFFE5A00C14591 /* README.md in Resources */,
+				6EF10CB722E0053100C14591 /* Recipe.xml in Resources */,
 				6EF10C9222DFFC3400C14591 /* Main.storyboard in Resources */,
+				6EF10CB922E0081E00C14591 /* RecipeClass.xml in Resources */,
+				6EF10CB222DFFE7300C14591 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +230,7 @@
 				6EF10C8F22DFFC3400C14591 /* ViewController.swift in Sources */,
 				6EF10C9522DFFC3400C14591 /* CookingCalculator.xcdatamodeld in Sources */,
 				6EF10C8D22DFFC3400C14591 /* AppDelegate.swift in Sources */,
+				6EF10CB522E003AD00C14591 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
