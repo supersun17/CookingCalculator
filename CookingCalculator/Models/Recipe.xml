@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<recipe id="12345678901234ax">
+<recipe id="rcp-12345678901234ax" ownerId="user-as4sdf3sldkfjo8ogsdf">
     <recipeClass>1234567890123456</recipeClass>
-    <name>Steamed white rice</name>
+    <recipeName>Steamed white rice</recipeName>
     <!--quota means for how many people-->
     <quota>1</>
     <process>
-        <!--timestamp use second as unit, and represented by Double-->
-        <timestamp="0.00">Prepare 1 cup of white rice.</timestamp>
-        <timestamp="1.00">Rinse it till water is crystal clear</timestamp>
-        <timestamp="4.00">Set rinsed rice in the steam pot.Turn on mid-high fire, then just wait</timestamp>
-        <!--if mark is free, it means the user can tend to other stuff here, until the next timestamp-->
-        <timestamp="5.00" mark="free">Complete</timestamp>
-        <timestamp="15.00">Turn off fire, and your rice is ready!</timestamp>
+        <!--In multi-course cooking session, steps can be mixed, duplicate recipeName and recipeId will come in handy-->
+        <step index="0" recipeName="Steamed white rice" recipeId="rcp-12345678901234ax">
+            <!--timestamp use second as unit, and represented by Double-->
+            <time-period how-long="2.00"/>
+            <occupied state="true">
+            <instruction tag="start">Prepare 1 cup of white rice.<instruction/>
+            <instruction tag="end">Done.<instruction/>
+        </step>
+        <step index="1" recipeName="Steamed white rice" recipeId="rcp-12345678901234ax">
+            <time-period how-long="2.00"/>
+            <occupied state="true">
+            <instruction tag="start">Rinse it till water is crystal clear.<instruction/>
+            <instruction tag="end">Done.<instruction/>
+        </step>
+        <step index="2" recipeName="Steamed white rice" recipeId="rcp-12345678901234ax">
+            <time-period how-long="15.00"/>
+            <occupied state="false">
+            <instruction tag="start">Set rinsed rice in the steam pot.Turn on mid-high fire, then just wait.<instruction/>
+            <instruction tag="end">Done.<instruction/>
+        </step>
+        <step index="3" recipeName="Steamed white rice" recipeId="rcp-12345678901234ax">
+            <time-period how-long="1.00"/>
+            <occupied state="true">
+            <instruction tag="start">Turn off your fire.<instruction/>
+            <instruction tag="end">[recipeName] is ready!<instruction/>
+        </step>
     </process>
 </recipe>
