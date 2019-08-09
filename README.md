@@ -8,13 +8,16 @@
 - recipe referencing should be possible. which means recipe should have a unique recipe id
 - a new recipe which is a variation of another recipe will belong to the same group
 - recipe should have cooking process, which should be represented by steps with time period, start instruction, end instruction
-- since recipe might come different langauges, they shoulbe belong to the same class. Which means class name itself should cover multiple language
+- since recipe might come in different langauges, they shoulbe belong to the same class. Which means class name itself should cover multiple language
 
 ### Edit recipe [UI]
 - recipe owner can rearrange step order
 - recipe owner can edit instruction
 
 ### Store recipe [Local xml, Coredata]
+
+
+### Create recipe [UI]
 
 
 ### Search for pre-built ingredients [Local Coredata]

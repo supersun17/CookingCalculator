@@ -14,6 +14,4 @@ class RecipeEditingScene: SceneProtocol {
     }
     
     func dismissScene(_ completion: @escaping () -> Void) {}
-    
-    
 }

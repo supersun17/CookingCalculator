@@ -1,0 +1,41 @@
+{
+    "recipeId": "rcp-1234567890123456",
+    "ownerId": "usr-1234567890123456",
+    "recipeName": "Steamed white rice",
+    "recipeClass": "rcc-1234567890123456",
+    "quota": 1,
+    "process": [
+        {
+            "recipeName": "Steamed white rice",
+            "recipeId": "rcp-1234567890123456",
+            "timePeriod": 2.00,
+            "occupied": true,
+            "instructionStart": "Prepare 1 cup of white rice.",
+            "instructionEnd": "Done."
+        },
+        {
+            "recipeName": "Steamed white rice",
+            "recipeId": "rcp-1234567890123456",
+            "timePeriod": 2.00,
+            "occupied": true,
+            "instructionStart": "Rinse it till water is crystal clear.",
+            "instructionEnd": "Done."
+        },
+        {
+            "recipeName": "Steamed white rice",
+            "recipeId": "rcp-1234567890123456",
+            "timePeriod": 15.00,
+            "occupied": false,
+            "instructionStart": "Set rinsed rice in the steam pot.Turn on mid-high fire, then just wait.",
+            "instructionEnd": "Done."
+        },
+        {
+            "recipeName": "Steamed white rice",
+            "recipeId": "rcp-1234567890123456",
+            "timePeriod": 1.00,
+            "occupied": true,
+            "instructionStart": "Turn off your fire.",
+            "instructionEnd": "Mission Accomplished!"
+        }
+    ]
+}

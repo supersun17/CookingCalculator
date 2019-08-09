@@ -22,6 +22,9 @@
 		8240B16022F8A883007E6D41 /* ParentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B15F22F8A883007E6D41 /* ParentScene.swift */; };
 		8240B16422F8A9E6007E6D41 /* SceneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B16322F8A9E6007E6D41 /* SceneProtocol.swift */; };
 		8240B16622FB4FDC007E6D41 /* RecipeEditingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B16522FB4FDC007E6D41 /* RecipeEditingScene.swift */; };
+		8240B16C22FB9782007E6D41 /* Recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 8240B16B22FB9782007E6D41 /* Recipe.json */; };
+		8240B16E22FB978F007E6D41 /* RecipeClass.json in Resources */ = {isa = PBXBuildFile; fileRef = 8240B16D22FB978F007E6D41 /* RecipeClass.json */; };
+		8240B17022FB9BFD007E6D41 /* RecipeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B16F22FB9BFD007E6D41 /* RecipeClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		8240B15F22F8A883007E6D41 /* ParentScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentScene.swift; sourceTree = "<group>"; };
 		8240B16322F8A9E6007E6D41 /* SceneProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneProtocol.swift; sourceTree = "<group>"; };
 		8240B16522FB4FDC007E6D41 /* RecipeEditingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEditingScene.swift; sourceTree = "<group>"; };
+		8240B16B22FB9782007E6D41 /* Recipe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Recipe.json; sourceTree = "<group>"; };
+		8240B16D22FB978F007E6D41 /* RecipeClass.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RecipeClass.json; sourceTree = "<group>"; };
+		8240B16F22FB9BFD007E6D41 /* RecipeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +123,12 @@
 		6EF10CB322E0039E00C14591 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6EF10CB622E0053100C14591 /* Recipe.xml */,
-				6EF10CB822E0081E00C14591 /* RecipeClass.xml */,
+				8240B16B22FB9782007E6D41 /* Recipe.json */,
 				6EF10CB422E003AD00C14591 /* Recipe.swift */,
+				6EF10CB622E0053100C14591 /* Recipe.xml */,
+				8240B16D22FB978F007E6D41 /* RecipeClass.json */,
+				8240B16F22FB9BFD007E6D41 /* RecipeClass.swift */,
+				6EF10CB822E0081E00C14591 /* RecipeClass.xml */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -255,10 +264,12 @@
 				6EF10C9A22DFFC3600C14591 /* LaunchScreen.storyboard in Resources */,
 				6EF10C9722DFFC3600C14591 /* Assets.xcassets in Resources */,
 				6EF10CB022DFFE5A00C14591 /* README.md in Resources */,
+				8240B16C22FB9782007E6D41 /* Recipe.json in Resources */,
 				6EF10CB722E0053100C14591 /* Recipe.xml in Resources */,
 				6EF10CB922E0081E00C14591 /* RecipeClass.xml in Resources */,
 				6EF10CB222DFFE7300C14591 /* LICENSE in Resources */,
 				8240B15B22F8A7A7007E6D41 /* RecipeEditingVC.xib in Resources */,
+				8240B16E22FB978F007E6D41 /* RecipeClass.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +289,7 @@
 			files = (
 				6EF10C9522DFFC3400C14591 /* CookingCalculator.xcdatamodeld in Sources */,
 				8240B15A22F8A7A7007E6D41 /* RecipeEditingVC.swift in Sources */,
+				8240B17022FB9BFD007E6D41 /* RecipeClass.swift in Sources */,
 				8240B16422F8A9E6007E6D41 /* SceneProtocol.swift in Sources */,
 				8240B16022F8A883007E6D41 /* ParentScene.swift in Sources */,
 				8240B16622FB4FDC007E6D41 /* RecipeEditingScene.swift in Sources */,
