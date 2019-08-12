@@ -70,7 +70,7 @@ extension RecipeEditingVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return recipe?.process.count ?? 0
+        return recipe?.process?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -80,10 +80,12 @@ extension RecipeEditingVC: UITableViewDelegate, UITableViewDataSource {
         } else {
             cell = UITableViewCell.init(style: .subtitle, reuseIdentifier: "ReusableCell")
         }
-        let step = recipe!.process[indexPath.row]
+        guard let step = recipe?.process?[indexPath.row] else {
+            return cell
+        }
         cell.textLabel?.text = step.recipeName
         cell.detailTextLabel?.numberOfLines = 0
-        cell.detailTextLabel?.text = String.init(format: "In %1$.02f seconds \n%2$@", step.timePeriod, step.instructionStart)
+        cell.detailTextLabel?.text = String.init(format: "In %1$.02f seconds \n%2$@", step.timePeriod, step.instructionStart ?? "")
         return cell
     }
     
@@ -92,9 +94,9 @@ extension RecipeEditingVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-        guard let source = recipe?.process.remove(at: sourceIndexPath.row) else {
+        guard let source = recipe?.process?.remove(at: sourceIndexPath.row) else {
             return
         }
-        recipe?.process.insert(source, at: destinationIndexPath.row)
+        recipe?.process?.insert(source, at: destinationIndexPath.row)
     }
 }

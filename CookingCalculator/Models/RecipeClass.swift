@@ -6,11 +6,11 @@
 //  Copyright © 2019 Ming Sun. All rights reserved.
 //
 
-import Foundation
-
-typealias AvailableLangauges = [String:String]
-
-class RecipeClass: Codable {
-    var recipeClassId: String
-    var recipeClassName: AvailableLangauges
-}
+//import Foundation
+//
+//typealias AvailableLangauges = [String:String]
+//
+//class RecipeClass: Codable {
+//    var recipeClassId: String
+//    var recipeClassName: AvailableLangauges
+//}

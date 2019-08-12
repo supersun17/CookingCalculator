@@ -2,7 +2,7 @@
  An App that will calculate material, cooking order, and also popup instructions upon next step!
 
 ## Stories
-### Create recipe [xml]
+###  Recipe data model [json]
 - recipe format
 - local storage
 - recipe referencing should be possible. which means recipe should have a unique recipe id
@@ -14,8 +14,10 @@
 - recipe owner can rearrange step order
 - recipe owner can edit instruction
 
-### Store recipe [Local xml, Coredata]
-
+### Store recipe [Coredata]
+- save recipe
+- update recipe
+- read recipe
 
 ### Create recipe [UI]
 
