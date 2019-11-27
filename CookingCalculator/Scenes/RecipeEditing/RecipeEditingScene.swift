@@ -9,9 +9,29 @@
 import UIKit
 
 class RecipeEditingScene: SceneProtocol {
-    func setupScene() -> UIViewController {
-        return RecipeEditingVC()
+
+    private(set) weak var dependencies: Dependencies?
+    init(dependencies: Dependencies?) {
+        self.dependencies = dependencies
+    }
+
+    private(set) var mainVC: SceneVCProtocol?
+
+    func setupUI() {
+        mainVC = mainVC ?? RecipeEditingVC(scene: self)
     }
     
-    func dismissScene(_ completion: @escaping () -> Void) {}
+    func dismissUI(_ completion: @escaping () -> Void) {
+        mainVC?.removeFromParent()
+        mainVC = nil
+    }
+
+    func extractRecipe() -> Recipe? {
+        guard let recipe = Bundle.main.url(forResource: "Recipe", withExtension: "json"),
+            let recipeData = try? Data.init(contentsOf: recipe)
+            else {
+                return nil
+        }
+        return try? JSONDecoder().decode(Recipe.self, from: recipeData)
+    }
 }

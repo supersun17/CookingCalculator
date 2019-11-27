@@ -18,6 +18,7 @@
 		6EF10CB722E0053100C14591 /* Recipe.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10CB622E0053100C14591 /* Recipe.xml */; };
 		6EF10CB922E0081E00C14591 /* RecipeClass.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10CB822E0081E00C14591 /* RecipeClass.xml */; };
 		8204D575238E46DC0042738B /* IPAddressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204D574238E46DC0042738B /* IPAddressService.swift */; };
+		8204D577238E51980042738B /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204D576238E51980042738B /* Dependencies.swift */; };
 		8240B15A22F8A7A7007E6D41 /* RecipeEditingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B15822F8A7A7007E6D41 /* RecipeEditingVC.swift */; };
 		8240B15B22F8A7A7007E6D41 /* RecipeEditingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8240B15922F8A7A7007E6D41 /* RecipeEditingVC.xib */; };
 		8240B16022F8A883007E6D41 /* ParentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B15F22F8A883007E6D41 /* ParentScene.swift */; };
@@ -54,6 +55,7 @@
 		6EF10CB622E0053100C14591 /* Recipe.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Recipe.xml; sourceTree = "<group>"; };
 		6EF10CB822E0081E00C14591 /* RecipeClass.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RecipeClass.xml; sourceTree = "<group>"; };
 		8204D574238E46DC0042738B /* IPAddressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAddressService.swift; sourceTree = "<group>"; };
+		8204D576238E51980042738B /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		8240B15822F8A7A7007E6D41 /* RecipeEditingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEditingVC.swift; sourceTree = "<group>"; };
 		8240B15922F8A7A7007E6D41 /* RecipeEditingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeEditingVC.xib; sourceTree = "<group>"; };
 		8240B15F22F8A883007E6D41 /* ParentScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentScene.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		8240B15E22F8A7E6007E6D41 /* Startup */ = {
 			isa = PBXGroup;
 			children = (
+				8204D576238E51980042738B /* Dependencies.swift */,
 				6EF10C8C22DFFC3400C14591 /* AppDelegate.swift */,
 				6EF10C9822DFFC3600C14591 /* LaunchScreen.storyboard */,
 			);
@@ -306,6 +309,7 @@
 				8204D575238E46DC0042738B /* IPAddressService.swift in Sources */,
 				8240B16622FB4FDC007E6D41 /* RecipeEditingScene.swift in Sources */,
 				6EF10C8D22DFFC3400C14591 /* AppDelegate.swift in Sources */,
+				8204D577238E51980042738B /* Dependencies.swift in Sources */,
 				6EF10CB522E003AD00C14591 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,20 +8,33 @@
 
 import UIKit
 
-class RecipeEditingVC: UIViewController {
-    var recipe: Recipe?
-    
+class RecipeEditingVC: UIViewController, SceneVCProtocol {
+    // MARK: UI Elments
     @IBOutlet weak var recipeNameLabel: UILabel!
     @IBOutlet weak var recipeClassNameLabel: UILabel!
     @IBOutlet weak var rearrangeButton: UIButton!
     @IBOutlet weak var instructionTableView: UITableView!
-    
+    // MARK: Components
+    private(set) weak var scene: SceneProtocol?
+    private var recipeEditingScene: RecipeEditingScene? { return scene as? RecipeEditingScene }
+    // MARK: Data
+    var recipe: Recipe?
+
+    init(scene: SceneProtocol?) {
+        super.init(nibName: "RecipeEditingVC", bundle: .main)
+        self.scene = scene
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         setupUI()
-        recipe = extractRecipe()
+        recipe = recipeEditingScene?.extractRecipe()
         updateUI()
     }
     
@@ -33,15 +46,6 @@ class RecipeEditingVC: UIViewController {
     func updateUI() {
         recipeNameLabel.text = recipe?.recipeName
         instructionTableView.reloadData()
-    }
-    
-    private func extractRecipe() -> Recipe? {
-        guard let recipe = Bundle.main.url(forResource: "Recipe", withExtension: "json"),
-            let recipeData = try? Data.init(contentsOf: recipe)
-            else {
-                return nil
-        }
-        return try? JSONDecoder().decode(Recipe.self, from: recipeData)
     }
 
     /*

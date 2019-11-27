@@ -9,6 +9,12 @@
 import UIKit
 
 protocol SceneProtocol: AnyObject {
-    func setupScene() -> UIViewController
-    func dismissScene(_ completion: @escaping () -> Void)
+    var mainVC: SceneVCProtocol? { get }
+
+    func setupUI()
+    func dismissUI(_ completion: @escaping () -> Void)
+}
+
+protocol SceneVCProtocol: UIViewController {
+    var scene: SceneProtocol? { get }
 }

@@ -9,13 +9,25 @@
 import UIKit
 
 class ParentScene: SceneProtocol {
+    
+    private(set) weak var dependencies: Dependencies?
+    init(dependencies: Dependencies?) {
+        self.dependencies = dependencies
+    }
+    
+    private(set) var mainVC: SceneVCProtocol?
     var recipeEditingScene: RecipeEditingScene?
-    
-    func dismissScene(_ completion: @escaping () -> Void) {}
-    
-    func setupScene() -> UIViewController {
-        let scene = recipeEditingScene ?? RecipeEditingScene()
-        recipeEditingScene = scene
-        return scene.setupScene()
+
+
+
+    func setupUI() {
+        recipeEditingScene = recipeEditingScene ?? RecipeEditingScene(dependencies: dependencies)
+        recipeEditingScene?.setupUI()
+        mainVC = recipeEditingScene?.mainVC
+    }
+
+    func dismissUI(_ completion: @escaping () -> Void) {
+        mainVC?.removeFromParent()
+        mainVC = nil
     }
 }
