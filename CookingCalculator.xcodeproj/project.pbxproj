@@ -109,6 +109,7 @@
 		6EF10C8B22DFFC3400C14591 /* CookingCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				82C4860723CEE3D30027758A /* Mock */,
 				6EF10CB322E0039E00C14591 /* Models */,
 				8240B16122F8A9A1007E6D41 /* Scenes */,
 				8240B15E22F8A7E6007E6D41 /* Startup */,
@@ -132,12 +133,8 @@
 				8240B18023015EF1007E6D41 /* Recipe+CoreDataClass.swift */,
 				8240B18223015EF1007E6D41 /* Step+CoreDataClass.swift */,
 				8240B18423015EF1007E6D41 /* RecipeClass+CoreDataClass.swift */,
-				8240B16B22FB9782007E6D41 /* Recipe.json */,
 				6EF10CB422E003AD00C14591 /* Recipe.swift */,
-				6EF10CB622E0053100C14591 /* Recipe.xml */,
-				8240B16D22FB978F007E6D41 /* RecipeClass.json */,
 				8240B16F22FB9BFD007E6D41 /* RecipeClass.swift */,
-				6EF10CB822E0081E00C14591 /* RecipeClass.xml */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +184,17 @@
 				8240B15F22F8A883007E6D41 /* ParentScene.swift */,
 			);
 			path = Parent;
+			sourceTree = "<group>";
+		};
+		82C4860723CEE3D30027758A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				8240B16B22FB9782007E6D41 /* Recipe.json */,
+				8240B16D22FB978F007E6D41 /* RecipeClass.json */,
+				6EF10CB622E0053100C14591 /* Recipe.xml */,
+				6EF10CB822E0081E00C14591 /* RecipeClass.xml */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
