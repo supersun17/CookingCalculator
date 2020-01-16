@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Recipe" representedClassName="Recipe" syncable="YES">
-        <attribute name="ownerId" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="process" optional="YES" attributeType="Transformable" syncable="YES"/>
-        <attribute name="quota" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="recipeClass" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="recipeId" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="recipeName" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
-    <entity name="RecipeClass" representedClassName="RecipeClass" syncable="YES">
-        <attribute name="recipeClassId" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="recipeClassName" optional="YES" attributeType="Transformable" syncable="YES"/>
-    </entity>
-    <entity name="Step" representedClassName="Step" syncable="YES">
-        <attribute name="instructionEnd" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="instructionStart" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="occupied" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="recipeId" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="recipeName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="timePeriod" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RecipeCoreData" representedClassName="RecipeCoreData" syncable="YES">
+        <attribute name="ownerId" optional="YES" attributeType="String"/>
+        <attribute name="quota" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recipeClassId" optional="YES" attributeType="String"/>
+        <attribute name="recipeClassName" optional="YES" attributeType="String"/>
+        <attribute name="recipeId" optional="YES" attributeType="String"/>
+        <attribute name="recipeName" optional="YES" attributeType="String"/>
+        <attribute name="steps" optional="YES" attributeType="Binary"/>
     </entity>
     <elements>
-        <element name="Recipe" positionX="-36" positionY="9" width="128" height="135"/>
-        <element name="Step" positionX="0" positionY="90" width="128" height="135"/>
-        <element name="RecipeClass" positionX="27" positionY="144" width="128" height="75"/>
+        <element name="RecipeCoreData" positionX="-348.5546875" positionY="-99.47265625" width="128" height="148"/>
     </elements>
 </model>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RecipeEditingVC: UIViewController {
+class RecipeEditingVC: BaseVC {
     var recipe: Recipe?
     
     @IBOutlet weak var recipeNameLabel: UILabel!
@@ -19,45 +19,34 @@ class RecipeEditingVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         setupUI()
-        recipe = extractRecipe()
         updateUI()
     }
     
     func setupUI() {
+        showNavBar(true)
         setupTableView()
         rearrangeButton.layer.cornerRadius = 4.0
     }
     
     func updateUI() {
         recipeNameLabel.text = recipe?.recipeName
+        recipeClassNameLabel.text = recipe?.recipeClassName
         instructionTableView.reloadData()
     }
-    
-    private func extractRecipe() -> Recipe? {
-        guard let recipe = Bundle.main.url(forResource: "Recipe", withExtension: "json"),
-            let recipeData = try? Data.init(contentsOf: recipe)
-            else {
-                return nil
-        }
-        return try? JSONDecoder().decode(Recipe.self, from: recipeData)
+
+    @IBAction func save(_ sender: UIButton) {
+        saveRecipe()
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     @IBAction func rearrange(_ sender: UIButton) {
         instructionTableView.setEditing(!instructionTableView.isEditing, animated: true)
-        if instructionTableView.isEditing == false {
-            instructionTableView.reloadData()
-        }
+    }
+}
+
+extension RecipeEditingVC {
+    private func saveRecipe() {
+        recipe?.saveToDisk { _ in }
     }
 }
 
@@ -70,7 +59,7 @@ extension RecipeEditingVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return recipe?.process?.count ?? 0
+        return recipe?.steps?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -80,7 +69,7 @@ extension RecipeEditingVC: UITableViewDelegate, UITableViewDataSource {
         } else {
             cell = UITableViewCell.init(style: .subtitle, reuseIdentifier: "ReusableCell")
         }
-        guard let step = recipe?.process?[indexPath.row] else {
+        guard let step = recipe?.steps?[indexPath.row] else {
             return cell
         }
         cell.textLabel?.text = step.recipeName
@@ -94,9 +83,9 @@ extension RecipeEditingVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-        guard let source = recipe?.process?.remove(at: sourceIndexPath.row) else {
+        guard let source = recipe?.steps?.remove(at: sourceIndexPath.row) else {
             return
         }
-        recipe?.process?.insert(source, at: destinationIndexPath.row)
+        recipe?.steps?.insert(source, at: destinationIndexPath.row)
     }
 }

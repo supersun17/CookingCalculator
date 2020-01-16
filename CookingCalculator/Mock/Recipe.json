@@ -3,8 +3,10 @@
     "ownerId": "usr-1234567890123456",
     "recipeName": "Steamed white rice",
     "recipeClass": "rcc-1234567890123456",
+    "recipeClassName": "Steamed white rice",
+    "recipeClassId": "rcc-1234567890123456",
     "quota": 1,
-    "process": [
+    "steps": [
         {
             "recipeName": "Steamed white rice",
             "recipeId": "rcp-1234567890123456",
