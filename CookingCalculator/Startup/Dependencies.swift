@@ -9,5 +9,8 @@
 import Foundation
 
 class Dependencies {
+    static let shared = Dependencies()
     lazy var ipAddressService = IPAddressService()
+
+    private init {}
 }
