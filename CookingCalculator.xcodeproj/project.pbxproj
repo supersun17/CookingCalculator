@@ -14,11 +14,15 @@
 		6EF10CA522DFFC3600C14591 /* CookingCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF10CA422DFFC3600C14591 /* CookingCalculatorTests.swift */; };
 		6EF10CB022DFFE5A00C14591 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10CAF22DFFE5A00C14591 /* README.md */; };
 		6EF10CB222DFFE7300C14591 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6EF10CB122DFFE7300C14591 /* LICENSE */; };
-		8240B15A22F8A7A7007E6D41 /* RecipeEditingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B15822F8A7A7007E6D41 /* RecipeEditingVC.swift */; };
-		8240B15B22F8A7A7007E6D41 /* RecipeEditingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8240B15922F8A7A7007E6D41 /* RecipeEditingVC.xib */; };
+		8240B15A22F8A7A7007E6D41 /* RecipeStepsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B15822F8A7A7007E6D41 /* RecipeStepsVC.swift */; };
 		8240B16C22FB9782007E6D41 /* Recipe.json in Resources */ = {isa = PBXBuildFile; fileRef = 8240B16B22FB9782007E6D41 /* Recipe.json */; };
 		8240B16E22FB978F007E6D41 /* RecipeClass.json in Resources */ = {isa = PBXBuildFile; fileRef = 8240B16D22FB978F007E6D41 /* RecipeClass.json */; };
 		8240B18623015EF1007E6D41 /* RecipeCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240B18023015EF1007E6D41 /* RecipeCoreData+CoreDataClass.swift */; };
+		826C040F23D4546700FA1B94 /* StepEditingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C040D23D4546700FA1B94 /* StepEditingVC.swift */; };
+		826C041223D45A4400FA1B94 /* StepEditingCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C041123D45A4400FA1B94 /* StepEditingCV.swift */; };
+		826C041423D45D5F00FA1B94 /* StepEditingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C041323D45D5F00FA1B94 /* StepEditingItem.swift */; };
+		826C041A23D461E500FA1B94 /* RecipeStepsCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C041923D461E500FA1B94 /* RecipeStepsCV.swift */; };
+		826C041C23D554A500FA1B94 /* SplitScreenMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C041B23D554A500FA1B94 /* SplitScreenMasterVC.swift */; };
 		82C4862123CF17010027758A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4862023CF17010027758A /* Recipe.swift */; };
 		82C4862523CF17FE0027758A /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4862423CF17FE0027758A /* Step.swift */; };
 		82C4862D23D005460027758A /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4862C23D005460027758A /* BaseVC.swift */; };
@@ -49,11 +53,15 @@
 		6EF10CA622DFFC3600C14591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EF10CAF22DFFE5A00C14591 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6EF10CB122DFFE7300C14591 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8240B15822F8A7A7007E6D41 /* RecipeEditingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEditingVC.swift; sourceTree = "<group>"; };
-		8240B15922F8A7A7007E6D41 /* RecipeEditingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeEditingVC.xib; sourceTree = "<group>"; };
+		8240B15822F8A7A7007E6D41 /* RecipeStepsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepsVC.swift; sourceTree = "<group>"; };
 		8240B16B22FB9782007E6D41 /* Recipe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Recipe.json; sourceTree = "<group>"; };
 		8240B16D22FB978F007E6D41 /* RecipeClass.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RecipeClass.json; sourceTree = "<group>"; };
 		8240B18023015EF1007E6D41 /* RecipeCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecipeCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		826C040D23D4546700FA1B94 /* StepEditingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepEditingVC.swift; sourceTree = "<group>"; };
+		826C041123D45A4400FA1B94 /* StepEditingCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepEditingCV.swift; sourceTree = "<group>"; };
+		826C041323D45D5F00FA1B94 /* StepEditingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepEditingItem.swift; sourceTree = "<group>"; };
+		826C041923D461E500FA1B94 /* RecipeStepsCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepsCV.swift; sourceTree = "<group>"; };
+		826C041B23D554A500FA1B94 /* SplitScreenMasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitScreenMasterVC.swift; sourceTree = "<group>"; };
 		82C4862023CF17010027758A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		82C4862423CF17FE0027758A /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		82C4862C23D005460027758A /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
@@ -137,8 +145,9 @@
 		8240B15C22F8A7B4007E6D41 /* RecipeEditing */ = {
 			isa = PBXGroup;
 			children = (
-				8240B15822F8A7A7007E6D41 /* RecipeEditingVC.swift */,
-				8240B15922F8A7A7007E6D41 /* RecipeEditingVC.xib */,
+				826C041B23D554A500FA1B94 /* SplitScreenMasterVC.swift */,
+				826C041623D45FC400FA1B94 /* RecipeSteps */,
+				826C041523D45FB400FA1B94 /* StepEditing */,
 			);
 			path = RecipeEditing;
 			sourceTree = "<group>";
@@ -169,6 +178,25 @@
 				8240B15C22F8A7B4007E6D41 /* RecipeEditing */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		826C041523D45FB400FA1B94 /* StepEditing */ = {
+			isa = PBXGroup;
+			children = (
+				826C040D23D4546700FA1B94 /* StepEditingVC.swift */,
+				826C041123D45A4400FA1B94 /* StepEditingCV.swift */,
+				826C041323D45D5F00FA1B94 /* StepEditingItem.swift */,
+			);
+			path = StepEditing;
+			sourceTree = "<group>";
+		};
+		826C041623D45FC400FA1B94 /* RecipeSteps */ = {
+			isa = PBXGroup;
+			children = (
+				8240B15822F8A7A7007E6D41 /* RecipeStepsVC.swift */,
+				826C041923D461E500FA1B94 /* RecipeStepsCV.swift */,
+			);
+			path = RecipeSteps;
 			sourceTree = "<group>";
 		};
 		82C4860723CEE3D30027758A /* Mock */ = {
@@ -306,7 +334,6 @@
 				6EF10CB022DFFE5A00C14591 /* README.md in Resources */,
 				8240B16C22FB9782007E6D41 /* Recipe.json in Resources */,
 				6EF10CB222DFFE7300C14591 /* LICENSE in Resources */,
-				8240B15B22F8A7A7007E6D41 /* RecipeEditingVC.xib in Resources */,
 				82C4863623D0547B0027758A /* RecipeListVC.xib in Resources */,
 				8240B16E22FB978F007E6D41 /* RecipeClass.json in Resources */,
 			);
@@ -329,12 +356,17 @@
 				82C4863523D0547B0027758A /* RecipeListVC.swift in Sources */,
 				82C4862123CF17010027758A /* Recipe.swift in Sources */,
 				6EF10C9522DFFC3400C14591 /* CookingCalculator.xcdatamodeld in Sources */,
-				8240B15A22F8A7A7007E6D41 /* RecipeEditingVC.swift in Sources */,
+				826C041A23D461E500FA1B94 /* RecipeStepsCV.swift in Sources */,
+				826C040F23D4546700FA1B94 /* StepEditingVC.swift in Sources */,
+				8240B15A22F8A7A7007E6D41 /* RecipeStepsVC.swift in Sources */,
 				82C4862D23D005460027758A /* BaseVC.swift in Sources */,
 				6EF10C8D22DFFC3400C14591 /* AppDelegate.swift in Sources */,
+				826C041223D45A4400FA1B94 /* StepEditingCV.swift in Sources */,
 				82C4862523CF17FE0027758A /* Step.swift in Sources */,
 				82C4863823D05C7F0027758A /* DataConversion.swift in Sources */,
 				8240B18623015EF1007E6D41 /* RecipeCoreData+CoreDataClass.swift in Sources */,
+				826C041423D45D5F00FA1B94 /* StepEditingItem.swift in Sources */,
+				826C041C23D554A500FA1B94 /* SplitScreenMasterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -474,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

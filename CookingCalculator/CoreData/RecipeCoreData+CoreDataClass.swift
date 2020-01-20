@@ -51,6 +51,16 @@ class RecipeCoreData: NSManagedObject {
         }
     }
 
+    func updateProperties(from model: Recipe) {
+        self.ownerId = model.ownerId
+        self.quota = model.quota
+        self.recipeClassId = model.recipeClassId
+        self.recipeClassName = model.recipeClassName
+        self.recipeId = model.recipeId
+        self.recipeName = model.recipeName
+        if let data = DataConversion.encode(model.steps) { self.steps = data }
+    }
+
     @nonobjc class func save(completion: @escaping (Bool) -> Void) {
         DispatchQueue.main.async {
             guard let managedObjectContext = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext else {
