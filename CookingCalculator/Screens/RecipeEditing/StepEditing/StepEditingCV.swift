@@ -62,7 +62,7 @@ class StepEditingCV: UIView {
         constraints += [
             stackView.topAnchor.constraint(equalTo: topAnchor),
             stackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 8.0),
-            stackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 8.0)
+            stackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -1.0 * 8.0)
         ]
         NSLayoutConstraint.activate(constraints)
     }
