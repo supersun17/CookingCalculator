@@ -20,7 +20,8 @@ class StepEditingItem: UIView {
     }()
     lazy var content: UITextField = {
         let txf = UITextField()
-        txf.backgroundColor = .systemBackground
+        txf.backgroundColor = .white
+        txf.textColor = .black
         txf.translatesAutoresizingMaskIntoConstraints = false
         return txf
     }()
