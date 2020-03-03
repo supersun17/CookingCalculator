@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: conversion
       run: |
-        mkdir -f ./GOAT/fr.lproj/temp
+        mkdir ./GOAT/fr.lproj/temp
         cp ./GOAT/fr.lproj/Localizable.strings ./GOAT/fr.lproj/temp/Localizable.strings 
         iconv -f UTF-16 -t UTF-8 ./GOAT/fr.lproj/temp/Localizable.strings  > ./GOAT/fr.lproj/Localizable.strings
         rm -f ./GOAT/fr.lproj/temp
