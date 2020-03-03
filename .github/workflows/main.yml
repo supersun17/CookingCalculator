@@ -1,0 +1,13 @@
+name: binary-to-utf8
+on: pull_request
+jobs:
+  resources:
+    name: binary-to-utf8
+    runs-on: ubuntu-latest
+    steps:
+    - name: copy-to-temp
+      run: cp ./GOAT/fr.lproj/Localizable.strings ./GOAT/fr.lproj/temp/Localizable.strings 
+    - name: conversion
+      run: iconv -f UTF-16 -t UTF-8 ./GOAT/fr.lproj/temp/Localizable.strings  > ./GOAT/fr.lproj/Localizable.strings
+    - name: remove-temp
+      run: rm -f ./GOAT/fr.lproj/temp
