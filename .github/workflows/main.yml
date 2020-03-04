@@ -1,8 +1,7 @@
 name: binary-to-utf8
 on: 
  push:
-  branches: 
-      - phraseapp-locales
+  
 jobs:
   resources:
     name: binary-to-utf8
