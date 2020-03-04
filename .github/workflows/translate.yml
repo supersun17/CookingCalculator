@@ -7,23 +7,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: update encoding
-      run: |
-        UTF8="text/plain; charset=utf-8"
-        LANGS=$(find **/*/Localizable.strings)
+      - uses: actions/checkout@v2
+      - name: update encoding
+        run: |
+          UTF8="text/plain; charset=utf-8"
+          LANGS=$(find **/*/Localizable.strings)
 
-        mkdir CookingCalculator/temp
-        for LANG in $LANGS
-        do
-        CURRENT_TYPE=$(file -bI $LANG)
-        if [ "$CURRENT_TYPE" != "$UTF8" ]; then
-        iconv -f UTF-16 -t UTF-8 $LANG > CookingCalculator/temp/Localizable.strings
-        mv CookingCalculator/temp/Localizable.strings $LANG
-        fi
-        done
-        rm -r CookingCalculator/temp
-    - name: commit change
-      run: |
-        git add .
-        git commit -m "convert utf16be to utf8"
-        git push origin
+          mkdir CookingCalculator/temp
+          for LANG in $LANGS
+          do
+          CURRENT_TYPE=$(file -bI $LANG)
+          if [ "$CURRENT_TYPE" != "$UTF8" ]; then
+          iconv -f UTF-16 -t UTF-8 $LANG > CookingCalculator/temp/Localizable.strings
+          mv CookingCalculator/temp/Localizable.strings $LANG
+          fi
+          done
+          rm -r CookingCalculator/temp
+      - name: commit change
+        run: |
+          git add .
+          git commit -m "convert utf16be to utf8"
+          git push origin
