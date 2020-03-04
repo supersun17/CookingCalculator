@@ -2,7 +2,7 @@ name: translation file encoding
 on: 
   pull_request:
     branches:
-      - supersun17-patch-2
+      - phraseapp-locales
 
 jobs:
   build:
