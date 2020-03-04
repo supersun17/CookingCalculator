@@ -10,16 +10,13 @@ jobs:
       - uses: actions/checkout@v2
       - name: update encoding
         run: |
-          sudo apt-get update
-          sudo apt-get install -y file
-          
           UTF8="text/plain; charset=utf-8"
           LANGS=$(find **/*/Localizable.strings)
 
           mkdir CookingCalculator/temp
           for LANG in $LANGS
           do
-          CURRENT_TYPE=$(file -bI $LANG)
+          CURRENT_TYPE=$(file -bi $LANG)
           if [ "$CURRENT_TYPE" != "$UTF8" ]; then
           iconv -f UTF-16 -t UTF-8 $LANG > CookingCalculator/temp/Localizable.strings
           mv CookingCalculator/temp/Localizable.strings $LANG
