@@ -25,6 +25,7 @@
 		826C041A23D461E500FA1B94 /* RecipeStepsCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C041923D461E500FA1B94 /* RecipeStepsCV.swift */; };
 		826C041C23D554A500FA1B94 /* SplitScreenMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C041B23D554A500FA1B94 /* SplitScreenMasterVC.swift */; };
 		826C04A623D5957900FA1B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF10C8C22DFFC3400C14591 /* AppDelegate.swift */; };
+		826C04A823D6ADD700FA1B94 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C04A723D6ADD700FA1B94 /* Date+Extension.swift */; };
 		82C4862123CF17010027758A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4862023CF17010027758A /* Recipe.swift */; };
 		82C4862523CF17FE0027758A /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4862423CF17FE0027758A /* Step.swift */; };
 		82C4862D23D005460027758A /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C4862C23D005460027758A /* BaseVC.swift */; };
@@ -66,6 +67,7 @@
 		826C041323D45D5F00FA1B94 /* StepEditingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepEditingItem.swift; sourceTree = "<group>"; };
 		826C041923D461E500FA1B94 /* RecipeStepsCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepsCV.swift; sourceTree = "<group>"; };
 		826C041B23D554A500FA1B94 /* SplitScreenMasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitScreenMasterVC.swift; sourceTree = "<group>"; };
+		826C04A723D6ADD700FA1B94 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		82C4862023CF17010027758A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		82C4862423CF17FE0027758A /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		82C4862C23D005460027758A /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 		82C4862A23CFFDC40027758A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				826C04A723D6ADD700FA1B94 /* Date+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				82C4862D23D005460027758A /* BaseVC.swift in Sources */,
 				826C041223D45A4400FA1B94 /* StepEditingCV.swift in Sources */,
 				826C04A623D5957900FA1B94 /* AppDelegate.swift in Sources */,
+				826C04A823D6ADD700FA1B94 /* Date+Extension.swift in Sources */,
 				82C4862523CF17FE0027758A /* Step.swift in Sources */,
 				82C4863823D05C7F0027758A /* DataConversion.swift in Sources */,
 				8240B18623015EF1007E6D41 /* RecipeCoreData+CoreDataClass.swift in Sources */,

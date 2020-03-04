@@ -113,7 +113,8 @@ extension RecipeStepsVC: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        master?.showDetail()
+        let step = recipe?.steps?[indexPath.row]
+        master?.showDetail(step)
     }
 
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {

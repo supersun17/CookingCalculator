@@ -69,12 +69,16 @@ class SplitScreenMasterVC: BaseVC {
         ]
         NSLayoutConstraint.activate(constraints)
     }
+}
 
-    func showDetail() {
+extension SplitScreenMasterVC {
+    func showDetail(_ content: Any?) {
         menuWidthLayoutSave?.constant = -1.0 * view.frame.width * 0.7
         UIView.animate(withDuration: 0.6) {
             self.view.layoutIfNeeded()
         }
+
+        detail.updateUI(content)
     }
 
     func hideDetail() {
@@ -82,5 +86,7 @@ class SplitScreenMasterVC: BaseVC {
         UIView.animate(withDuration: 0.6) {
             self.view.layoutIfNeeded()
         }
+
+        detail.updateUI(nil)
     }
 }
