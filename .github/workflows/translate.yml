@@ -1,8 +1,8 @@
 name: translation file encoding
 on: 
   push:
-    branches: 
-      - phraseapp-locales
+    pull_request: 
+      - 'phraseapp-locales'
 jobs:
   build:
     runs-on: ubuntu-latest
