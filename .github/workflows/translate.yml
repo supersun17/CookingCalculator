@@ -10,9 +10,7 @@ jobs:
     - name: update encoding
       run: |
         UTF8="text/plain; charset=utf-8"
-        echo $pwd
-        ls
-        LANGS=$(find CookingCalculator/*.lproj/Localizable.strings)
+        LANGS=$(find **/*/Localizable.strings)
 
         mkdir CookingCalculator/temp
         for LANG in $LANGS
