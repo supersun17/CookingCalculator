@@ -1,0 +1,4502 @@
+/* Description of expiration date. Parameter 1: Date */
+" - Expiring %@" = " - Expiring %@";
+
+/* Product Detail Title Price Component. i.e. / $250.00
+   Product Detail Title Price Component. i.e. / $3,000 */
+" / %1$@" = " / %1$@";
+
+/* Dollar sign */
+"$" = "$";
+
+/* Filter by price, high-to-low. ALL CAPITALS */
+"$ (HIGH-LOW)" = "$ (HIGH-LOW)";
+
+/* Filter by price, low-to-high. ALL CAPITALS */
+"$ (LOW-HIGH)" = "$ (LOW-HIGH)";
+
+/* String format for US Price with param1 = formatted price */
+"$%1$@" = "$%1$@";
+
+/* Factory Size displayed as Country Code, Gender, Size. ALL CAPITALS. Parameter 1 = 2 character country code. Parameter 2 = 1 character gender code. Parameter 3 = shoe size with 1 decimal digit. */
+"%1$@ %2$@ %3$.01f" = "%1$@ %2$@ %3$.01f";
+
+/* Product Detail Title With Factory Size Included. i.e. 'US W 8.5 / NEW / BOX: GOOD' */
+"%1$@ %2$@ %3$.01f / %4$@ / %5$@" = "%1$@ %2$@ %3$.01f / %4$@ / %5$@";
+
+/* Factory Size displayed as Country Code, Gender, Size. ALL CAPITALS. Parameter 1 = 2 character country code. Parameter 2 = 1 character gender code. Parameter 3 = size.
+   Product size detail. i.e. 'US M XXL'
+   Size displayed as Country Code, Gender, Size. ALL CAPITALS. Parameter 1 = 2 character country code. Parameter 2 = 1 character gender code. Parameter 3 = shoe size with 1 decimal digit. */
+"%1$@ %2$@ %3$@" = "%1$@ %2$@ %3$@";
+
+/* Size Selection converted to abbreviated country. ALL CAPITALS. Parameter 1 is 2-character country code. Parameter 2 = 1 character gender code. */
+"%1$@ %2$@ Size" = "%1$@ %2$@ Size";
+
+/* Size Selection converted to abbreviated country and gender. ALL CAPITALS. i.e. US M SIZES. Parameter 1 = 2 character country code. Parameter 2 = 1 character gender code. */
+"%1$@ %2$@ SIZES" = "%1$@ %2$@ SIZES";
+
+/* Size Selection converted to abbreviated country. ALL CAPITALS. Parameter 1 is 2-character country code. Parameter 2 = 1 character gender code. */
+"%1$@ %2$@ Sizes" = "%1$@ %2$@ Sizes";
+
+/* Product Detail Title With Size Conversion Included. i.e. 'US M 10.5 (UK M 9.5) / NEW / BOX: GOOD' */
+"%1$@ (%2$@) / %3$@ / %4$@" = "%1$@ (%2$@) / %3$@ / %4$@";
+
+/* Unavailable promo title. Parameter 1: Promo code title. */
+"%1$@ (Unavailable)" = "%1$@ (Unavailable)";
+
+/* Detail of Affirm offer. Parameter 1 is the monthly payment amount in USD. */
+"%1$@ (US only). Learn More" = "%1$@ (US only). Learn More";
+
+/* Detail of Afterpay payment plan. Parameter 1 is the payment amount per pay period. */
+"%1$@ every 2 weeks (US only). Learn More" = "%1$@ every 2 weeks (US only). Learn More";
+
+/* Number of likes on a post */
+"%1$@ LIKES" = "%1$@ LIKES";
+
+/* Promo Code Value followed by OFF. ALL CAPITALS. Parameter 1 = Promo Code USD value. */
+"%1$@ OFF" = "%1$@ OFF";
+
+/* sneaker release date. date variable. ALL CAPITALS.
+   Sneaker Release Date. Parameter 1: Month & Date. ALL CAPITALS. */
+"%1$@ RELEASE" = "%1$@ RELEASE";
+
+/* Number of tickets remaining. ALL CAPITALS. Parameter 1 = number of tickets remaining. */
+"%1$@ REMAINING" = "%1$@ REMAINING";
+
+/* Original Size Title */
+"%1$@ Size (%2$@)" = "%1$@ Size (%2$@)";
+
+/* Size Selection converted to abbreviated country. ALL CAPITALS. i.e. US SIZES. Parameter 1 is 2-character country code. */
+"%1$@ SIZES" = "%1$@ SIZES";
+
+/* Label. Placeholders are (1) product gender, (2) product SKU, (3) product details. ALL CAPITALS. */
+"%1$@ · %2$@\n%3$@" = "%1$@ · %2$@\n%3$@";
+
+/* Promo title followed by *. Param 1: promo title */
+"%1$@*" = "%1$@*";
+
+/* Description of the approximated offer price in the user's preferred currency. Approximation is abbreviated. ALL CAPITALS. */
+"%1$@\nAPPROX." = "%1$@\nAPPROX.";
+
+/* Description of quantity, size starting with two letter size abbreviation and name of the item. Parameter 1: Optional description of number of items. Parameter 2: size. Parameter 3: name of the item.
+   Quantity, Factory Size and Item Name. ALL CAPITALS. Parameter 1 = Optional description of the number of items. Parameter 2 = Factory size starting with two letter size abbreviation. Parameter 3 = Name of the item. */
+"%1$@SZ %2$@ / %3$@" = "%1$@SZ %2$@ / %3$@";
+
+/* Amount of tickets earned. Parameter 1 = ticket amount. */
+"%1$d" = "%1$d";
+
+/* tickets for playing trivia. ALL CAPITALS. Parameter 1 = tickets available, 2 = total tickets */
+"%1$d / %2$d TICKETS AVAILABLE" = "%1$d / %2$d TICKETS AVAILABLE";
+
+/* Format for single active promo count. Parameter 1: active promos count. ALL CAPITALS. */
+"%1$d ACTIVE PROMO" = "%1$d ACTIVE PROMO";
+
+/* Format for active promos count. Parameter 1: active promos count. ALL CAPITALS. */
+"%1$d ACTIVE PROMOS" = "%1$d ACTIVE PROMOS";
+
+/* one letter abbreviation of days, ALL CAPITALS */
+"%1$d D" = "%1$d D";
+
+/* one letter abbreviation of hours, ALL CAPITALS */
+"%1$d H" = "%1$d H";
+
+/* one letter abbreviation of minutes, ALL CAPITALS
+   one letter abbreviation of months, ALL CAPITALS */
+"%1$d M" = "%1$d M";
+
+/* two letter abbreviation of nanoseconds, ALL CAPITALS */
+"%1$d NS" = "%1$d NS";
+
+/* one letter abbreviation of quarter, ALL CAPITALS */
+"%1$d Q" = "%1$d Q";
+
+/* one letter abbreviation of seconds, ALL CAPITALS */
+"%1$d S" = "%1$d S";
+
+/* Number of ticket entries. ALL CAPITALS. */
+"%1$d TICKETS" = "%1$d TICKETS";
+
+/* one letter abbreviation of years, ALL CAPITALS */
+"%1$d Y" = "%1$d Y";
+
+/* one letter abbreviation of days, ALL CAPITALS */
+"%1$dD" = "%1$dD";
+
+/* one letter abbreviation of hours, ALL CAPITALS */
+"%1$dH" = "%1$dH";
+
+/* one letter abbreviation of minutes, ALL CAPITALS
+   one letter abbreviation of months, ALL CAPITALS */
+"%1$dM" = "%1$dM";
+
+/* two letter abbreviation of nanoseconds, ALL CAPITALS */
+"%1$dNS" = "%1$dNS";
+
+/* one letter abbreviation of quarter, ALL CAPITALS */
+"%1$dQ" = "%1$dQ";
+
+/* one letter abbreviation of seconds, ALL CAPITALS */
+"%1$dS" = "%1$dS";
+
+/* one letter abbreviation of years, ALL CAPITALS */
+"%1$dY" = "%1$dY";
+
+/* label */
+"%@ AVAILABLE TO WITHDRAW" = "%@ AVAILABLE TO WITHDRAW";
+
+/* Original Size Title */
+"%@ Size (%@)" = "%1$@ Size (%2$@)";
+
+/* Offer expiration in days. Parameter 1: Number of days. Parameter 2: Date description. */
+"%d Days%@" = "%1$d Days%2$@";
+
+/* Description of date & time that the contest starts. Has embedded date formatting codes. Translate only portions in single quotes, but date items can be rearranged as needed for localization. EEEE = full day of week name, MMMM = full month name, d = numeric day of month, yyyy = numeric year, H = numeric hour, a = AM or PM, v = PT (Pacific Time) */
+"'Begins' EEEE, MMM d ha v" = "'Begins' EEEE, MMM d ha v";
+
+/* Description of date & time that the contest ends. Has embedded date formatting codes. Translate only portions in single quotes, but date items can be rearranged as needed for localization. EEEE = full day of week name, MMMM = full month name, d = numeric day of month, yyyy = numeric year, h = 12-hour clock, a = AM or PM, v = PT (Pacific Time) */
+"'Ends' EEEE, MMM d ha v" = "'Ends' EEEE, MMM d ha v";
+
+/* Number of items in parenthesis. */
+"(%1$d) " = "(%1$d) ";
+
+/* label */
+"(%@ minus 2.9%% ACH transfer fee)." = "(%@ minus 2.9%% ACH transfer fee).";
+
+/* label */
+"(%@ minus 2.9%% PayPal transfer fee)." = "(%@ minus 2.9%% PayPal transfer fee).";
+
+/* Placeholder text in textview for entering other issues with listing */
+"(i.e. dust bags, hang tags, lace locks)" = "(i.e. dust bags, hang tags, lace locks)";
+
+/* Instruction for selecting box condition */
+"(Select one only)" = "(Select one only)";
+
+/* Instruction for removing an item in seller product batch listing */
+"(Swipe to remove a size)" = "(Swipe to remove a size)";
+
+/* Message about respecting social media privacy */
+"(We will never post anything without your permission.)" = "(We will never post anything without your permission.)";
+
+/* Cost description with credit */
+"(with shipping & credits)" = "(with shipping & credits)";
+
+/* Cost description without credit */
+"(with shipping)" = "(with shipping)";
+
+/* Trivia rules info with newlines. */
+"+25 tickets for each correct answer\n\n+25 tickets for completing daily trivia\n\n+100 tickets for a perfect score\n\nTickets earned for a perfect score double in Round 2 and triple in Round 3.\n\nAdditional tickets are given when you share on social media." = "+25 tickets for each correct answer\n\n+25 tickets for completing daily trivia\n\n+100 tickets for a perfect score\n\nTickets earned for a perfect score double in Round 2 and triple in Round 3.\n\nAdditional tickets are given when you share on social media.";
+
+/* Negated Promo Code amount. Parameter 1 = Promo Code USD value. */
+"-%1$@" = "-%1$@";
+
+/* Zero search results. ALL CAPITALS */
+"0 RESULTS" = "0 RESULTS";
+
+/* One like on a post */
+"1 LIKE" = "1 LIKE";
+
+/* A single ticket entry for Black Friday contest. ALL CAPITALS */
+"1 TICKET" = "1 TICKET";
+
+/* International Processing Fee. ALL CAPITALS
+   INTL Processing Fee label. ALL CAPITALS
+   Order International Processing Fee. ALL CAPITALS */
+"1% INTL PROCESSING FEE" = "1% INTL PROCESSING FEE";
+
+/* Authenticity title. ALL CAPITALS
+   Label. ALL CAPITALS. */
+"100% AUTHENTIC GUARANTEED" = "100% AUTHENTIC GUARANTEED";
+
+/* Guarantee that product is not fake. ALL CAPITALS */
+"100% AUTHENTIC OR\nYOUR MONEY BACK" = "100% AUTHENTIC OR\nYOUR MONEY BACK";
+
+/* Seller Rating score */
+"100+" = "100+";
+
+/* Seller Rating descriptor */
+"15% COMMISSION" = "15% COMMISSION";
+
+/* Seller Rating score */
+"150+" = "150+";
+
+/* label */
+"2-3 business days to process, 2.9% ACH fee" = "2-3 business days to process, 2.9% ACH fee";
+
+/* Seller Rating descriptor */
+"20% COMMISSION" = "20% COMMISSION";
+
+/* Four interest free payments. */
+"4 Interest-Free Payments" = "4 Interest-Free Payments";
+
+/* Seller Rating score */
+"69-50" = "69-50";
+
+/* Seller Rating score */
+"89-70" = "89-70";
+
+/* default US shoe size */
+"9.5" = "9.5";
+
+/* Seller Rating descriptor */
+"9.5% + LIST MULTIPLE SIZES" = "9.5% + LIST MULTIPLE SIZES";
+
+/* Seller Rating descriptor */
+"9.5% + OPTIONAL PHOTOS" = "9.5% + OPTIONAL PHOTOS";
+
+/* Seller Rating descriptor */
+"9.5% COMMISSION" = "9.5% COMMISSION";
+
+/* Seller Rating score */
+"90+" = "90+";
+
+/* Seller Rating score */
+"<50" = "<50";
+
+/* Message text for prompt regarding users entering their PCCC to meet South Korean Custom requirements. */
+"A Personal Customs Clearance Code is required for all shipments to South Korea. Korean citizens can obtain a PCCC here. Non-Citizens are permitted to provide their passport number." = "A Personal Customs Clearance Code is required for all shipments to South Korea. Korean citizens can obtain a PCCC here. Non-Citizens are permitted to provide their passport number.";
+
+/* modal message */
+"A star on the top right of the listing means you currently have the lowest price available to buyers." = "A star on the top right of the listing means you currently have the lowest price available to buyers.";
+
+/* modal message */
+"A star on the top right of the offer means you currently have the best offer available to sellers." = "A star on the top right of the offer means you currently have the best offer available to sellers.";
+
+/* Label. */
+"About Sneaker" = "About Sneaker";
+
+/* alert title */
+"Accept Terms" = "Accept Terms";
+
+/* Camera availability error message. */
+"Accessing the camera failed. Perhaps another application is using it. Please try again." = "Accessing the camera failed. Perhaps another application is using it. Please try again.";
+
+/* Navigation title for user item list. */
+"Accessories" = "Accessories";
+
+/* Prompt to choose category. Parameter 1 = count in category. */
+"Accessories (%1$@)" = "Accessories (%1$@)";
+
+/* label */
+"account" = "account";
+
+/* Header for Account section. */
+"Account" = "Account";
+
+/* Activate promo code. ALL CAPITALS. */
+"ACTIVATE" = "ACTIVATE";
+
+/* Approved user account status */
+"Active" = "Active";
+
+/* Heading for active offers */
+"Active Offers" = "Active Offers";
+
+/* Address add button title
+   Billing Add title string */
+"Add" = "Add";
+
+/* need to add address alert title. ALL CAPITALS
+   Prompt to add an address. ALL CAPITALS */
+"ADD ADDRESS" = "ADD ADDRESS";
+
+/* Prompt to add shipping address */
+"Add Address +" = "Add Address +";
+
+/* label */
+"Add an offer if you wish to get the shoes at a different price." = "Add an offer if you wish to get the shoes at a different price.";
+
+/* User want update message. */
+"Add an offer if you wish to get this item at a different price." = "Add an offer if you wish to get this item at a different price.";
+
+/* Label describing condition of shoes. */
+"Add any defects" = "Add any defects";
+
+/* Photo instructions. */
+"Add at least one additional photo of the sneaker’s issue." = "Add at least one additional photo of the sneaker’s issue.";
+
+/* Add Credit Card Title. ALL CAPITALS
+   Add credit card title. ALL CAPS */
+"ADD CREDIT CARD" = "ADD CREDIT CARD";
+
+/* Prompt to add credit card */
+"Add Credit Card +" = "Add Credit Card +";
+
+/* China ID Note Detail */
+"Add ID Card information for a lower tax rate." = "Add ID Card information for a lower tax rate.";
+
+/* Photo instructions. */
+"Add more photos or finish\nyour listing now." = "Add more photos or finish\nyour listing now.";
+
+/* add more sizes button title. ALL CAPS */
+"ADD MORE SIZES" = "ADD MORE SIZES";
+
+/* Button prompt to add a new shipping address. */
+"Add New Shipping Address +" = "Add New Shipping Address +";
+
+/* need to add billing info alert title. ALL CAPITALS */
+"ADD PAYMENT" = "ADD PAYMENT";
+
+/* Prompt to add payment method */
+"Add Payment Method +" = "Add Payment Method +";
+
+/* cell title for adding a phone number, 1st letter capitalized */
+"Add phone number" = "Add phone number";
+
+/* Button title for adding style photo. ALL CAPITALS */
+"Add photo" = "Add photo";
+
+/* Prompt to add sneakers. ALL CAPITALS */
+"ADD SNEAKERS" = "ADD SNEAKERS";
+
+/* Add to Owns title */
+"Add to Owns" = "Add to Owns";
+
+/* Add to Wants title */
+"Add to Wants" = "Add to Wants";
+
+/* Empty state want list subtitle. */
+"Add to your Wants list to get notifications on price drops and more." = "Add to your Wants list to get notifications on price drops and more.";
+
+/* Prompt for price of shoes. */
+"Add your price" = "Add your price";
+
+/* Addresses List Title, ALL CAPS */
+"ADDRESSES" = "ADDRESSES";
+
+/* Affirm checkout failed alert title. ALL CAPITALS */
+"AFFIRM ERROR" = "AFFIRM ERROR";
+
+/* Message text for updating currency for an order using Affirm. */
+"Affirm is available in USD only. Would you like to update your currency preference to USD?" = "Affirm is available in USD only. Would you like to update your currency preference to USD?";
+
+/* Affirm restricted alert message */
+"Affirm is only available in the United States" = "Affirm is only available in the United States";
+
+/* affrim restricted alert message */
+"Affirm is only available in United States" = "Affirm is only available in United States";
+
+/* Prompt that tells the user that Affirm cannot be used with GOAT Storage */
+"Affirm isn't available as a payment method when using GOAT Storage." = "Affirm isn't available as a payment method when using GOAT Storage.";
+
+/* Message text for updating currency for an order using Afterpay. */
+"Afterpay is available in USD only. Would you like to update your currency preference to USD?" = "Afterpay is available in USD only. Would you like to update your currency preference to USD?";
+
+/* Alerting the user that Afterpay is unavailable for this price range. */
+"Afterpay is only available as a payment method when the total is $35-$1000." = "Afterpay is only available as a payment method when the total is $35-$1000.";
+
+/* Prompt that tells the user that Afterpay cannot be used with GOAT Storage. */
+"Afterpay isn't available as a payment method when using GOAT Storage." = "Afterpay isn't available as a payment method when using GOAT Storage.";
+
+/* Title for resellable item. ALL CAPITALS. */
+"ALIAS" = "ALIAS";
+
+/* Label of payment type for Alipay. */
+"Alipay" = "Alipay";
+
+/* Message text for updating currency for an order using Alipay. */
+"Alipay is available in USD only. Would you like to update your currency preference to USD?" = "Alipay is available in USD only. Would you like to update your currency preference to USD?";
+
+/* All filters are enabled. ALL CAPITALS */
+"ALL" = "ALL";
+
+/* Navigation title for user item list. */
+"All" = "All";
+
+/* Prompt to choose category. Parameter 1 = count in category. */
+"All (%1$@)" = "All (%1$@)";
+
+/* Cash out prompt for alias users. */
+"All earnings for sales also available via alias." = "All earnings for sales also available via alias.";
+
+/* An explanation on how to earn tickets. */
+"All of your tickets earned will reset each round. Open the app each day to play trivia and earn more tickets." = "All of your tickets earned will reset each round. Open the app each day to play trivia and earn more tickets.";
+
+/* Title of action for method of sorting Owns.
+   Title of action for method of sorting storage.
+   Title of action for method of sorting Wants. */
+"Alphabetical" = "Alphabetical";
+
+/* Seller's Amount Made For Order. ALL CAPITALS */
+"AMOUNT MADE" = "AMOUNT MADE";
+
+/* Affirm checkout failed alert message. */
+"An error occurred with Affirm, are you sure you entered a U.S. address? If so, please email help@airgoat.com." = "An error occurred with Affirm, are you sure you entered a U.S. address? If so, please email help@airgoat.com.";
+
+/* Affirm checkout failed alert message */
+"An error occurred with Affirm, are you sure you entered a U.S. address?\nIf so, please email support@goat.com." = "An error occurred with Affirm, are you sure you entered a U.S. address?\nIf so, please email support@goat.com.";
+
+/* Error message */
+"An unknown error occurred." = "An unknown error occurred.";
+
+/* Street Address 2 placeholder text for Seller Onboarding Map */
+"Apartment, Suite or Building Number" = "Apartment, Suite or Building Number";
+
+/* Header for App Preferences section. */
+"App Preferences" = "App Preferences";
+
+/* navigation title for home page.
+   Navigation title for user item list. */
+"Apparel" = "Apparel";
+
+/* Apparel title. ALL CAPITALS */
+"APPAREL" = "APPAREL";
+
+/* Prompt to choose category. Parameter 1 = count in category. */
+"Apparel (%1$@)" = "Apparel (%1$@)";
+
+/* Apparel title. Param 1 = Number of results. ALL CAPITALS */
+"APPAREL (%1$@)" = "APPAREL (%1$@)";
+
+/* Apparel Owns message before linked alias account */
+"Apparel reselling is coming soon. Sign\nup to be notified once it's available." = "Apparel reselling is coming soon. Sign\nup to be notified once it's available.";
+
+/* Apple pay description.
+   Billing info apple pay short text.
+   Label of payment type for Apple Pay */
+"Apple Pay" = "Apple Pay";
+
+/* Prompt title for Apple Pay, ALL CAPITALS */
+"APPLE PAY" = "APPLE PAY";
+
+/* apple pay not available alert title. ALL CAPITALS */
+"APPLE PAY UNAVAILABLE" = "APPLE PAY UNAVAILABLE";
+
+/* guest alert view message
+   Guest user alert view message */
+"Apply to sell by registering or logging in. Only approved sellers are permitted to list." = "Apply to sell by registering or logging in. Only approved sellers are permitted to list.";
+
+/* String format for approximate conversion of total number of credits available. ALL CAPITALS
+   String format for approximate converted total with param1 = converted total */
+"APPROX. %1$@" = "APPROX. %1$@";
+
+/* Placeholder text for street address 2 field on shipping address view */
+"Apt. / Unit" = "Apt. / Unit";
+
+/* Header for table of possible issues regarding a listing */
+"Are there any issues?" = "Are there any issues?";
+
+/* Delete confirmation for want, offer and own. Parameter 1: title of item. */
+"Are you sure you want to delete this %1$@?" = "Are you sure you want to delete this %1$@?";
+
+/* Alert title for deleting a Listing */
+"Are you sure you want to delete this Listing?" = "Are you sure you want to delete this Listing?";
+
+/* Alert title for deleting an Offer */
+"Are you sure you want to delete this Offer?" = "Are you sure you want to delete this Offer?";
+
+/* Alert title for deleting an Own */
+"Are you sure you want to delete this Own?" = "Are you sure you want to delete this Own?";
+
+/* Alert title for deleting a Want */
+"Are you sure you want to delete this Want?" = "Are you sure you want to delete this Want?";
+
+/* Confirmation title. ALL CAPITALS */
+"ARE YOU SURE YOU WANT TO DELETE THIS?" = "ARE YOU SURE YOU WANT TO DELETE THIS?";
+
+/* Remove shipping cell alert title */
+"Are you sure you want to remove this address?" = "Are you sure you want to remove this address?";
+
+/* Remove payment method alert message */
+"Are you sure you want to remove this payment method?" = "Are you sure you want to remove this payment method?";
+
+/* Asking the user if they are sure if they want to report the photo. */
+"Are you sure you want to report this post?" = "Are you sure you want to report this post?";
+
+/* Login or Registration error message
+   Login, Logout or Registration error message */
+"Authenticator is invalid." = "Authenticator is invalid.";
+
+/* Login, Logout or Registration error message */
+"Authenticator's API Client and/or Session Context are invalid." = "Authenticator's API Client and/or Session Context are invalid.";
+
+/* Guarantee of Authenticity, Returns and Shipping */
+"Authenticity Guarantee, Returns & Shipping" = "Authenticity Guarantee, Returns & Shipping";
+
+/* Settings Title For `Funds Available` Notifications */
+"Available funds to withdraw" = "Available funds to withdraw";
+
+/* Title of action for method of sorting storage.
+   Title of action for method of sorting Wants. */
+"Available Now" = "Available Now";
+
+/* ALL CAPITALS */
+"AVAILABLE TO SPEND" = "AVAILABLE TO SPEND";
+
+/* Title for shoe condition with minor manufacturing defects. ALL CAPITALS. */
+"B-GRADE" = "B-GRADE";
+
+/* Label for faulty shoe condition. */
+"B-grade" = "B-grade";
+
+/* China ID photo back photo text. ALL CAPITALS */
+"BACK PHOTO" = "BACK PHOTO";
+
+/* method to withdraw money from GOAT account */
+"bank account" = "bank account";
+
+/* Explanation for charging sales tax */
+"Based on a recent Supreme Court decision, e-commerce marketplaces such as GOAT are now required to collect sales tax from buyers in certain states." = "Based on a recent Supreme Court decision, e-commerce marketplaces such as GOAT are now required to collect sales tax from buyers in certain states.";
+
+/* Filter for basketball shoes. ALL CAPITALS */
+"BASKETBALL" = "BASKETBALL";
+
+/* Prompt to make an offer. */
+"Be the first to make an offer. Slide to adjust." = "Be the first to make an offer. Slide to adjust.";
+
+/* Title prompt asking user to become a seller, ALL CAPITALS */
+"BECOME A\nGOAT SELLER!" = "BECOME A\nGOAT SELLER!";
+
+/* Billing Address input title. ALL CAPS
+   Billing Address List Title, ALL CAPS
+   Field label for user's billing address. ALL CAPITALS. */
+"BILLING ADDRESS" = "BILLING ADDRESS";
+
+/* Placeholder text for Credit Card Holder's Street Address. */
+"Billing Street Address" = "Billing Street Address";
+
+/* Placeholder text for Credit Card Holder's Street Address when text is raised. ALL CAPITALS */
+"BILLING STREET ADDRESS" = "BILLING STREET ADDRESS";
+
+/* Placeholder text for Credit Card Holder's Street Address 2. */
+"Billing Street Address 2" = "Billing Street Address 2";
+
+/* Placeholder text for Credit Card Holder's Street Address 2 when text is raised. ALL CAPITALS */
+"BILLING STREET ADDRESS 2" = "BILLING STREET ADDRESS 2";
+
+/* Placeholder text for birthdate field. */
+"Birthdate" = "Birthdate";
+
+/* Filter color for shoe. ALL CAPITALS */
+"BLACK" = "BLACK";
+
+/* navigation title for home page.
+   Title announcing Black Friday feature. */
+"Black Friday" = "Black Friday";
+
+/* Filter color for shoe. ALL CAPITALS */
+"BLUE" = "BLUE";
+
+/* Filter for boots. ALL CAPITALS */
+"BOOTS" = "BOOTS";
+
+/* Order Box Condition. ALL CAPITALS */
+"BOX" = "BOX";
+
+/* Product detail. ALL CAPITALS */
+"BOX: " = "BOX: ";
+
+/* Field label & value for a `damaged` box. ALL CAPITALS.
+   Field label & value for a damaged box. ALL CAPITALS. */
+"BOX: DAMAGED" = "BOX: DAMAGED";
+
+/* Field label & value for a box in `good` condition. ALL CAPITALS.
+   Field label & value for a box in good condition. ALL CAPITALS. */
+"BOX: GOOD" = "BOX: GOOD";
+
+/* Field label & value for a box `with a missing lid`. ALL CAPITALS.
+   Field label & value for a box with a missing lid. ALL CAPITALS.
+   Field label & value for a box with missing lid. ALL CAPITALS. */
+"BOX: MISSING LID" = "BOX: MISSING LID";
+
+/* Field label & value for a `missing` box. Partial abbreviation. ALL CAPITALS. */
+"BOX: NO ORIG." = "BOX: NO ORIG.";
+
+/* Field label & value for a `missing` box. ALL CAPITALS.
+   Field label & value for a missing box. ALL CAPITALS.
+   Field label & value for a shoe with no box. ALL CAPITALS. */
+"BOX: NONE" = "BOX: NONE";
+
+/* Field label & value for a box in `new` condition. Partial abbreviation. ALL CAPITALS. */
+"BOX: ORIG. NEW" = "BOX: ORIG. NEW";
+
+/* shoe brand. ALL CAPITALS */
+"BRAND" = "BRAND";
+
+/* Filter row title
+   Label for brand */
+"Brand" = "Brand";
+
+/* Screen title for brand filters. */
+"Brands" = "Brands";
+
+/* Filter color for shoe. ALL CAPITALS */
+"BROWN" = "BROWN";
+
+/* Buy Payment navigation title */
+"Buy" = "Buy";
+
+/* Button prompt to purchase product. ALL CAPITALS.
+   Button prompt. ALL CAPITALS.
+   title of buy button. ALL CAPITALS. */
+"BUY" = "BUY";
+
+/* Prompt to use Affirm's monthly payment plan. */
+"Buy in monthly payments with Affirm" = "Buy in monthly payments with Affirm";
+
+/* BuyBar category (selected state). ALL CAPITALS
+   BuyBar category. ALL CAPITALS */
+"BUY NEW" = "BUY NEW";
+
+/* BuyBar category (selected state). ALL CAPITALS */
+"BUY NEW + DEFECTS" = "BUY NEW + DEFECTS";
+
+/* Button prompt. ALL CAPITALS.
+   Button title for buying product. ALL CAPS */
+"BUY NOW" = "BUY NOW";
+
+/* User now button. ALL CAPITALS */
+"BUY NOW %@" = "BUY NOW %@";
+
+/* Prompt to buy the product. */
+"Buy now at this price." = "Buy now at this price.";
+
+/* BuyBar category (selected state). ALL CAPITALS */
+"BUY USED" = "BUY USED";
+
+/* Message text for Notice of Consent of China */
+"By clicking OK, you consent to GOAT storing your CN ID number in connection with processing your order and assessing relevant taxes, if any." = "By clicking OK, you consent to GOAT storing your CN ID number in connection with processing your order and assessing relevant taxes, if any.";
+
+/* Message text for Notice of Consent of Korea */
+"By clicking OK, you consent to GOAT storing your PCCC or passport number for customs clearance purposes." = "By clicking OK, you consent to GOAT storing your PCCC or passport number for customs clearance purposes.";
+
+/* Acknowledgment that user has read the return policy before purchasing. */
+"By proceeding, I confirm I have read and agree to the Purchase & Return Policy and Afterpay's Purchase Payment Agreement, and my shipping address is correct." = "By proceeding, I confirm I have read and agree to the Purchase & Return Policy and Afterpay's Purchase Payment Agreement, and my shipping address is correct.";
+
+/* Acknowledgment that user has read the return policy before purchasing. */
+"By proceeding, I confirm I have read and agree to the Purchase & Return Policy and my shipping address is correct." = "By proceeding, I confirm I have read and agree to the Purchase & Return Policy and my shipping address is correct.";
+
+/* Label: legalese intro */
+"By proceeding, you agree to both:" = "By proceeding, you agree to both:";
+
+/* Vacation mode alert message */
+"By turning off Vacation Mode, all of your listings will be activated and for sale immediately." = "By turning off Vacation Mode, all of your listings will be activated and for sale immediately.";
+
+/* Alert message */
+"By turning on Vacation Mode, all of your listings will be deactivated and removed temporarily. You will still be responsible for any outstanding orders. You can turn Vacation Mode off after 24 hours." = "By turning on Vacation Mode, all of your listings will be deactivated and removed temporarily. You will still be responsible for any outstanding orders. You can turn Vacation Mode off after 24 hours.";
+
+/* China ID info screen bottom notice */
+"By uploading this information, you consent to GOAT storing your China ID information in connection with processing your order and assessing relevant taxes, if any." = "By uploading this information, you consent to GOAT storing your China ID information in connection with processing your order and assessing relevant taxes, if any.";
+
+/* navigation title for home page.
+   Title announcing Release Day Calendar. */
+"Calendar" = "Calendar";
+
+/* Alert title. */
+"Camera" = "Camera";
+
+/* Error title. ALL CAPITALS */
+"CAMERA REQUIRED" = "CAMERA REQUIRED";
+
+/* transition to delete want alert title */
+"Can't Remove Want" = "Can't Remove Want";
+
+/* Button prompt title to dismiss Notice of Consent Modal.
+   Button prompt.
+   Button title to cancel
+   Cancel
+   Cancel Button title
+   Cancel changing offer expiration date
+   Prompt to cancel
+   Prompt to cancel search
+   Prompt to dismiss alert */
+"Cancel" = "Cancel";
+
+/* Alert cancel title. need address. ALL CAPITALS
+   Alert cancel title. need applepay. ALL CAPITALS
+   Alert cancel title. need billing info. ALL CAPITALS
+   Alert cancel title. skip affirm using credit card. ALL CAPITALS
+   Button prompt text for when a user chooses to keep their current currency and to select a different payment method, ALL CAPITALS
+   Button prompt. ALL CAPITALS
+   Cancel removing payment method action message. ALL CAPITALS
+   Cancel removing shipping action message
+   Confirm purchase cancel title. ALL CAPITALS
+   Prompt to cancel */
+"CANCEL" = "CANCEL";
+
+/* Alert title. */
+"Cannot be Deleted" = "Cannot be Deleted";
+
+/* Title of alert shown when last existing shipping address not able to be deleted, ALL CAPITALS */
+"CANNOT DELETE" = "CANNOT DELETE";
+
+/* Error message when attempting to add a credit card fails. */
+"Cannot Save Credit Card Info" = "Cannot Save Credit Card Info";
+
+/* transition to delete own alert title */
+"Can’t Remove Own" = "Can’t Remove Own";
+
+/* Label for Card Information. ALL CAPITALS */
+"CARD INFORMATION" = "CARD INFORMATION";
+
+/* ALL CAPITALS
+   navbar title. ALL CAPITALS */
+"CASH OUT" = "CASH OUT";
+
+/* ALL CAPITALS */
+"CASH OUT CREDITS" = "CASH OUT CREDITS";
+
+/* Label */
+"Cash Out Method" = "Cash Out Method";
+
+/* navbar title. ALL CAPITALS */
+"CASH OUT METHOD" = "CASH OUT METHOD";
+
+/* category title that will be represented by gender abbreviation. ALL CAPITALS. */
+"CATEGORY" = "CATEGORY";
+
+/* Filter row title
+   Label for category
+   Screen title for category filters. */
+"Category" = "Category";
+
+/* button. ALL CAPITALS */
+"CHANGE CASH OUT" = "CHANGE CASH OUT";
+
+/* Password screen title. ALL CAPITALS. */
+"CHANGE PASSWORD" = "CHANGE PASSWORD";
+
+/* Field label */
+"Change Password" = "Change Password";
+
+/* Alert shown when user message is at size limit. */
+"Character limit reached." = "Character limit reached.";
+
+/* Format. Prompt for number of additional characters that may be entered. */
+"Characters left: %l" = "Characters left: %l";
+
+/* Default message for sharing this product. Parameter 1 = product name. */
+"Check out the %1$@ on GOAT" = "Check out the %1$@ on GOAT";
+
+/* Message for sharing on social media. The placeholder is (1) product name */
+"Check out this listing: %1$@ #GOATAPP" = "Check out this listing: %1$@ #GOATAPP";
+
+/* Message for sharing on social media. Placeholders are (1) product name, (2) URL. */
+"Check out this listing: %1$@ %2$@" = "Check out this listing: %1$@ %2$@";
+
+/* Message for sharing on social media. Placeholders are (1) product name, (2) URL. */
+"Check out this listing: %1$@ %2$@ #GOATAPP" = "Check out this listing: %1$@ %2$@ #GOATAPP";
+
+/* Title of screen. ALL CAPITALS */
+"CHECKOUT" = "CHECKOUT";
+
+/* Navigation var title. ALL CAPITALS */
+"CHINA ID CARD" = "CHINA ID CARD";
+
+/* Navigation var title. ALL CAPITALS */
+"CHINA ID IMAGE" = "CHINA ID IMAGE";
+
+/* Title text for prompt regarding users entering their Chinese ID Number in order to enjoy faster shipping and a lower tax rate. */
+"Chinese ID Card" = "Chinese ID Card";
+
+/* Placeholder for optional Chinese ID Card Number for Chinese Non-Citizens. */
+"Chinese ID Card Number (Optional)" = "Chinese ID Card Number (Optional)";
+
+/* Placeholder for optional Chinese ID Number for Chinese Non-Citizens when text is raised. ALL CAPITALS */
+"CHINESE ID CARD NUMBER (OPTIONAL)" = "CHINESE ID CARD NUMBER (OPTIONAL)";
+
+/* Placeholder for required Chinese ID Number for Chinese Citizens */
+"Chinese ID Card Number (Required)" = "Chinese ID Card Number (Required)";
+
+/* Placeholder for required Chinese ID Number for Chinese Citizens when text is raised. ALL CAPITALS */
+"CHINESE ID CARD NUMBER (REQUIRED)" = "CHINESE ID CARD NUMBER (REQUIRED)";
+
+/* Title text for prompt regarding users entering their Chinese ID Number in order to enjoy faster shipping and a lower tax rate. ALL CAPITALS */
+"CHINESE IDENTITY CARD NUMBER" = "CHINESE IDENTITY CARD NUMBER";
+
+/* Title of screen. ALL CAPITALS */
+"CHOOSE COUNTRY" = "CHOOSE COUNTRY";
+
+/* Button prompt to choose a photo from the photo library.
+   Button prompt.
+   prompt to use photo library */
+"Choose from Library" = "Choose from Library";
+
+/* Title announcing Instant Ship feature. */
+"Choose Instant Ship to get it as soon as Next Day" = "Choose Instant Ship to get it as soon as Next Day";
+
+/* Chinese Citizen button text for segmented control. ALL CAPITALS
+   Korean Citizen button text for segmented control. ALL CAPITALS */
+"CITIZEN" = "CITIZEN";
+
+/* Placeholder for City of Address when text is raised. ALL CAPITALS
+   Placeholder text for Credit Card Holder's City. ALL CAPITALS */
+"CITY" = "CITY";
+
+/* city field data descriptor
+   Placeholder for City of Address
+   Placeholder text for city field on shipping address view
+   Placeholder text for Credit Card Holder's City */
+"City" = "City";
+
+/* Button prompt to dismiss filter screen.
+   Button prompt.
+   Payment close button. */
+"Close" = "Close";
+
+/* Section title */
+"Closeup" = "Closeup";
+
+/* Centimeters sizing chart title */
+"CM Sizes" = "CM Sizes";
+
+/* Edit Profile chinese identity number title text, ALL CAPITALS */
+"CNID NUMBER" = "CNID NUMBER";
+
+/* Pop-up message that confirmation code was sent. */
+"Code Sent" = "Code Sent";
+
+/* CODE USED string with colon followed by code. Parameter 1: Promo code string. ALL CAPITALS. */
+"CODE USED: %1$@" = "CODE USED: %1$@";
+
+/* heading for collection. */
+"Collection" = "Collection";
+
+/* Filter row title */
+"Color" = "Color";
+
+/* Screen title for color filters. */
+"Colors" = "Colors";
+
+/* primary color scheme of product. ALL CAPITALS */
+"COLORWAY" = "COLORWAY";
+
+/* Instructions for editing defect information. */
+"Comment on any defects: (e.g. glue on the midsole, minor scuffs on the front)..." = "Comment on any defects: (e.g. glue on the midsole, minor scuffs on the front)...";
+
+/* Complete Account Screen title. ALL CAPITALS. */
+"COMPLETE ACCOUNT" = "COMPLETE ACCOUNT";
+
+/* seller onboarding message */
+"Complete and submit the form below.\nWe’ll notify you once you’re approved!" = "Complete and submit the form below.\nWe’ll notify you once you’re approved!";
+
+/* Filter row title */
+"Condition" = "Condition";
+
+/* Order Condition. ALL CAPITALS */
+"CONDITION" = "CONDITION";
+
+/* Product detail. ALL CAPITALS */
+"CONDITION: " = "CONDITION: ";
+
+/* Prompt to confirm. ALL CAPITALS */
+"CONFIRM" = "CONFIRM";
+
+/* alert title */
+"Confirm Cash Out" = "Confirm Cash Out";
+
+/* Button prompt. ALL CAPITALS */
+"CONFIRM DROP OFF" = "CONFIRM DROP OFF";
+
+/* Alert title. */
+"Confirm Listings" = "Confirm Listings";
+
+/* Payment offer confirm alert title. ALL CAPITALS
+   Payment paypal confirm alert title. ALL CAPITALS */
+"CONFIRM OFFER" = "CONFIRM OFFER";
+
+/* Placeholder text for confirm password field on change password view */
+"Confirm Password" = "Confirm Password";
+
+/* Title for alert confirming price of product listing. */
+"Confirm Price" = "Confirm Price";
+
+/* confirm purchase skip affirm using credit alert title. ALL CAPITALS
+   Payment confirm alert title
+   Payment confirm alert title. ALL CAPITALS */
+"CONFIRM PURCHASE" = "CONFIRM PURCHASE";
+
+/* Instructions. */
+"Confirm the exact US size on the tag\nor box. We will display gender." = "Confirm the exact US size on the tag\nor box. We will display gender.";
+
+/* Trivia summary message. */
+"Congrats!\nYou're almost an expert in sneaker-ology. Come back tomorrow to play again!" = "Congrats!\nYou're almost an expert in sneaker-ology. Come back tomorrow to play again!";
+
+/* Instructions for `no network screen`. */
+"Connect to continue shopping." = "Connect to continue shopping.";
+
+/* Error title when Internet is not available. ALL CAPITALS */
+"Connection Lost" = "Connection Lost";
+
+/* Seller Dashboard Consigned Listings Row title. ALL CAPITALS
+   Title of list. ALL CAPITALS. */
+"CONSIGNED LISTINGS" = "CONSIGNED LISTINGS";
+
+/* Button prompt to message GOAT. ALL CAPITALS */
+"CONTACT US" = "CONTACT US";
+
+/* Button prompt to message GOAT.
+   Link prompt. */
+"Contact Us" = "Contact Us";
+
+/* Button prompt. ALL CAPITALS
+   button. ALL CAPITALS */
+"CONTINUE" = "CONTINUE";
+
+/* Prompt to continue shopping after a purchase. ALL CAPITALS */
+"CONTINUE SHOPPING" = "CONTINUE SHOPPING";
+
+/* button */
+"CONTINUE TO PAYPAL" = "CONTINUE TO PAYPAL";
+
+/* Payment Affirm confirm alert title. ALL CAPITALS
+   Purchase affirm title. ALL CAPS */
+"CONTINUE WITH AFFIRM" = "CONTINUE WITH AFFIRM";
+
+/* Message for continuing to Afterpay. ALL CAPITALS */
+"CONTINUING TO AFTERPAY" = "CONTINUING TO AFTERPAY";
+
+/* Message for continuing to Alipay. ALL CAPITALS */
+"CONTINUING TO ALIPAY" = "CONTINUING TO ALIPAY";
+
+/* Converting Men's Sizes to Women's Sizes title
+   Title for size conversion. i.e. US M to EU W. Parameter 1 = 2-character country code for product (i.e. 'US'). Parameter 2 = 1-character gender code for product (i.e 'M'). Parameter 3 = 2-character country code for setting (i.e. 'EU'). Parameter 4 = 1-character gender code for setting (i.e. 'W') */
+"Converting %1$@ %2$@ to %3$@ %4$@" = "Converting %1$@ %2$@ to %3$@ %4$@";
+
+/* Title for size conversion. i.e. US M to EU W. Parameter 1 = 2-character country code for product (i.e. 'US'). Parameter 2 = 1-character gender code for product (i.e 'M'). Parameter 3 = 2-character country code for setting (i.e. 'EU'). Parameter 4 = 1-character gender code for setting (i.e. 'W') */
+"CONVERTING %1$@ %2$@ TO %3$@ %4$@" = "CONVERTING %1$@ %2$@ TO %3$@ %4$@";
+
+/* Converting Sizes Title */
+"Converting %@ %@ to %@ %@" = "Converting %1$@ %2$@ to %3$@ %4$@";
+
+/* Filter color for shoe. ALL CAPITALS */
+"COPPER" = "COPPER";
+
+/* Error message when app can't login. */
+"Could not resume session." = "Could not resume session.";
+
+/* Label for country
+   Placeholder text for field. */
+"Country" = "Country";
+
+/* Placeholder for Country of Address when text is raised. ALL CAPITALS */
+"COUNTRY OR REGION" = "COUNTRY OR REGION";
+
+/* country or region field data descriptor
+   Placeholder for Country of Address */
+"Country or Region" = "Country or Region";
+
+/* Label. ALL CAPITALS. */
+"COURIER" = "COURIER";
+
+/* Filter color for shoe. ALL CAPITALS */
+"CREAM" = "CREAM";
+
+/* Title of Registration screen, ALL CAPITALS
+   Title of screen. ALL CAPITALS. */
+"CREATE ACCOUNT" = "CREATE ACCOUNT";
+
+/* Label of payment type for Credit card. */
+"Credit Card" = "Credit Card";
+
+/* billing info table cell credit card title. ALL CAPS */
+"CREDIT CARD" = "CREDIT CARD";
+
+/* Placeholder text for Credit Card Number. */
+"Credit Card Number" = "Credit Card Number";
+
+/* Placeholder text for Credit Card Number. ALL CAPITALS */
+"CREDIT CARD NUMBER" = "CREDIT CARD NUMBER";
+
+/* Button prompt.
+   Navbar Button
+   Prompt to open credits. ALL CAPITALS.
+   Title for credits for article. */
+"CREDITS" = "CREDITS";
+
+/* Label displaying how many credits are available. ALL CAPITALS */
+"CREDITS AVAILABLE" = "CREDITS AVAILABLE";
+
+/* Apple Pay credit used. ALL CAPS
+   Label for the amount of credit used. ALL CAPITALS
+   Order Credits. ALL CAPITALS
+   Total Cost credit title */
+"CREDITS USED" = "CREDITS USED";
+
+/* Action Prompt to see & update currency preference settings. ALL CAPITALS.
+   Currency selector navigation title. ALL CAPITALS */
+"CURRENCY" = "CURRENCY";
+
+/* Currency selector navigation title. */
+"Currency" = "Currency";
+
+/* Label. */
+"Currently out of stock. Sell yours." = "Currently out of stock. Sell yours.";
+
+/* Tracking number of order is unavailable */
+"Currently Unavailable" = "Currently Unavailable";
+
+/* Return policy for custom shoes. */
+"Customs are sneakers that have been modified in appearance by designers and artists. Returns are not accepted on Custom sneakers." = "Customs are sneakers that have been modified in appearance by designers and artists. Returns are not accepted on Custom sneakers.";
+
+/* label */
+"Customs are sneakers that have been modified in appearance by designers and artists. Returns are not accepted on Custom sneakers.\n" = "Customs are sneakers that have been modified in appearance by designers and artists. Returns are not accepted on Custom sneakers.\n";
+
+/* Title for shoe condition with a cut or tear. ALL CAPITALS. */
+"CUT OR TEAR" = "CUT OR TEAR";
+
+/* Label for faulty shoe condition. */
+"Cut or Tear" = "Cut or Tear";
+
+/* Placeholder text for CVV security digits when text is raised. ALL CAPITALS
+   Placeholder text for CVV security digits. ALL CAPITALS */
+"CVV" = "CVV";
+
+/* Label for box condition. ALL CAPITALS. */
+"DAMAGED" = "DAMAGED";
+
+/* Condition of `damaged` box.
+   Title label for box condition. */
+"Damaged Box" = "Damaged Box";
+
+/* box condition. ALL CAPS
+   Condition of `damaged` box. ALL CAPITALS
+   Condition of damaged box. */
+"DAMAGED BOX" = "DAMAGED BOX";
+
+/* Button prompt. */
+"Deactivate" = "Deactivate";
+
+/* Verfication Cost declined. */
+"Declined" = "Declined";
+
+/* Title. */
+"Defects" = "Defects";
+
+/* Button prompt for removing a listing. ALL CAPITALS */
+"DELETE" = "DELETE";
+
+/* Button prompt for removing a listing.
+   Button prompt for removing a sneaker from Own list.
+   Button prompt for removing a sneaker from Want list.
+   Button prompt for removing a want, own, or listing.
+   Button prompt. Button title
+   Prompt to remove item. */
+"Delete" = "Delete";
+
+/* name of shoe designer. ALL CAPITALS */
+"DESIGNER" = "DESIGNER";
+
+/* Filter row title */
+"Designer" = "Designer";
+
+/* Screen title for designer filters. */
+"Designers" = "Designers";
+
+/* Alert title for not receiving a 2FA code. ALL CAPITALS. */
+"DIDN'T GET A CODE?" = "DIDN'T GET A CODE?";
+
+/* method to withdraw money from Direct Deposit account */
+"Direct Deposit" = "Direct Deposit";
+
+/* label */
+"Direct Deposit (ACH)" = "Direct Deposit (ACH)";
+
+/* Label for faulty shoe condition - bad color */
+"Discoloration" = "Discoloration";
+
+/* welcome screen description of what the GOAT app does */
+"Discover the largest selection of sneakers, apparel and accessories including just dropped, sold out and future releases–all in one place." = "Discover the largest selection of sneakers, apparel and accessories including just dropped, sold out and future releases–all in one place.";
+
+/* button title for dismissing screen. */
+"Dismiss" = "Dismiss";
+
+/* title for prompt to convert shoe size */
+"Do you want help converting your size?" = "Do you want help converting your size?";
+
+/* Zendesk Search Screen title. */
+"Don't see what you are looking for?" = "Don't see what you are looking for?";
+
+/* Button title.
+   Done button title
+   prompt for 'completed' button. */
+"Done" = "Done";
+
+/* prompt for 'completed' button, ALL CAPITALS */
+"DONE" = "DONE";
+
+/* Return policy for vintage new shoes. */
+"Due to age, this sneaker may not be suitable for wear. Please purchase with caution. Returns are not accepted on Vintage New sneakers." = "Due to age, this sneaker may not be suitable for wear. Please purchase with caution. Returns are not accepted on Vintage New sneakers.";
+
+/* label */
+"Due to age, this sneaker may not be suitable for wear. Please purchase with caution. Returns are not accepted on Vintage New sneakers.\n" = "Due to age, this sneaker may not be suitable for wear. Please purchase with caution. Returns are not accepted on Vintage New sneakers.\n";
+
+/* Duty title label. ALL CAPITALS
+   Label for the duty of the order. ALL CAPITALS */
+"DUTY" = "DUTY";
+
+/* Teaching users how to earn tickets. */
+"Each round, earn more tickets by completing the following actions:" = "Each round, earn more tickets by completing the following actions:";
+
+/* button title for editing/changing choices. ALL CAPITALS
+   title of edit button. ALL CAPITALS. */
+"EDIT" = "EDIT";
+
+/* Prompt to edit amount of credit to apply to purchase. ALL CAPITALS */
+"EDIT AMOUNT APPLIED" = "EDIT AMOUNT APPLIED";
+
+/* Screen title for editing user profile. */
+"Edit Profile" = "Edit Profile";
+
+/* Title for return address change. ALL CAPITALS. */
+"EDIT RETURN ADDRESS\nON ALIAS" = "EDIT RETURN ADDRESS\nON ALIAS";
+
+/* Description of day & time of the surprise drop. i.e. Tue 12pm PT */
+"EEE ha v" = "EEE ha v";
+
+/* Placeholder text for email field */
+"Email" = "Email";
+
+/* Edit Profile email title text, ALL CAPITALS
+   Title of email setting. ALL CAPITALS. */
+"EMAIL" = "EMAIL";
+
+/* placeholder text for email address field on reset password screen */
+"Email Address" = "Email Address";
+
+/* Button prompt to resend code via email. */
+"Email another code" = "Email another code";
+
+/* alert title for password reset email */
+"Email sent!" = "Email sent!";
+
+/* String for empty promo code count. ALL CAPITALS. */
+"ENTER A PROMO CODE ABOVE" = "ENTER A PROMO CODE ABOVE";
+
+/* Title of 2FA screen, ALL CAPITALS. */
+"ENTER CODE" = "ENTER CODE";
+
+/* Error Message for Full Name of Address, ALL CAPITALS */
+"ENTER FIRST & LAST" = "ENTER FIRST & LAST";
+
+/* Error Message text for Full Name. All CAPITALS */
+"ENTER FIRST AND LAST NAME" = "ENTER FIRST AND LAST NAME";
+
+/* Placeholder text for username field on profile data entry view */
+"Enter New Username" = "Enter New Username";
+
+/* Placeholder for promo code. ALL CAPITALS. */
+"ENTER PROMO CODE" = "ENTER PROMO CODE";
+
+/* Reset password description label */
+"Enter the email address associated with your account and we'll send you a link to reset your password." = "Enter the email address associated with your account and we'll send you a link to reset your password.";
+
+/* 2FA instructions label */
+"Enter the security code sent to" = "Enter the security code sent to";
+
+/* Prompt to enter contest. ALL CAPITALS
+   Title for ticket entry. ALL CAPITALS */
+"ENTER TICKETS" = "ENTER TICKETS";
+
+/* format for showing credit availability error, ALL CAPITALS */
+"ENTER UP TO %1$@" = "ENTER UP TO %1$@";
+
+/* data field descriptor */
+"Enter your country or region" = "Enter your country or region";
+
+/* Title of 2FA screen, all caps. */
+"ENTER YOUR NUMBER" = "ENTER YOUR NUMBER";
+
+/* data field descriptor */
+"Enter your return address" = "Enter your return address";
+
+/* Converted Size displayed as Country Code, Gender, and Size. ALL CAPITALS. Parameter 1 = Converted Size String With 2 character country code, 1 character gender code, and shoe size with up to 1 decimal digit.
+   Title For Size Conversion Label. (i.e. Equivalent to UK W 40.0) */
+"Equivalent to %1$@" = "Equivalent to %1$@";
+
+/* Alert Error title for updating email. ALL CAPITALS
+   Error Alert title for 2FA. ALL CAPITALS
+   Error Alert title for updating password. ALL CAPITALS
+   Error Alert title for updating username. ALL CAPITALS
+   Error Alert title for uploading photo. ALL CAPITALS
+   Error alert title. ALL CAPITALS
+   Error Message text for Credit Card Holder's Street Address. ALL CAPITALS */
+"ERROR" = "ERROR";
+
+/* invalid info error title when registering. */
+"Error" = "Error";
+
+/* Error text for failure to create address due to missing API. */
+"Error Creating Address Due To Undefined API" = "Error Creating Address Due To Undefined API";
+
+/* Error text for failure to create billing address due to undefined Address Context. */
+"Error Creating Billing Address Due To Undefined Address Context" = "Error Creating Billing Address Due To Undefined Address Context";
+
+/* Error text for failure to create billing info due to undefined API. */
+"Error Creating Billing Info Due To Undefined API." = "Error Creating Billing Info Due To Undefined API.";
+
+/* Error text for failure to create CN address regions to undefined Address Context. */
+"Error Creating CN regions Due To Undefined Address Context" = "Error Creating CN regions Due To Undefined Address Context";
+
+/* Error text for failure to create shipping address due to undefined Address Context. */
+"Error Creating Shipping Address Due To Undefined Address Context" = "Error Creating Shipping Address Due To Undefined Address Context";
+
+/* Error text for failure to delete address due to missing api. */
+"Error Deleting Address Due To Undefined API" = "Error Deleting Address Due To Undefined API";
+
+/* Error text for failure to request customerInfos due unknown reason. */
+"Error Requesting CustomerInfos Due to Unknown reason" = "Error Requesting CustomerInfos Due to Unknown reason";
+
+/* Error message for failing to request sell history. */
+"Error requesting listing price" = "Error requesting listing price";
+
+/* Error message for failing to request offer data. */
+"Error requesting offer data missing product or product template." = "Error requesting offer data missing product or product template.";
+
+/* Error message for failing to request sell history. */
+"Error requesting sell history." = "Error requesting sell history.";
+
+/* Error text for failure to retrieve address due to missing api. */
+"Error Retrieving Address Due To Undefined API" = "Error Retrieving Address Due To Undefined API";
+
+/* Error text for failure to retrieve customerInfos due to missing api. */
+"Error Retrieving CustomerInfos Due To Undefined API" = "Error Retrieving CustomerInfos Due To Undefined API";
+
+/* Error text for failure to save customerinfos due to undefined Address Context. */
+"Error Save CNIDData Due To Undefined Address Context" = "Error Save CNIDData Due To Undefined Address Context";
+
+/* Error text for failure to save customerinfos due to undefined Address Context. */
+"Error Save CustomerInfos Due To Undefined Address Context" = "Error Save CustomerInfos Due To Undefined Address Context";
+
+/* Error text for failure to save address due to missing Checkout Context. */
+"Error Saving Address Due To Undefined Checkout Context" = "Error Saving Address Due To Undefined Checkout Context";
+
+/* Error text for failure to save customerinfos due to undefined Address Context. */
+"Error Saving CNIDData Due To Undefined Address Context" = "Error Saving CNIDData Due To Undefined Address Context";
+
+/* Error text for failure to save customerInfos due to incorrect CNID number. */
+"Error Saving CustomerInfos Due to incorrect CNID number" = "Error Saving CustomerInfos Due to incorrect CNID number";
+
+/* Error text for failure to save customerInfos due to missing api. */
+"Error Saving CustomerInfos Due To Undefined API" = "Error Saving CustomerInfos Due To Undefined API";
+
+/* Error text for failure to save customerinfos due to undefined Address Context. */
+"Error Update CNIDData Due To Undefined Address Context" = "Error Update CNIDData Due To Undefined Address Context";
+
+/* Error text for failure to update order due to an undefined Checkout Context.
+   Error text for failure to update order due to missing Checkout Context. */
+"Error Updating Order Due To Undefined Checkout Context" = "Error Updating Order Due To Undefined Checkout Context";
+
+/* Error text for failure to update user due to missing user. */
+"Error Updating User Due To Undefined User" = "Error Updating User Due To Undefined User";
+
+/* Label for the estimated tax of the order. ALL CAPITALS
+   Tax title label. ALL CAPITALS */
+"ESTIMATED TAX" = "ESTIMATED TAX";
+
+/* Label for the estimated vat of the order. ALL CAPITALS
+   VAT title label. ALL CAPITALS */
+"ESTIMATED VAT" = "ESTIMATED VAT";
+
+/* Europe country code display name, ALL CAPITALS. */
+"EU" = "EU";
+
+/* Europe sizing chart title */
+"EU Sizes" = "EU Sizes";
+
+/* Example image text. ALL CAPTIALS */
+"EXAMPLE" = "EXAMPLE";
+
+/* `Excellent` quality shoe. ALL CAPITALS */
+"EXCELLENT" = "EXCELLENT";
+
+/* `Excellent` quality shoe. */
+"Excellent" = "Excellent";
+
+/* Placeholder text for Credit Card Expiration Date. ALL CAPITALS */
+"EXP DATE MM/YYYY" = "EXP DATE MM/YYYY";
+
+/* Placeholder text for Credit Card Expiration Date. */
+"Exp Date MM/YYYY" = "Exp Date MM/YYYY";
+
+/* Abbreviation for expiration date (exp.) followed by date. Param 1: short Date text
+   Formatted short expiration date. Param 1: Short Date text */
+"Exp. %1$@" = "Exp. %1$@";
+
+/* Invalid Shipping Option alert message text. */
+"Expedited shipping can only be used on Instant Ship sneakers shipping to the contiguous US." = "Expedited shipping can only be used on Instant Ship sneakers shipping to the contiguous US.";
+
+/* Heading for expired offers */
+"Expired Offers (Last 30 days)" = "Expired Offers (Last 30 days)";
+
+/* Displays time left before expiration. */
+"Expires in %1$@" = "Expires in %1$@";
+
+/* Description of number of days before the offer expires. ALL CAPITALS */
+"EXPIRES IN %d DAYS " = "EXPIRES IN %d DAYS ";
+
+/* 3 variables */
+"Expires in %lid %lih %lim" = "Expires in %1$lid %2$lih %3$lim";
+
+/* EXPIRES string with colon followed by date string. Parameter 1: Expiration date. ALL CAPITALS. */
+"EXPIRES: %1$@" = "EXPIRES: %1$@";
+
+/* Prompt to explore using augmented reality. ALL CAPITALS. */
+"EXPLORE AGAIN" = "EXPLORE AGAIN";
+
+/* Error title for Facebook sharing. */
+"Facebook App Required" = "Facebook App Required";
+
+/* Error message */
+"Failed creating Popular Searches API request." = "Failed creating Popular Searches API request.";
+
+/* Error message */
+"Failed to download collection." = "Failed to download collection.";
+
+/* Placeholder for Family Name of Address when text is raised. ALL CAPITALS */
+"FAMILY NAME" = "FAMILY NAME";
+
+/* Placeholder for Family Name of Address */
+"Family Name" = "Family Name";
+
+/* Description of commission rate and fee: Parameter 1: commision rate. Parameter 2: fee. */
+"Fee: %1$.01f%% + %2$@" = "Fee: %1$.01f%% + %2$@";
+
+/* button prompt for filtering shoes. ALL CAPITALS
+   Prompt to filter results. ALL CAPITALS */
+"FILTER" = "FILTER";
+
+/* Prompt to filter results. Parameter 1 = number of filters applied. ALL CAPITALS */
+"FILTER (%1$d)" = "FILTER (%1$d)";
+
+/* Screen title for Filters. ALL CAPITALS. */
+"FILTERS" = "FILTERS";
+
+/* Prompt to read more about Final Sale policy */
+"Final Sale. View our Purchase & Return Policy." = "Final Sale. View our Purchase & Return Policy.";
+
+/* Alias redirect message
+   Detail text for resellable item.
+   Detail text in redirect to alias pop up. */
+"Find out what buyers and sellers are doing to price your item right." = "Find out what buyers and sellers are doing to price your item right.";
+
+/* Verification Message. */
+"For a limited time only, all sneakers purchased will be sent to us first for verification by our specialists - free of charge." = "For a limited time only, all sneakers purchased will be sent to us first for verification by our specialists - free of charge.";
+
+/* message */
+"For your benefit as well as the buyers, we require you to take 7 new photos of the sneakers in various poses through the app. We do not allow previously taken photos." = "For your benefit as well as the buyers, we require you to take 7 new photos of the sneakers in various poses through the app. We do not allow previously taken photos.";
+
+/* Button label if user forgot their password */
+"Forgot" = "Forgot";
+
+/* France country code display name, ALL CAPITALS. */
+"FR" = "FR";
+
+/* Verfication Cost free.
+   Verification free string */
+"Free" = "Free";
+
+/* banner title for free shipping on orders that meet a financial criteria (i.e. > $100) */
+"Free shipping on all qualifying orders" = "Free shipping on all qualifying orders";
+
+/* description for what type of purchases qualify for free shipping */
+"Free shipping on domestic orders over $100 and $10 off international shipping." = "Free shipping on domestic orders over $100 and $10 off international shipping.";
+
+/* ALL CAPITALS */
+"FROM" = "FROM";
+
+/* Subtitle for shoe condition with YELLOWING title. ALL CAPITALS. */
+"FROM AGE OR WEAR" = "FROM AGE OR WEAR";
+
+/* Subtitle for shoe condition with SCUFF MARKS title. ALL CAPITALS. */
+"FROM MANUFACTURE OR WEAR" = "FROM MANUFACTURE OR WEAR";
+
+/* Subtitle for shoe condition with CUT OR TEAR title. ALL CAPITALS. */
+"FROM MANUFACTURING OR WEAR" = "FROM MANUFACTURING OR WEAR";
+
+/* China ID photo front photo text. ALL CAPITALS */
+"FRONT PHOTO" = "FRONT PHOTO";
+
+/* Placeholder for Full Legal Name of Address when text is raised. ALL CAPITALS */
+"FULL LEGAL NAME" = "FULL LEGAL NAME";
+
+/* data field description
+   Placeholder for Full Legal Name of Address */
+"Full Legal Name" = "Full Legal Name";
+
+/* Change Full Name Screen title, ALL CAPITALS
+   Edit Profile name title text, ALL CAPITALS */
+"FULL NAME" = "FULL NAME";
+
+/* Placeholder text for full name field on shipping address view */
+"Full Name" = "Full Name";
+
+/* Placeholder text for full name field on profile data entry view */
+"Full Name (First and Last Name)" = "Full Name (First and Last Name)";
+
+/* Placeholder text for Full Name. ALL CAPITALS */
+"FULL NAME (ON CARD)" = "FULL NAME (ON CARD)";
+
+/* Placeholder text for Full Name. */
+"Full Name (On Card)" = "Full Name (On Card)";
+
+/* label */
+"Funds will arrive to you\nin 2-3 business days." = "Funds will arrive to you\nin 2-3 business days.";
+
+/* Filter row title */
+"Gender" = "Gender";
+
+/* Title for non-resellable item. ALL CAPITALS. */
+"GET NOTIFIED ON ALIAS" = "GET NOTIFIED ON ALIAS";
+
+/* Prompt to apply to be a seller, ALL CAPITALS */
+"GET STARTED" = "GET STARTED";
+
+/* Message to user to get faster shipping. */
+"Get your sneakers faster." = "Get your sneakers faster.";
+
+/* Placeholder for Given Name of Address when text is raised. ALL CAPITALS */
+"GIVEN NAME" = "GIVEN NAME";
+
+/* Placeholder for Given Name of Address */
+"Given Name" = "Given Name";
+
+/* Apple Pay total. ALL CAPS
+   GOAT brand name. ALL CAPITALS */
+"GOAT" = "GOAT";
+
+/* Social sharing description string */
+"GOAT - The global platform for style." = "GOAT - The global platform for style.";
+
+/* seller101 policy body message */
+"GOAT actively protects our buyers and sellers. In order to do so, federal and state laws require us to obtain the seller’s full name, date of birth and home address.\nThis information will only need to be entered once and should be entered as it appears on a government issued identification, such as a driver’s license or passport.\nAll personal information added is secure. This information will only be used for order processing and account related matters.\nBy submitting your information, you agree to our Terms of Service and Privacy Policy.\nIf you have any questions, please contact us at support@goat.com." = "GOAT actively protects our buyers and sellers. In order to do so, federal and state laws require us to obtain the seller’s full name, date of birth and home address.\nThis information will only need to be entered once and should be entered as it appears on a government issued identification, such as a driver’s license or passport.\nAll personal information added is secure. This information will only be used for order processing and account related matters.\nBy submitting your information, you agree to our Terms of Service and Privacy Policy.\nIf you have any questions, please contact us at support@goat.com.";
+
+/* GOAT Server error message */
+"GOAT API v1 client is invalid." = "GOAT API v1 client is invalid.";
+
+/* GOAT authentication title */
+"GOAT AUTHENTICATION" = "GOAT AUTHENTICATION";
+
+/* Title of Goat Black Friday Trivia screen, ALL CAPITALS */
+"GOAT BLACK FRIDAY TRIVIA" = "GOAT BLACK FRIDAY TRIVIA";
+
+/* Button prompt to view GOAT Clean shoes. ALL CAPITALS.
+   Filter for GOAT CLEAN shoes. ALL CAPITALS */
+"GOAT CLEAN" = "GOAT CLEAN";
+
+/* Category of shoe: GOAT Clean */
+"GOAT Clean" = "GOAT Clean";
+
+/* Shoe condition for GOATClean. Parameter is detailed condition: `good`, `excellent`, etc. */
+"GOAT Clean (%@)" = "GOAT Clean (%@)";
+
+/* Shoe condition for GOATClean. Parameter is detailed condition: 'good', 'excellent', etc. */
+"GOAT CLEAN (%@)" = "GOAT CLEAN (%@)";
+
+/* photo caption for boxes that look damaged. ALL CAPITALS */
+"GOAT CONSIDERS THESE BOXES DAMAGED" = "GOAT CONSIDERS THESE BOXES DAMAGED";
+
+/* photo caption for shoes that have defects. ALL CAPITALS */
+"GOAT CONSIDERS THESE DEFECTIVE" = "GOAT CONSIDERS THESE DEFECTIVE";
+
+/* photo caption for shoes that look worn. ALL CAPITALS */
+"GOAT CONSIDERS THESE WORN" = "GOAT CONSIDERS THESE WORN";
+
+/* GOAT Credit Title */
+"GOAT Credit" = "GOAT Credit";
+
+/* Action Prompt to see GOAT credit. ALL CAPITALS.
+   GOAT Credit title label. ALL CAPITALS
+   Navigation title for GOAT Credit. ALL CAPITALS */
+"GOAT CREDIT" = "GOAT CREDIT";
+
+/* Alert title to use GOAT Credit to purchase shoes. ALL CAPITALS
+   Credit purchase alert title. ALL CAPITALS */
+"GOAT CREDITS" = "GOAT CREDITS";
+
+/* Storage Shipment Description. */
+"GOAT Storage" = "GOAT Storage";
+
+/* Details explaining GOAT Storage */
+"GOAT Storage is ideal for reselling sneakers or saving space at home. Select GOAT Storage as your shipping option at checkout and we’ll secure your sneakers until you’re ready to ship." = "GOAT Storage is ideal for reselling sneakers or saving space at home. Select GOAT Storage as your shipping option at checkout and we’ll secure your sneakers until you’re ready to ship.";
+
+/* Empty state GOAT storage list subtitle. */
+"GOAT Storage is ideal for selling sneakers or saving space at home. Select GOAT Storage as your shipping option at checkout, and we'll secure your sneakers until you're ready to ship." = "GOAT Storage is ideal for selling sneakers or saving space at home. Select GOAT Storage as your shipping option at checkout, and we'll secure your sneakers until you're ready to ship.";
+
+/* Title for GOAT Customer Support. ALL CAPITALS */
+"GOAT SUPPORT" = "GOAT SUPPORT";
+
+/* Filter color for shoe. ALL CAPITALS */
+"GOLD" = "GOLD";
+
+/* `Good` quality shoe. */
+"Good" = "Good";
+
+/* `Good` quality shoe. ALL CAPITALS */
+"GOOD" = "GOOD";
+
+/* Condition of `good` box.
+   Title label for box condition. */
+"Good Condition" = "Good Condition";
+
+/* Label for box condition. ALL CAPITALS. */
+"GOOD CONDITION" = "GOOD CONDITION";
+
+/* Text for confirming info about promotion. ALL CAPITALS. */
+"GOT IT" = "GOT IT";
+
+/* heading for greatest article. ALL CAPITALS */
+"GREATEST" = "GREATEST";
+
+/* Filter color for shoe. ALL CAPITALS */
+"GREEN" = "GREEN";
+
+/* Filter color for shoe. ALL CAPITALS */
+"GREY" = "GREY";
+
+/* issue product damaged box */
+"has damaged box" = "has damaged box";
+
+/* issue product no box */
+"has no box" = "has no box";
+
+/* issue product box missing lid */
+"has no lid" = "has no lid";
+
+/* Label for faulty shoe condition - bad smell */
+"Has Odor" = "Has Odor";
+
+/* Title of action for method of sorting Owns. */
+"Has Offers" = "Has Offers";
+
+/* Title of HelpCenter screen */
+"Help" = "Help";
+
+/* HELP button title. ALL CAPS
+   Title for customer support link. ALL CAPITALS
+   Title for customer support link. ALL CAPITALS.
+   Title of HelpCenter screen, ALL CAPITALS */
+"HELP" = "HELP";
+
+/* Message for sharing on social media. The placeholders are (1) product name, (2) URL */
+"Hey,\n\nI thought you might like these sneakers on GOAT.\n\n%1$@ %2$@\n\n" = "Hey,\n\nI thought you might like these sneakers on GOAT.\n\n%1$@ %2$@\n\n";
+
+/* button title for hiding the password in a textfield */
+"Hide" = "Hide";
+
+/* title for Home tab */
+"Home" = "Home";
+
+/* The time that this business is open. */
+"Hours: %1$@" = "Hours: %1$@";
+
+/* Offers title. ALL CAPITALS */
+"HOW OFFERS WORK" = "HOW OFFERS WORK";
+
+/* Prompt to explore how to earn tickets. ALL CAPITALS
+   Title for earning tickets info screen. ALL CAPITALS */
+"HOW TO EARN TICKETS" = "HOW TO EARN TICKETS";
+
+/* Title of custom server URL */
+"https://" = "https://";
+
+/* first initial of infant size category display name. ALL CAPITALS. */
+"I" = "I";
+
+/* button title for accepting the Seller policy. ALL CAPITALS */
+"I ACCEPT THE POLICY" = "I ACCEPT THE POLICY";
+
+/* button title for agreeing to properly list the sneaker condition. ALL CAPITALS */
+"I AGREE" = "I AGREE";
+
+/* label */
+"I agree to the Terms of Service and Privacy Policy of our direct deposit processing partner, Dwolla, Inc." = "I agree to the Terms of Service and Privacy Policy of our direct deposit processing partner, Dwolla, Inc.";
+
+/* button title for when a user does not receive a 2FA code */
+"I didn't get a code" = "I didn't get a code";
+
+/* cell title for option if a seller's return address is not found by Google Maps */
+"I don't see my address" = "I don't see my address";
+
+/* Button title text for China ID option, ALL CAPITALS
+   title text for Chinese ID Images Row. ALL CAPITALS */
+"ID CARD" = "ID CARD";
+
+/* Return policy for Nike ID shoes. */
+"IDs are sneakers that are customized by customers via Nike.com. Returns are not accepted on ID sneakers." = "IDs are sneakers that are customized by customers via Nike.com. Returns are not accepted on ID sneakers.";
+
+/* label */
+"IDs are sneakers that are customized by customers via Nike.com. Returns are not accepted on ID sneakers.\n" = "IDs are sneakers that are customized by customers via Nike.com. Returns are not accepted on ID sneakers.\n";
+
+/* Message text for prompt regarding users entering their Chinese ID Number in order to enjoy faster shipping and a lower tax rate. */
+"If you are a Mainland China citizen please add your Chinese ID Card information to enjoy faster shipping and a lower tax rate." = "If you are a Mainland China citizen please add your Chinese ID Card information to enjoy faster shipping and a lower tax rate.";
+
+/* 2FA Error Message - Phone number needs to be changed */
+"If you need to change your\nphone number to receive a code,\nplease contact support@goat.com for assistance." = "If you need to change your\nphone number to receive a code,\nplease contact support@goat.com for assistance.";
+
+/* Payment offer confirm alert title */
+"If your offer is accepted, you will be charged %@ to card ending in %@. There are no cancellations once your offer is accepted." = "If your offer is accepted, you will be charged %1$@ to card ending in %2$@. There are no cancellations once your offer is accepted.";
+
+/* Payment paypal confirm alert message */
+"If your offer is accepted, you will be charged %@ to PayPal account %@. There are no cancellations once your offer is accepted." = "If your offer is accepted, you will be charged %1$@ to PayPal account %2$@. There are no cancellations once your offer is accepted.";
+
+/* seller onboarding message */
+"If your sneakers have defects, you can still list\nthem as new, but it must be noted in the listing." = "If your sneakers have defects, you can still list\nthem as new, but it must be noted in the listing.";
+
+/* Out side of country description message */
+"If you’re outside of the United States, please note we’re working hard to make selling available to you, but it may take over six months.\nWe encourage you to complete your request to sell, so you can be one of the first approved in your country or region." = "If you’re outside of the United States, please note we’re working hard to make selling available to you, but it may take over six months.\nWe encourage you to complete your request to sell, so you can be one of the first approved in your country or region.";
+
+/* Vacation mode description */
+"If you’re unable to ship orders during a specific period of time, please turn on Vacation Mode. This will deactivate your listings temporarily. Please note: Turning this off and on will not send push notifications to users who want your sneakers." = "If you’re unable to ship orders during a specific period of time, please turn on Vacation Mode. This will deactivate your listings temporarily. Please note: Turning this off and on will not send push notifications to users who want your sneakers.";
+
+/* Duties Warning Text */
+"Import duties are not included in total price. You will be responsible for them upon arrival." = "Import duties are not included in total price. You will be responsible for them upon arrival.";
+
+/* Condition of `good` box. ALL CAPITALS
+   Condition of good box. */
+"IN BOX" = "IN BOX";
+
+/* alert message
+   message about vaction mode limitation */
+"In order to activate this listing again, please turn off vacation mode." = "In order to activate this listing again, please turn off vacation mode.";
+
+/* label
+   Product is being reviewed. ALL CAPITALS */
+"IN REVIEW" = "IN REVIEW";
+
+/* product status description. ALL CAPITALS
+   Shipment status. ALL CAPITALS */
+"IN\nTRANSIT" = "IN\nTRANSIT";
+
+/* Seller Dashboard Inactive Listings Row title. ALL CAPITALS
+   Title of list. ALL CAPITALS. */
+"INACTIVE LISTINGS" = "INACTIVE LISTINGS";
+
+/* Error message for unknown MIME type. */
+"Incorrect upload parameters" = "Incorrect upload parameters";
+
+/* Filter Gender for infant. ALL CAPITALS
+   Infant size category display name. ALL CAPITALS */
+"INFANT" = "INFANT";
+
+/* Error title when attempting to share on Instagram and the Instagram app is not installed. */
+"Instagram App Required" = "Instagram App Required";
+
+/* Title for error alert when linking an Instagram account fails. */
+"Instagram Connect Error" = "Instagram Connect Error";
+
+/* Title for default Instagram error alert. ALL CAPITALS */
+"INSTAGRAM LOGIN ERROR" = "INSTAGRAM LOGIN ERROR";
+
+/* label */
+"Instant processing, 2.9% PayPal fee" = "Instant processing, 2.9% PayPal fee";
+
+/* Filter row title for shoes that are instantly shippable */
+"Instant Ship" = "Instant Ship";
+
+/* Instant Ship filter. ALL CAPITALS
+   Instant ship title. ALL CAPITALS
+   The fastest shipping option. ALL CAPITALS */
+"INSTANT SHIP" = "INSTANT SHIP";
+
+/* Describes our Instant Ship shipping method. There's an additional note on international shipping speeds due to customs and our authentication process. */
+"Instant Ship sneakers are pre-verified and ship directly from the GOAT warehouse. Shipping cost is the same, but you will receive the sneakers faster.\nInternational delivery times vary due to customs, but as soon as your sneakers are authenticated, we ship them and send you a link to track your package." = "Instant Ship sneakers are pre-verified and ship directly from the GOAT warehouse. Shipping cost is the same, but you will receive the sneakers faster.\nInternational delivery times vary due to customs, but as soon as your sneakers are authenticated, we ship them and send you a link to track your package.";
+
+/* Title announcing Instant Ship feature. TWO LINES. */
+"Instant Ship\nis Now Available" = "Instant Ship\nis Now Available";
+
+/* billing info table cell title. ALL CAPS */
+"INT'L & U.S." = "INT'L & U.S.";
+
+/* Title for processing fee prompt. ALL CAPITALS */
+"INTERNATIONAL PROCESSING FEE" = "INTERNATIONAL PROCESSING FEE";
+
+/* Error Message text for CVV security digits. ALL CAPITALS */
+"INVALID" = "INVALID";
+
+/* Error Message for Street Address of Address, ALL CAPITALS */
+"INVALID ADDRESS" = "INVALID ADDRESS";
+
+/* Error message for failing to delete inactive product.
+   Error message for failing to request photos for product.
+   Error message for failing to retrieve product. */
+"Invalid API object." = "Invalid API object.";
+
+/* Error message for failing to request to patch offer.
+   Error message for network request failure. */
+"Invalid AppContext, SessionContext or API." = "Invalid AppContext, SessionContext or API.";
+
+/* Error message for failing to post new product template.
+   Error message for failing to request offer data.
+   Error message for failing to request price information.
+   Error message for failing to request sell history.
+   Error message for failing to request to article data.
+   Error message for failing to request to collection.
+   Error message for failing to request to create additional products.
+   Error message for failing to request to create offer with product.
+   Error message for failing to request to create offer.
+   Error message for failing to request to create product with parameters.
+   Error message for failing to request to discovery feed data.
+   Error message for failing to request to patch offer.
+   Error message for failing to request to patch product.
+   Error message for failing to request to update price for product.
+   Error message for failing to request User QR Code. */
+"Invalid AppContext, SessionContext, or API." = "Invalid AppContext, SessionContext, or API.";
+
+/* Error message for failing to refresh user. */
+"Invalid AppContext, SessionCOntext, or API." = "Invalid AppContext, SessionCOntext, or API.";
+
+/* Error message text for chineseID of address. ALL CAPITALS */
+"INVALID CHINA ID NUMBER" = "INVALID CHINA ID NUMBER";
+
+/* Error Message text for Credit Card Number. ALL CAPITALS */
+"INVALID CREDIT CARD NUMBER" = "INVALID CREDIT CARD NUMBER";
+
+/* Error Message text for Credit Card Expiration Date. ALL CAPITALS */
+"INVALID DATE" = "INVALID DATE";
+
+/* Error message text for Korea PCCC. ALL CAPITALS */
+"INVALID Korea PCCC" = "INVALID Korea PCCC";
+
+/* 2FA error alert message */
+"Invalid or expired code! Retry or resend." = "Invalid or expired code! Retry or resend.";
+
+/* Error Message for Phone Number of Address, ALL CAPITALS
+   Error Message text for Credit Card Phone Number. ALL CAPITALS */
+"INVALID PHONE NUMBER" = "INVALID PHONE NUMBER";
+
+/* Error Message for Postal Code of Address, ALL CAPITALS
+   Error Message text for Credit Card Holder's Postal Code. ALL CAPITALS */
+"INVALID POSTAL CODE" = "INVALID POSTAL CODE";
+
+/* Issues title string */
+"Issues" = "Issues";
+
+/* Order Issues. ALL CAPITALS */
+"ISSUES" = "ISSUES";
+
+/* Empty state own list subtitle. */
+"Items you own or list for sale will appear here." = "Items you own or list for sale will appear here.";
+
+/* Error message */
+"Keychain auth data is invalid. Deleting all auth-related keychain data!" = "Keychain auth data is invalid. Deleting all auth-related keychain data!";
+
+/* Title of action for method of sorting Owns.
+   Title of action for method of sorting storage.
+   Title of action for method of sorting Wants. */
+"Last Added" = "Last Added";
+
+/* Header for last prices sold. ALL CAPITALS. Parameter 1: size */
+"LAST PRICES SOLD / %1$@" = "LAST PRICES SOLD / %1$@";
+
+/* Header for last prices sold for all sizes. ALL CAPITALS. */
+"LAST PRICES SOLD / ALL SIZES" = "LAST PRICES SOLD / ALL SIZES";
+
+/* last purchase in. ALL CAPITALS. */
+"LAST PURCHASE IN" = "LAST PURCHASE IN";
+
+/* Description and value of the price the sneaker was last sold for. ALL CAPITALIZED. Parameter 1 = Price */
+"LAST SALE %1$@" = "LAST SALE %1$@";
+
+/* Photo instructions. */
+"Lay the sneakers flat and photograph\nthe inner sides." = "Lay the sneakers flat and photograph\nthe inner sides.";
+
+/* Photo instructions. */
+"Lay the sneakers flat and photograph\nthe outer sides." = "Lay the sneakers flat and photograph\nthe outer sides.";
+
+/* label */
+"LEARN MORE" = "LEARN MORE";
+
+/* Affirm Learn More link.
+   Affirm subtitle text.
+   Afterpay subtitle text.
+   Button prompt to learn about box conditions.
+   Button prompt.
+   label
+   Prompt to learn more about offers. */
+"Learn More" = "Learn More";
+
+/* Button prompt.
+   Link text in instructions. */
+"Learn More." = "Learn More.";
+
+/* Link text to learn more about GOAT clean service. */
+"Learn more." = "Learn more.";
+
+/* Settings screen licenses section. ALL CAPITALS. */
+"LICENSES" = "LICENSES";
+
+/* Filter for lifestyle shoes. ALL CAPITALS */
+"LIFESTYLE" = "LIFESTYLE";
+
+/* `Like new` quality shoe. ALL CAPITALS */
+"LIKE NEW" = "LIKE NEW";
+
+/* `Like New` quality shoe. */
+"Like New" = "Like New";
+
+/* Confirmation message. */
+"Link Copied to Clipboard" = "Link Copied to Clipboard";
+
+/* Navigation bar title for linking Instagram account. ALL CAPITALS. */
+"LINK INSTAGRAM" = "LINK INSTAGRAM";
+
+/* ALL CAPITALS
+   cell title for linking social media accounts to a Seller account. ALL CAPITALS */
+"LINK SOCIAL ACCOUNTS" = "LINK SOCIAL ACCOUNTS";
+
+/* Label instructing users to link a social media account. */
+"Link with Instagram or Twitter" = "Link with Instagram or Twitter";
+
+/* Prompt to link a social media account instead of manual entering user info. */
+"Link with Instagram or Twitter instead" = "Link with Instagram or Twitter instead";
+
+/* Return address description to display when seller account is linked to alias. */
+"Linked to alias" = "Linked to alias";
+
+/* label
+   User own edit button. ALL CAPITALS */
+"LIST FOR SALE" = "LIST FOR SALE";
+
+/* Label. Placeholder is a number. ALL CAPITALS. */
+"LIST FOR SALE (%1$i)" = "LIST FOR SALE (%1$i)";
+
+/* Button title for resellable item. ALL CAPITALS.
+   Prompt to open alias. ALL CAPITALS. */
+"LIST ON ALIAS" = "LIST ON ALIAS";
+
+/* Seller Dashboard Listings Row title. ALL CAPITALS
+   Title of list. ALL CAPITALS. */
+"LISTINGS" = "LISTINGS";
+
+/* Data is required to load before use. */
+"Loading" = "Loading";
+
+/* button title for logging in. */
+"Log in" = "Log in";
+
+/* button title for logging in. ALL CAPITALS
+   Title of Log In screen, ALL CAPITALS */
+"LOG IN" = "LOG IN";
+
+/* Action Prompt to log out. ALL CAPITALS. */
+"LOG OUT" = "LOG OUT";
+
+/* button title for logging in. ALL CAPITALS */
+"LOGIN" = "LOGIN";
+
+/* Error title when the user cannot login. ALL CAPITALS */
+"LOGIN ERROR" = "LOGIN ERROR";
+
+/* Description of Under Retail feature. */
+"Look for the red price tag for thousands of sneakers available under retail." = "Look for the red price tag for thousands of sneakers available under retail.";
+
+/* Alert error message shown when GOAT servers are in maintenance mode.
+   Error message shown when GOAT servers are in maintenance mode. */
+"Looks like GOAT is under maintenance. Please check back in a few minutes." = "Looks like GOAT is under maintenance. Please check back in a few minutes.";
+
+/* Annoyingly passive aggressive error message. */
+"Looks like something went wrong. Please try again." = "Looks like something went wrong. Please try again.";
+
+/* Network connection error message */
+"Looks like there's a problem with your internet connection." = "Looks like there's a problem with your internet connection.";
+
+/* label
+   Low Price label text, ALL CAPITALS
+   Lowest price for product. ALL CAPITALS
+   Lowest Price label text, ALL CAPITALS
+   price description. ALL CAPITALS
+   Top Offer label text, ALL CAPITALS */
+"LOW PRICE" = "LOW PRICE";
+
+/* Heading for Lowest Price section. ALL CAPITALIZED.
+   sneaker is lowest price. ALL CAPITALS
+   The cheapest shipping option. ALL CAPITALS */
+"LOWEST PRICE" = "LOWEST PRICE";
+
+/* first initial of mens size category display name. ALL CAPITALS. */
+"M" = "M";
+
+/* primary shoe colors. ALL CAPITALS */
+"MAIN COLOR" = "MAIN COLOR";
+
+/* Empty state offer list subtitle. */
+"Make an offer and track the status here." = "Make an offer and track the status here.";
+
+/* Prompt to make an offer. */
+"Make an offer on any size. Learn more." = "Make an offer on any size. Learn more.";
+
+/* BuyBar category (selected state). ALL CAPITALS
+   BuyBar category. ALL CAPITALS
+   label
+   Make Offer button title. ALL CAPS
+   Offer Pay button title
+   Purchase Offer title. ALL CAPS
+   User offer button. ALL CAPITALS */
+"MAKE OFFER" = "MAKE OFFER";
+
+/* Label for faulty shoe condition. */
+"Markings" = "Markings";
+
+/* Prompt to cancel becoming a seller, ALL CAPITALS */
+"MAYBE LATER" = "MAYBE LATER";
+
+/* Filter Gender for men. ALL CAPITALS
+   Men size category display name. ALL CAPITALS */
+"MEN" = "MEN";
+
+/* Zendesk ticket created alert title */
+"Message received" = "Message received";
+
+/* Subtitle for shoe condition with B-GRADE title. ALL CAPITALS. */
+"MINOR MANUFACTURING DEFECTS" = "MINOR MANUFACTURING DEFECTS";
+
+/* Label for faulty shoe condition. */
+"Missing Insoles" = "Missing Insoles";
+
+/* Title for shoe condition with missing or replacement insoles. ALL CAPITALS. */
+"MISSING INSOLES" = "MISSING INSOLES";
+
+/* Condition of box `with missing lid`.
+   Title label for box condition. */
+"Missing Lid" = "Missing Lid";
+
+/* Condition of box `with missing lid`. ALL CAPITALS
+   Condition of box with missing lid.
+   Label for box condition. ALL CAPITALS. */
+"MISSING LID" = "MISSING LID";
+
+/* Date format */
+"MMM dd" = "MMM dd";
+
+/* Placeholder for Mobile Phone Number of Address when text is raised. ALL CAPITALS */
+"MOBILE PHONE" = "MOBILE PHONE";
+
+/* Placeholder for Mobile Phone Number of Address */
+"Mobile Phone" = "Mobile Phone";
+
+/* Affirm title. ALL CAPS */
+"MONTHLY PAYMENTS" = "MONTHLY PAYMENTS";
+
+/* Description of billing terms using the Affirm service.
+   Label of payment type for Affirm. */
+"Monthly Payments" = "Monthly Payments";
+
+/* Filter color for shoe. ALL CAPITALS */
+"MULTI-COLOR" = "MULTI-COLOR";
+
+/* Error message for Phone Number of Chinese Address, ALL CAPITALS */
+"MUST BE 11 DIGITS" = "MUST BE 11 DIGITS";
+
+/* Error message text for chineseID of address. ALL CAPITALS */
+"MUST BE 18 CHARACTERS" = "MUST BE 18 CHARACTERS";
+
+/* error text for credit input greater than total number of credits, ALL CAPITALS */
+"MUST BE LESS THAN AVAILABLE" = "MUST BE LESS THAN AVAILABLE";
+
+/* Prompt to mute the video's audio. */
+"Mute" = "Mute";
+
+/* Order Name. ALL CAPITALS */
+"NAME" = "NAME";
+
+/* Billing empty name message.
+   name requirement alert message */
+"Name must contain your first and last." = "Name must contain your first and last.";
+
+/* Seller Dashboard Row title for orders that need confirmation. ALL CAPITALS */
+"NEED TO CONFIRM" = "NEED TO CONFIRM";
+
+/* Seller Dashboard Row title for orders that need to be shipped or dropped off. ALL CAPITALS */
+"NEED TO SHIP OR DROP OFF" = "NEED TO SHIP OR DROP OFF";
+
+/* Button prompt. ALL CAPITALS. */
+"NEED TO SUBMIT" = "NEED TO SUBMIT";
+
+/* Network Error message. Parameter 1 is error number. */
+"Network error. Response status code: %1$ld" = "Network error. Response status code: %1$ld";
+
+/* BuyBar category (unselected state). ALL CAPITALS
+   Filter by newest data. ALL CAPITALS
+   Filter for new shoes. ALL CAPITALS
+   Filter for Popular shoes. ALL CAPITALS
+   Label for shoe condition. ALL CAPITALS.
+   Label. ALL CAPITALS.
+   New feature to show in the app. ALL CAPITALS.
+   New shoes. ALL CAPS. */
+"NEW" = "NEW";
+
+/* Category of shoe: New
+   label for `new` shoe condition
+   Label for `New` shoe condition.
+   label for shoe condition */
+"New" = "New";
+
+/* BuyBar category (unselected state). ALL CAPITALS */
+"NEW + DEFECTS" = "NEW + DEFECTS";
+
+/* ALL CAPITALS */
+"NEW + ISSUES" = "NEW + ISSUES";
+
+/* Placeholder text for email field on change email view */
+"New email" = "New email";
+
+/* Placeholder text for full name field on change full name view */
+"New full name" = "New full name";
+
+/* Placeholder text for new password field on change password view */
+"New Password" = "New Password";
+
+/* New request screen title. ALL CAPITALS.
+   Title of new request screen. ALL CAPITALS. */
+"NEW REQUEST" = "NEW REQUEST";
+
+/* Title of new request screen.
+   zendesk request subject title */
+"New Request" = "New Request";
+
+/* Placeholder text for username field on change username view */
+"New username" = "New username";
+
+/* Filter for new shoes. ALL CAPITALS */
+"NEW+DEFECTS" = "NEW+DEFECTS";
+
+/* shoe is a new release. ALL CAPITALS. */
+"NEWLY RELEASED" = "NEWLY RELEASED";
+
+/* Section title */
+"News" = "News";
+
+/* Button prompt to continue to next step of listing. ALL CAPITALS.
+   Button prompt. ALL CAPITALS.
+   Button that gets user to the next screen. ALL CAPITALS
+   Button title for proceeding to next step. ALL CAPS
+   Offer success button title.
+   Prompt to continue to checkout. */
+"NEXT" = "NEXT";
+
+/* Next trivia button. ALL CAPITALS. */
+"NEXT QUESTION" = "NEXT QUESTION";
+
+/* product nickname. ALL CAPITALS */
+"NICKNAME" = "NICKNAME";
+
+/* Out of stock no button title. ALL CAPS */
+"NO" = "NO";
+
+/* Alert cancel button prompt */
+"No" = "No";
+
+/* box condition. ALL CAPS
+   Condition of `missing` box. ALL CAPITALS
+   Condition of missing box. */
+"NO BOX" = "NO BOX";
+
+/* Alert title confirming that the listing will be updated to show no box.
+   Label for `no box` box condition. */
+"No Box" = "No Box";
+
+/* Button prompt to update listing with missing box condition. */
+"No Box?" = "No Box?";
+
+/* Button prompt to continue to next step of listing. ALL CAPITALS. */
+"NO DEFECTS" = "NO DEFECTS";
+
+/* Button title text for No China ID option, ALL CAPITALS */
+"NO ID CARD" = "NO ID CARD";
+
+/* no available items description. */
+"No items are currently available." = "No items are currently available.";
+
+/* box condition. ALL CAPS */
+"NO LID" = "NO LID";
+
+/* no available sneakers description. */
+"No new sneakers are currently available." = "No new sneakers are currently available.";
+
+/* no available sneakers description. */
+"No new sneakers with defects are currently available." = "No new sneakers with defects are currently available.";
+
+/* Label for box condition. ALL CAPITALS. */
+"NO ORIGINAL BOX" = "NO ORIGINAL BOX";
+
+/* Condition of `missing` box.
+   Title label for box condition. */
+"No Original Box" = "No Original Box";
+
+/* No countries found in search descriptor */
+"No Results.\nWe may not currently be offering services in this country." = "No Results.\nWe may not currently be offering services in this country.";
+
+/* Error message when shipping information is missing from order. */
+"No shipping contact information found." = "No shipping contact information found.";
+
+/* Alert title confirming that the listing will be updated to show no sneaker tag. */
+"No Sneaker Tag" = "No Sneaker Tag";
+
+/* zero shoes available. ALL CAPITALS */
+"No sneakers are currently available." = "No sneakers are currently available.";
+
+/* Button prompt to update listing with missing sneaker tag */
+"No Tag?" = "No Tag?";
+
+/* No Thanks to size conversion prompt. ALL CAPS */
+"NO THANKS" = "NO THANKS";
+
+/* Prompt to dismiss change currency modal */
+"No Thanks" = "No Thanks";
+
+/* no available sneakers description. */
+"No used sneakers are currently available." = "No used sneakers are currently available.";
+
+/* Korean Non-Citizen button text for segmented control. ALL CAPITALS
+   Non-Citizen button text for segmented control. ALL CAPITALS */
+"NON-CITIZEN" = "NON-CITIZEN";
+
+/* None promo code title text. */
+"None" = "None";
+
+/* Shipping option is not available. */
+"Not Available" = "Not Available";
+
+/* Button prompt. ALL CAPITALS. */
+"NOT FOR SALE" = "NOT FOR SALE";
+
+/* `Not graded` quality shoe. ALL CAPITALS */
+"NOT GRADED" = "NOT GRADED";
+
+/* `Not graded` quality shoe. */
+"Not Graded" = "Not Graded";
+
+/* Alert message for updating a listing to show no sneaker tag. */
+"Not having a sneaker tag is considered an issue and will require more photos to be taken." = "Not having a sneaker tag is considered an issue and will require more photos to be taken.";
+
+/* cancel button title. ALL CAPITALS */
+"NOT NOW" = "NOT NOW";
+
+/* payment confirmation for product title */
+"Note: this sneaker" = "Note: this sneaker";
+
+/* Title label text for Notice of Consent. ALL CAPITALS */
+"NOTICE OF CONSENT" = "NOTICE OF CONSENT";
+
+/* Action Prompt to update notification settings. ALL CAPITALS.
+   Notifications Screen title, ALL CAPITALS */
+"NOTIFICATIONS" = "NOTIFICATIONS";
+
+/* Notifications Screen title */
+"Notifications" = "Notifications";
+
+/* Description of Instant Ship feature. MULTIPLE BREAKS. */
+"Now offering our fastest shipping option ever.\nNext Day.\n\nLook for the icon and choose Instant Ship for the fastest shipping options." = "Now offering our fastest shipping option ever.\nNext Day.\n\nLook for the icon and choose Instant Ship for the fastest shipping options.";
+
+/* Prompt to shop. ALL CAPITALS. */
+"OBJECT" = "OBJECT";
+
+/* Label for vacation mode. ALL CAPITALS
+   Subtitle label for vacation mode. All CAPITALS
+   UISwitch OFF title. All CAPITALS
+   Vacation Mode Disabled label text, ALL CAPITALS */
+"OFF" = "OFF";
+
+/* Button prompt. ALL CAPITALS.
+   BuyBar category (unselected state). ALL CAPITALS
+   label
+   title of offer button. ALL CAPITALS.
+   Title of screen. ALL CAPITALS */
+"OFFER" = "OFFER";
+
+/* Offer Payment navigation title
+   User list item description. */
+"Offer" = "Offer";
+
+/* Alert sheet title for offer expiration */
+"Offer Expires In" = "Offer Expires In";
+
+/* Heading for offer expiration. ALL CAPITALS. */
+"OFFER EXPIRES\n" = "OFFER EXPIRES\n";
+
+/* Offer successful. ALL CAPS */
+"OFFER PLACED" = "OFFER PLACED";
+
+/* Alert title for updating offer price. */
+"Offer Updated" = "Offer Updated";
+
+/* Offers Title
+   Title of action for method of sorting Wants.
+   User item list navigation title. */
+"Offers" = "Offers";
+
+/* Error title. ALL CAPITALS */
+"OH NO!" = "OH NO!";
+
+/* Affirm Country restricted Alert ok title
+   Affirm restricted alert button title
+   Alert action message for failing to register new user.
+   alert button
+   alert button. ALL CAPITALS
+   Alert message button title
+   Alert OK action
+   alert title
+   ALL CAPITALS
+   Button prompt text for when a user chooses to update their currency to USD, ALL CAPITALS
+   Button prompt title to accept terms outlined in Notice of Consent Modal. ALL CAPITALS
+   Button prompt.
+   Button prompt. ALL CAPITALS
+   Button prompt. ALL CAPITALS.
+   button title
+   Button title for confirming listing price update
+   Button title for confirming updated offer price.
+   button title for saving data. ALL CAPITALS
+   button title. ALL CAPITALS
+   button. ALL CAPITALS
+   confirm action butotn title
+   Confirm purchase ok title
+   Invalid Shipping Option Okay button text, ALL CAPITALS.
+   label
+   Ok button action prompt for dismissing Chinese ID Prompt. ALL CAPITALS
+   Ok button action prompt for dismissing Korean ID Prompt. ALL CAPITALS
+   Ok button text for alert when failing to resume or start camera session.
+   Okay button prompt. ALL CAPITALS
+   Prompt Button Title, ALL CAPITALS
+   Prompt to acknowledge error message.
+   Prompt to acknowledge. ALL CAPITALS
+   Prompt to dismiss alert
+   Prompt to dismiss GOAT Storage Modal.
+   Title 'OK' on button
+   vacation mode alert ok button. ALL CAPITALS */
+"OK" = "OK";
+
+/* confirmation button. ALL CAPITALS.
+   User own edit button. ALL CAPITALS */
+"OKAY" = "OKAY";
+
+/* Label for vacation mode. ALL CAPITALS
+   UISwitch ON title. All CAPITALS
+   Vacation Mode Enabled label text, ALL CAPITALS */
+"ON" = "ON";
+
+/* Promo code empty detail text. */
+"Once activated, the promo will automatically apply at checkout if your order is eligible." = "Once activated, the promo will automatically apply at checkout if your order is eligible.";
+
+/* ONFEET title. ALL CAPITALS
+   Title of image gallery. ALL CAPITALS */
+"ONFEET" = "ONFEET";
+
+/* Section title */
+"Onfeet" = "Onfeet";
+
+/* Section title */
+"OnFeet Styles" = "OnFeet Styles";
+
+/* Title of styles section */
+"Onfeet Styles" = "Onfeet Styles";
+
+/* Alert message title
+   alert title
+   Alert title text for failing to register new user
+   An error has occurred
+   Annoyingly passive aggressive error title. ALL CAPITALS
+   Data entry error.
+   error alert title
+   error title
+   Title for alert view where something went wrong. ALL CAPITALS */
+"OOPS" = "OOPS";
+
+/* Alert title
+   alert title
+   Generic alert title */
+"Oops" = "Oops";
+
+/* Zendesk empty msg title for creating ticket */
+"Oops!" = "Oops!";
+
+/* Error message when there's an error uploading a photo. */
+"Oops, there was an error sending your photo. Please try again." = "Oops, there was an error sending your photo. Please try again.";
+
+/* Prompt to open settings. ALL CAPITALS
+   Title for open requests section. ALL CAPITALS. */
+"OPEN" = "OPEN";
+
+/* Alias redirect button. ALL CAPITALS
+   Button title for non-resellable item. ALL CAPITALS.
+   Button title for owned item. ALL CAPITALS
+   Prompt to open alias. ALL CAPITALS. */
+"OPEN ALIAS" = "OPEN ALIAS";
+
+/* open apple maps from our app */
+"Open Apple Maps" = "Open Apple Maps";
+
+/* open google maps from our app */
+"Open Google Maps" = "Open Google Maps";
+
+/* Prompt to open settings. ALL CAPITALS */
+"OPEN SETTINGS" = "OPEN SETTINGS";
+
+/* button title for registering without using a social media account */
+"Or register without linking account" = "Or register without linking account";
+
+/* Filter color for shoe. ALL CAPITALS */
+"ORANGE" = "ORANGE";
+
+/* Order number detail. ALL CAPITALS */
+"ORDER NUMBER" = "ORDER NUMBER";
+
+/* Search field placeholder text. */
+"Order Number, Sneaker Name, or SKU" = "Order Number, Sneaker Name, or SKU";
+
+/* Order Progress Screen Title. ALL CAPITALS. */
+"ORDER PROGRESS" = "ORDER PROGRESS";
+
+/* zendesk ticket subject title */
+"Order Question" = "Order Question";
+
+/* Order Date. ALL CAPITALS */
+"ORDERED ON" = "ORDERED ON";
+
+/* Navigation bar title.
+   Orders Title */
+"Orders" = "Orders";
+
+/* label
+   Navigation bar title. ALL CAPITALS.
+   Seller Dashboard Orders Row title. ALL CAPITALS */
+"ORDERS" = "ORDERS";
+
+/* Label for `badly damaged` box condition. */
+"Original (Damaged)" = "Original (Damaged)";
+
+/* Label for `good` box condition. */
+"Original (Good)" = "Original (Good)";
+
+/* Label for `missing lid` box condtion. */
+"Original (Missing Lid)" = "Original (Missing Lid)";
+
+/* Subtitle label for box in good condition. ALL CAPITALS. */
+"ORIGINAL BOX" = "ORIGINAL BOX";
+
+/* Message for original retail price */
+"Original retail price" = "Original retail price";
+
+/* Label component for other shoe condition issues. ALL CAPITALS.
+   Other issues with listing. ALL CAPITALS. */
+"OTHER ISSUES" = "OTHER ISSUES";
+
+/* Description of other shoe conditions, possibly missing items.
+   label
+   Label component for other shoe condition issues.
+   Subtitle.
+   Title. */
+"Other Issues" = "Other Issues";
+
+/* authenticity description
+   Text explaining guarantee. */
+"Our goal is to be the most trusted marketplace for sneakers, which is why we offer our Authenticity Guarantee at no additional cost to you. All sneakers are authenticated by our specialists prior to shipping to you and any sneaker that is found to be falsely advertised qualifies for a full refund under the program." = "Our goal is to be the most trusted marketplace for sneakers, which is why we offer our Authenticity Guarantee at no additional cost to you. All sneakers are authenticated by our specialists prior to shipping to you and any sneaker that is found to be falsely advertised qualifies for a full refund under the program.";
+
+/* Out of stock popup title. ALL CAPS
+   zero shoes available. ALL CAPITALS */
+"OUT OF STOCK" = "OUT OF STOCK";
+
+/* Header Right Title */
+"OWN" = "OWN";
+
+/* `Product Template Screen` `Own` Navbar Button, ALL CAPITALS
+   User list item description. */
+"Own" = "Own";
+
+/* List of products that the user owns. ALL CAPITALS. Parameter 1 = number of products that the user owns. */
+"OWN %1$d" = "OWN %1$d";
+
+/* label */
+"Own these sneakers? List them for sale now." = "Own these sneakers? List them for sale now.";
+
+/* User product update message */
+"Own this item? List it for sale now." = "Own this item? List it for sale now.";
+
+/* Owns Title
+   User item list navigation title. */
+"Owns" = "Owns";
+
+/* Owns title. ALL CAPITALS */
+"OWNS" = "OWNS";
+
+/* Placeholder for optional PCCC for Korean Non-Citizens. */
+"Passport Number (Optional)" = "Passport Number (Optional)";
+
+/* Placeholder for optional PCCC for Korean Non-Citizens when text is raised. ALL CAPITALS */
+"PASSPORT NUMBER (OPTIONAL)" = "PASSPORT NUMBER (OPTIONAL)";
+
+/* Setting password prompt, ALL CAPITALS */
+"PASSWORD" = "PASSWORD";
+
+/* Placeholder text for password field */
+"Password" = "Password";
+
+/* Alert message descriptor */
+"Password must be more than 6 characters" = "Password must be more than 6 characters";
+
+/* Alert message descriptor */
+"Passwords did not match" = "Passwords did not match";
+
+/* Payment title all. ALL CAPS */
+"PAY ALL" = "PAY ALL";
+
+/* Payment title label. ALL CAPITALS
+   Payment. ALL CAPITALS */
+"PAYMENT" = "PAYMENT";
+
+/* Payment information title. ALL CAPS */
+"PAYMENT INFORMATION" = "PAYMENT INFORMATION";
+
+/* Payment method title. ALL CAPS */
+"PAYMENT METHOD" = "PAYMENT METHOD";
+
+/* label
+   Label of payment type for PayPal
+   method to withdraw money from PayPal account
+   nav bar title */
+"PayPal" = "PayPal";
+
+/* method to withdraw money from PayPal account */
+"PayPal account" = "PayPal account";
+
+/* Message text for updating currency for an order using Paypal. */
+"Paypal is available in USD only. Would you like to update your currency preference to USD?" = "Paypal is available in USD only. Would you like to update your currency preference to USD?";
+
+/* Placeholder for PCCC for Korean Citizens when text is raised. ALL CAPITALS */
+"PCCC (REQUIRED)" = "PCCC (REQUIRED)";
+
+/* Placeholder for required PCCC for Korean Citizens */
+"PCCC (Required)" = "PCCC (Required)";
+
+/* Pending user account status */
+"Pending" = "Pending";
+
+/* Label */
+"Pending Credits" = "Pending Credits";
+
+/* Title text for prompt regarding users entering their PCCC to meet South Korean Custom requirements. */
+"Personal Customs Clearance Code" = "Personal Customs Clearance Code";
+
+/* cell title for adding the seller's personal info. ALL CAPITALS
+   Navbar title. ALL CAPITALS */
+"PERSONAL INFO" = "PERSONAL INFO";
+
+/* Edit Profile phone title text, ALL CAPITALS */
+"PHONE" = "PHONE";
+
+/* Placeholder for Phone Number of Address when text is raised. ALL CAPITALS
+   Placeholder text for Credit Card Phone Number. ALL CAPITALS */
+"PHONE NUMBER" = "PHONE NUMBER";
+
+/* data field description
+   Placeholder for Phone Number of Address
+   Placeholder text for Credit Card Phone Number.
+   Placeholder text for phone number field on phone entry view
+   Placeholder text for phone number field on shipping address view */
+"Phone Number" = "Phone Number";
+
+/* Photo count format. Parameter 1: current count. Parameter 2: total count. ALL CAPITALS. */
+"PHOTO %1$ld/%2$ld" = "PHOTO %1$ld/%2$ld";
+
+/* Zendesk image attachment placeholder */
+"Photo attached" = "Photo attached";
+
+/* Photo upload error message. */
+"Photo data to upload was empty or bad!" = "Photo data to upload was empty or bad!";
+
+/* Title of error dialog when uploading a photo. */
+"PHOTO ERROR" = "PHOTO ERROR";
+
+/* photo caption for how best to photograph your shoe. ALL CAPITALS */
+"PHOTO EXAMPLE" = "PHOTO EXAMPLE";
+
+/* Photo has been reported for potentially offensive material. */
+"Photo Reported" = "Photo Reported";
+
+/* Error title when access to the Photos app is denied. */
+"Photos Access Required" = "Photos Access Required";
+
+/* Error title. ALL CAPITALS */
+"PHOTOS MISSING" = "PHOTOS MISSING";
+
+/* Error title. ALL CAPITALS */
+"PHOTOS PROCESSING" = "PHOTOS PROCESSING";
+
+/* Filter color for shoe. ALL CAPITALS */
+"PINK" = "PINK";
+
+/* Message that offer will be placed. ALL CAPITALS */
+"PLACING YOUR OFFER..." = "PLACING YOUR OFFER...";
+
+/* Message that order will be placed. ALL CAPITALS */
+"PLACING YOUR ORDER..." = "PLACING YOUR ORDER...";
+
+/* Text for confirming info about trivia.
+   Text for confirming trivia end. */
+"Play Trivia Now" = "Play Trivia Now";
+
+/* Title for trivia info. */
+"Play trivia to earn more tickets." = "Play trivia to earn more tickets.";
+
+/* Error message shown when not able to delete last existing shipping address from list. */
+"Please add or select another address first if you'd like to delete this one." = "Please add or select another address first if you'd like to delete this one.";
+
+/* Need to add billing info payment alert message */
+"Please add your payment method." = "Please add your payment method.";
+
+/* need to add address alert message. */
+"Please add your shipping address." = "Please add your shipping address.";
+
+/* apple pay not available alert message. */
+"Please check your Apple Pay settings." = "Please check your Apple Pay settings.";
+
+/* error message */
+"Please complete all sections of the form before submitting." = "Please complete all sections of the form before submitting.";
+
+/* Message confirming the listing price. Parameter 1: price */
+"Please confirm you are listing your sneakers for %1$@." = "Please confirm you are listing your sneakers for %1$@.";
+
+/* Message explaining that Affirm will not need to be used since the user has enough credits to make the purchase. */
+"Please confirm your order for %1$@ with credits. You will not need to proceed with Affirm because you have sufficient credits to make the purchase." = "Please confirm your order for %1$@ with credits. You will not need to proceed with Affirm because you have sufficient credits to make the purchase.";
+
+/* Payment confirm alert message */
+"Please confirm your order for %@ with card ending in %@. Please also confirm your shipping address as we cannot guarantee changes once the order is placed." = "Please confirm your order for %1$@ with card ending in %2$@. Please also confirm your shipping address as we cannot guarantee changes once the order is placed.";
+
+/* Credit purchase alert message */
+"Please confirm your order for %@ with credits. Please also confirm your shipping address as we cannot guarantee changes once the order is placed." = "Please confirm your order for %@ with credits. Please also confirm your shipping address as we cannot guarantee changes once the order is placed.";
+
+/* confirm purchase skip affirm using credit alert message. */
+"Please confirm your order for %@ with credits. You will not need to proceed with Affirm because you have sufficient credits to make the purchase." = "Please confirm your order for %@ with credits. You will not need to proceed with Affirm because you have sufficient credits to make the purchase.";
+
+/* Payment alert message alert */
+"Please confirm your order for %@ with PayPal account %@. Please also confirm your shipping address as we cannot guarantee changes once the order is placed." = "Please confirm your order for %1$@ with PayPal account %2$@. Please also confirm your shipping address as we cannot guarantee changes once the order is placed.";
+
+/* Payment returnable alert message alert */
+"Please confirm your order for %@ with PayPal. Please also confirm your shipping address as we cannot guarantee changes once the order is placed." = "Please confirm your order for %@ with PayPal. Please also confirm your shipping address as we cannot guarantee changes once the order is placed.";
+
+/* Message text for when attempting to change CNID information */
+"Please contact support@goat.com for assistance if you are attemping to change your CNID Information." = "Please contact support@goat.com for assistance if you are attemping to change your CNID Information.";
+
+/* Message text for when attempting to change phone number. */
+"Please contact support@goat.com for assistance if you are attemping to change your phone number." = "Please contact support@goat.com for assistance if you are attemping to change your phone number.";
+
+/* Error message when access to the Photos app is denied. */
+"Please enable Photos access in your iPhone settings and try again." = "Please enable Photos access in your iPhone settings and try again.";
+
+/* Error message. */
+"Please enable the camera in your settings and try again." = "Please enable the camera in your settings and try again.";
+
+/* Photo instructions. */
+"Please ensure the photo accurately shows the box condition." = "Please ensure the photo accurately shows the box condition.";
+
+/* Error Message for City of Address, ALL CAPITALS
+   Error Message text for Credit Card Holder's City. ALL CAPITALS */
+"PLEASE ENTER A CITY" = "PLEASE ENTER A CITY";
+
+/* invalid phone number error label */
+"Please enter a valid phone number" = "Please enter a valid phone number";
+
+/* invalid phone number alert message */
+"Please enter a valid phone number." = "Please enter a valid phone number.";
+
+/* Billing empty postal message. */
+"Please enter a valid postal code." = "Please enter a valid postal code.";
+
+/* Billing empty street message. */
+"Please enter a valid street address." = "Please enter a valid street address.";
+
+/* Error message. */
+"Please enter the price you want to sell your sneakers for." = "Please enter the price you want to sell your sneakers for.";
+
+/* invalid info error message when registering. */
+"Please enter valid email and password." = "Please enter valid email and password.";
+
+/* seller onboarding message */
+"Please follow the examples to avoid any issues." = "Please follow the examples to avoid any issues.";
+
+/* Box condition prompt */
+"Please input the box condition." = "Please input the box condition.";
+
+/* Error message when attempting to share to Facebook and the Facebook app is not installed */
+"Please install the Facebook app and log in to share." = "Please install the Facebook app and log in to share.";
+
+/* Error message when attempting to share on Instagram and the Instagram app is not installed. */
+"Please install the Instagram app and log in to share." = "Please install the Instagram app and log in to share.";
+
+/* Error message when attempting to share on Snapchat and the Snapchat app is not installed. */
+"Please install the Snapchat app and log in to share." = "Please install the Snapchat app and log in to share.";
+
+/* Zendesk Error msg body for empty body */
+"Please let us know what your issue is." = "Please let us know what your issue is.";
+
+/* Error message when GOAT does not have access to the user's Twitter account. */
+"Please log in or allow GOAT access to your Twitter account under device settings." = "Please log in or allow GOAT access to your Twitter account under device settings.";
+
+/* seller onboarding message */
+"Please make sure to inspect your sneakers before\nlisting them for sale. If your sneakers show signs\nof wear, they must be listed under the Used section." = "Please make sure to inspect your sneakers before\nlisting them for sale. If your sneakers show signs\nof wear, they must be listed under the Used section.";
+
+/* Alert view message prompting a guest user to register or log in.
+   Prompt to create an account or log in. */
+"Please register or log in to continue." = "Please register or log in to continue.";
+
+/* Alert view message */
+"Please register or log in to create your own collection of wants and owns, monitor offers, and more." = "Please register or log in to create your own collection of wants and owns, monitor offers, and more.";
+
+/* message */
+"Please review the following examples to\navoid listing issues. Each listing is checked\nby a verification specialist, so getting\nfamiliar with our policies will save you time\nand help you get approved quicker." = "Please review the following examples to\navoid listing issues. Each listing is checked\nby a verification specialist, so getting\nfamiliar with our policies will save you time\nand help you get approved quicker.";
+
+/* Return policy for defective shoes. */
+"Please review the seller’s photos carefully on this listing. The sneakers are new, but have imperfections. No returns will be accepted." = "Please review the seller’s photos carefully on this listing. The sneakers are new, but have imperfections. No returns will be accepted.";
+
+/* label */
+"Please review the seller’s photos carefully on this listing. The sneakers are new, but have imperfections. No returns will be accepted.\n" = "Please review the seller’s photos carefully on this listing. The sneakers are new, but have imperfections. No returns will be accepted.\n";
+
+/* Billing empty country message. */
+"Please select a country." = "Please select a country.";
+
+/* Billing invalid country message. */
+"Please select a valid country." = "Please select a valid country.";
+
+/* Message explaining size limit of user data entry. */
+"Please send 1,000 characters of text at a time." = "Please send 1,000 characters of text at a time.";
+
+/* Message explaining size limit of user data entry. */
+"Please send 1000 characters of text at a time." = "Please send 1000 characters of text at a time.";
+
+/* Error message. */
+"Please set up your SMS app before trying to share via SMS" = "Please set up your SMS app before trying to share via SMS";
+
+/* alert message instructing the user to go through each seller onboarding photo */
+"Please swipe through each photo before proceeding." = "Please swipe through each photo before proceeding.";
+
+/* message explaining twitter video length requirement */
+"Please take a video that is at least 2 seconds long to post to Twitter." = "Please take a video that is at least 2 seconds long to post to Twitter.";
+
+/* message explaining instagram video length requirement */
+"Please take a video that is at least 3 seconds long to post to Instagram's feed." = "Please take a video that is at least 3 seconds long to post to Instagram's feed.";
+
+/* Error message. */
+"Please take all the necessary pictures." = "Please take all the necessary pictures.";
+
+/* Error Message. */
+"Please try again after captcha pop up." = "Please try again after captcha pop up.";
+
+/* Error message
+   Error message when linking an Instagram account fails. */
+"Please try again later or log in with a different service." = "Please try again later or log in with a different service.";
+
+/* Prompt to search for something different or select a suggestion. */
+"Please try again or check out some of the items below." = "Please try again or check out some of the items below.";
+
+/* Error title for force update. ALL CAPITALS */
+"PLEASE UPDATE THE APP" = "PLEASE UPDATE THE APP";
+
+/* Error message Text For familyName of Address. ALL CAPITALS
+   Error Message Text For givenName of Address. ALL CAPITALS */
+"PLEASE USE CHINESE CHARS." = "PLEASE USE CHINESE CHARS.";
+
+/* Detailed instructions. */
+"Please verify the SKU, sizes and quantities are correct before proceeding. If the listings are correct, tap OK to continue." = "Please verify the SKU, sizes and quantities are correct before proceeding. If the listings are correct, tap OK to continue.";
+
+/* Return policy for used shoes. */
+"Please view the sneaker photos carefully. Returns are not accepted on used sneakers." = "Please view the sneaker photos carefully. Returns are not accepted on used sneakers.";
+
+/* label */
+"Please view the sneaker photos carefully. Returns are not accepted on Used sneakers.\n" = "Please view the sneaker photos carefully. Returns are not accepted on Used sneakers.\n";
+
+/* alert message for resetting password */
+"Please view your email for password reset instructions" = "Please view your email for password reset instructions";
+
+/* `Poor` quality shoe. ALL CAPITALS */
+"POOR" = "POOR";
+
+/* `Poor` quality shoe. */
+"Poor" = "Poor";
+
+/* Filter by newest data. ALL CAPITALS
+   Filter for Popular shoes. ALL CAPITALS */
+"POPULAR" = "POPULAR";
+
+/* Popular Searches text */
+"Popular Searches" = "Popular Searches";
+
+/* Placeholder for Postal Code of Address
+   Placeholder text for Credit Card Holder's Postal Code.
+   Placeholder text for postal code field on shipping address view
+   postal code field data descriptor */
+"Postal Code" = "Postal Code";
+
+/* Placeholder for Postal Code of Address when text is raised. ALL CAPITALS
+   Placeholder text for Credit Card Holder's Postal Code. ALL CAPITALS */
+"POSTAL CODE" = "POSTAL CODE";
+
+/* Copyright text at the bottom of redirect to alias pop up. */
+"Powered by GOAT Group" = "Powered by GOAT Group";
+
+/* The pair of sneakers is available to ship immediately. */
+"Pre-verified and ships instantly." = "Pre-verified and ships instantly.";
+
+/* Describes our Instant Ship shipping method */
+"Pre-verified sneakers ship instantly" = "Pre-verified sneakers ship instantly";
+
+/* Processing request to be a seller. ALL CAPITALS */
+"PREPARING" = "PREPARING";
+
+/* Title of preproduction server */
+"Preproduction" = "Preproduction";
+
+/* Button prompt to see preview of listing. ALL CAPITALS */
+"PREVIEW" = "PREVIEW";
+
+/* Error title. ALL CAPITALS */
+"PRICE MISSING" = "PRICE MISSING";
+
+/* ALL CAPITALS */
+"PRICE YOUR SNEAKERS" = "PRICE YOUR SNEAKERS";
+
+/* Label. ALL CAPITALS.
+   Priority Shipping title. ALL CAPITALS */
+"PRIORITY SHIPPING" = "PRIORITY SHIPPING";
+
+/* button
+   Label: Privacy Policy */
+"Privacy Policy" = "Privacy Policy";
+
+/* title for product details section. ALL CAPITALS */
+"Product Detail" = "Product Detail";
+
+/* Title of production server */
+"Production" = "Production";
+
+/* Description of GOAT Clean service. */
+"Professionally cleaned and authenticated by our specialists." = "Professionally cleaned and authenticated by our specialists.";
+
+/* title for Profile tab */
+"Profile" = "Profile";
+
+/* Action Prompt to edit user's profile. ALL CAPITALS. */
+"PROFILE" = "PROFILE";
+
+/* Action Prompt to see Promo Codes. ALL CAPITALS.
+   Navigation title for promo codes. ALL CAPITALS.
+   Promo Code title label. ALL CAPITALS
+   Screen title for editing promo codes. ALL CAPITALS. */
+"PROMO CODE" = "PROMO CODE";
+
+/* Screen title for editing promo codes. */
+"Promo Code" = "Promo Code";
+
+/* Label for the promo code value applied. ALL CAPITALS
+   Order Promo Code. ALL CAPITALS */
+"PROMO CODE USED" = "PROMO CODE USED";
+
+/* ALL CAPITALS */
+"PROMOTE YOUR LISTING" = "PROMOTE YOUR LISTING";
+
+/* province field data descriptor */
+"Province" = "Province";
+
+/* Placeholder for State of Address for China */
+"Province/City/District" = "Province/City/District";
+
+/* Placeholder for State of Address when text is raised. ALL CAPITALS */
+"PROVINCE/CITY/DISTRICT" = "PROVINCE/CITY/DISTRICT";
+
+/* Buy payment button title
+   Purchase title. ALL CAPS */
+"PURCHASE" = "PURCHASE";
+
+/* zendesk ticket subject title */
+"Purchase Question" = "Purchase Question";
+
+/* Title of tab for purchased products. ALL CAPITALS. */
+"PURCHASED" = "PURCHASED";
+
+/* Currency Selector Banner message text */
+"Purchases will transact in your selected currency.\nOffers and selling are available in USD only." = "Purchases will transact in your selected currency.\nOffers and selling are available in USD only.";
+
+/* Filter color for shoe. ALL CAPITALS */
+"PURPLE" = "PURPLE";
+
+/* Prompt to store shoes with GOAT Storage */
+"Put into GOAT Storage" = "Put into GOAT Storage";
+
+/* Title of QA server */
+"QA" = "QA";
+
+/* Recent Searches text */
+"Recent Searches" = "Recent Searches";
+
+/* Title of recommended collections section */
+"Recommended Collections" = "Recommended Collections";
+
+/* Filter color for shoe. ALL CAPITALS */
+"RED" = "RED";
+
+/* button title text for refreshing data, ALL CAPITALS */
+"REFRESH" = "REFRESH";
+
+/* Button title for signing up. ALL CAPITALS
+   button title for signing up. ALL CAPITALS */
+"REGISTER" = "REGISTER";
+
+/* Button title for signing up. */
+"Register" = "Register";
+
+/* Alert view title prompting a guest user to register or log in. ALL CAPITALS
+   Alert view title, ALL CAPITALS
+   Prompt to create an account or log in. ALL CAPITALS */
+"REGISTER OR LOG IN" = "REGISTER OR LOG IN";
+
+/* Invalid or Suspended user account status */
+"Rejected" = "Rejected";
+
+/* Date a shoe is released to public. ALL CAPITALS */
+"RELEASE DATE" = "RELEASE DATE";
+
+/* Prompt to reload data. ALL CAPITALS */
+"RELOAD" = "RELOAD";
+
+/* Error message */
+"RemoteFlipper is invalid." = "RemoteFlipper is invalid.";
+
+/* Error message */
+"RemoteFlipper queried for remote item before server has responded." = "RemoteFlipper queried for remote item before server has responded.";
+
+/* Error message */
+"RemoteFlipper's API Client and/or Session Context are invalid." = "RemoteFlipper's API Client and/or Session Context are invalid.";
+
+/* Error message */
+"RemoteItemAfterpay incorrect initialization." = "RemoteItemAfterpay incorrect initialization.";
+
+/* Remote configuration error message */
+"RemoteItemAlgoliaLegacy incorrect initialization." = "RemoteItemAlgoliaLegacy incorrect initialization.";
+
+/* Error message */
+"RemoteItemAlipay incorrect initialization." = "RemoteItemAlipay incorrect initialization.";
+
+/* Remote configuration error message */
+"RemoteItemDefaultShoeSize incorrect initialization." = "RemoteItemDefaultShoeSize incorrect initialization.";
+
+/* Remote configuration error message */
+"RemoteItemMinVerLegacy incorrect initialization." = "RemoteItemMinVerLegacy incorrect initialization.";
+
+/* Error message */
+"RemoteItemReleaseDay incorrect initialization." = "RemoteItemReleaseDay incorrect initialization.";
+
+/* Remote configuration error message. Parameter 1: config id */
+"RemoteLegacy %1$@ queried for remote item before server has responded." = "RemoteLegacy %1$@ queried for remote item before server has responded.";
+
+/* Remote configuration error message */
+"RemoteLegacy is invalid." = "RemoteLegacy is invalid.";
+
+/* Remote configuration error message */
+"RemoteLegacy's API Client and/or Session Context are invalid." = "RemoteLegacy's API Client and/or Session Context are invalid.";
+
+/* Remove payment method action message. ALL CAPITALS
+   Remove shipping action message. ALL CAPITALS */
+"REMOVE" = "REMOVE";
+
+/* Remove shipping cell alert title. ALL CAPITALS */
+"REMOVE ADDRESS" = "REMOVE ADDRESS";
+
+/* Remove payment method alert title. ALL CAPITALS */
+"REMOVE PAYMENT METHOD" = "REMOVE PAYMENT METHOD";
+
+/* Prompt to remove post */
+"Remove Post" = "Remove Post";
+
+/* Button prompt to open ticket again. ALL CAPITALS. */
+"REOPEN" = "REOPEN";
+
+/* Subtitle label for box condition. ALL CAPITALS. */
+"REPLACEMENT / NO BOX" = "REPLACEMENT / NO BOX";
+
+/* Subtitle for shoe condition with MISSING INSOLES title. ALL CAPITALS. */
+"REPLACEMENT / NO INSOLES" = "REPLACEMENT / NO INSOLES";
+
+/* Prompt to report post */
+"Report Post" = "Report Post";
+
+/* Request creation date. */
+"Request created on %1$@" = "Request created on %1$@";
+
+/* navigation bar title for seller application. ALL CAPITALS */
+"REQUEST TO SELL" = "REQUEST TO SELL";
+
+/* Button prompt to remove all filter info. */
+"Reset" = "Reset";
+
+/* button title for resetting all data. ALL CAPITALS */
+"RESET" = "RESET";
+
+/* Title of password reset screen. ALL CAPITALS. */
+"RESET PASSWORD" = "RESET PASSWORD";
+
+/* Title for resolved requests section. ALL CAPITALS. */
+"RESOLVED" = "RESOLVED";
+
+/* Button prompt. To replace existing photo with a new one. ALL CAPITALS. */
+"RETAKE" = "RETAKE";
+
+/* Prompt to try logging in again. ALL CAPITALS. */
+"RETRY" = "RETRY";
+
+/* Return Address Title. */
+"Return Address" = "Return Address";
+
+/* Action Prompt to see & update user's return address. ALL CAPITALS.
+   cell title for adding the seller's return address. ALL CAPITALS
+   Navbar title. ALL CAPITALS
+   Return Address Title, ALL CAPITALS */
+"RETURN ADDRESS" = "RETURN ADDRESS";
+
+/* street address 1 field data descriptor */
+"Return Address Line 1" = "Return Address Line 1";
+
+/* street address 2 field data descriptor */
+"Return Address Line 2" = "Return Address Line 2";
+
+/* Label. ALL CAPITALS.
+   Return policy title. ALL CAPITALS */
+"RETURN POLICY" = "RETURN POLICY";
+
+/* appending defect special message */
+"Returns are not accepted on %@ sneakers." = "Returns are not accepted on %@ sneakers.";
+
+/* appending defect message */
+"Returns are not accepted on sneakers with defects." = "Returns are not accepted on sneakers with defects.";
+
+/* not refundable appending message */
+"Returns are not accepted on Used sneakers." = "Returns are not accepted on Used sneakers.";
+
+/* Section title */
+"Review" = "Review";
+
+/* Payment: cost label title. ALL CAPS */
+"REVIEW TOTAL" = "REVIEW TOTAL";
+
+/* Filter for running shoes. ALL CAPITALS */
+"RUNNING" = "RUNNING";
+
+/* Filter row title */
+"Sale" = "Sale";
+
+/* Return policy for sample shoes. */
+"Samples are sneakers that are pre-production. Some may have never made it to production at all. Returns are not accepted on Sample sneakers." = "Samples are sneakers that are pre-production. Some may have never made it to production at all. Returns are not accepted on Sample sneakers.";
+
+/* label */
+"Samples are sneakers that are pre-production. Some may have never made it to production at all. Returns are not accepted on Sample sneakers.\n" = "Samples are sneakers that are pre-production. Some may have never made it to production at all. Returns are not accepted on Sample sneakers.\n";
+
+/* Filter for sandals. ALL CAPITALS */
+"SANDALS" = "SANDALS";
+
+/* Add to user items. ALL CAPITALS
+   Button prompt to save. ALL CAPITALS.
+   Button prompt.
+   Button prompt. ALL CAPITALS.
+   button title for saving data. ALL CAPITALS
+   Button title for updating sell price. ALL CAPS
+   Navbar button ALL CAPITALS
+   Navbar Button, ALL CAPITALS
+   Save Button Title. ALL CAPITALS
+   Save NavBar Button. ALL CAPITALS
+   Title. ALL CAPITALS. */
+"SAVE" = "SAVE";
+
+/* button */
+"Save" = "Save";
+
+/* Save own button title */
+"SAVE OWN" = "SAVE OWN";
+
+/* Save own button title */
+"SAVE WANT" = "SAVE WANT";
+
+/* Title of share status of photo or video. ALL CAPITALS. */
+"SAVED" = "SAVED";
+
+/* Confirmation message. */
+"Saved to Camera Roll" = "Saved to Camera Roll";
+
+/* Message while saving. */
+"Saving" = "Saving";
+
+/* Title for shoe condition with scuff marks from normal wear. ALL CAPITALS. */
+"SCUFF MARKS" = "SCUFF MARKS";
+
+/* Generic searchbar placeholder
+   Placeholder text for search bar.
+   Prompt to enter a search query
+   Search field placeholder text.
+   title for Search tab */
+"Search" = "Search";
+
+/* Placeholder text in search bar */
+"Search by SKU" = "Search by SKU";
+
+/* ALL CAPITALS */
+"SEARCH BY SKU" = "SEARCH BY SKU";
+
+/* Season of year this product was released. ALL CAPITALS */
+"SEASON" = "SEASON";
+
+/* Title of alert view shown when attempting to change profile information. ALL CAPITALS */
+"SECURED INFORMATION" = "SECURED INFORMATION";
+
+/* seller101 policy security message */
+"Security is important to us.\nPlease read and agree to our seller\nverification policy below." = "Security is important to us.\nPlease read and agree to our seller\nverification policy below.";
+
+/* Button prompt to see all articles about a help topic. Parameter 1: Number of articles. ALL CAPITALS. */
+"SEE ALL %1$d ARTICLES" = "SEE ALL %1$d ARTICLES";
+
+/* Button title for loading more recommended products. ALL CAPITALS */
+"See more" = "See more";
+
+/* Size Selection no gender default. ALL CAPITALS. */
+"SELECT A SIZE" = "SELECT A SIZE";
+
+/* Prompt to select a shoe size in US Mens sizing. ALL CAPITALS */
+"SELECT ONE US MEN'S SIZE" = "SELECT ONE US MEN'S SIZE";
+
+/* Error message for State of Address. ALL CAPITALS */
+"SELECT PROVINCE/CITY/DISTRICT" = "SELECT PROVINCE/CITY/DISTRICT";
+
+/* Error message for State of Address. ALL CAPITALS */
+"SELECT STATE/PROVINCE" = "SELECT STATE/PROVINCE";
+
+/* Want instruction */
+"Select your size to get notifcations for price drops and restocks." = "Select your size to get notifcations for price drops and restocks.";
+
+/* `Product Template Screen` `Sell` Navbar Button, ALL CAPITALS
+   title for Sell tab */
+"Sell" = "Sell";
+
+/* label. ALL CAPITALS
+   Navbar title
+   Navbar title for seller tab
+   Prompt to sell the product. ALL CAPITALS
+   Sell title. ALL CAPITALS
+   title of sell button. ALL CAPITALS. */
+"SELL" = "SELL";
+
+/* title for new upcoming feature. ALL CAPITALS. */
+"SELL / COMING SOON" = "SELL / COMING SOON";
+
+/* Button title for selling product. ALL CAPS
+   label */
+"SELL NOW" = "SELL NOW";
+
+/* Title for sell button with price. Paramter 1 = price. ALL CAPITALS */
+"SELL NOW %1$@" = "SELL NOW %1$@";
+
+/* Prompt to sell the product. */
+"Sell now at this price." = "Sell now at this price.";
+
+/* Button title for listing sneakers for sale. ALL CAPITALS */
+"SELL YOUR SNEAKERS" = "SELL YOUR SNEAKERS";
+
+/* User product update message. Parameter 1: highest offer */
+"Sell yours immediately for %1$@ or add your own price." = "Sell yours immediately for %1$@ or add your own price.";
+
+/* label */
+"Sell yours immediately for %@ or add a lower price than %@ to increase your chances of selling them." = "Sell yours immediately for %1$@ or add a lower price than %2$@ to increase your chances of selling them.";
+
+/* label */
+"Sell yours immediately for %@ or add your own price." = "Sell yours immediately for %@ or add your own price.";
+
+/* cell title for seller onboarding. ALL CAPITALS
+   Navbar title for seller onboarding. ALL CAPITALS */
+"SELLER 101" = "SELLER 101";
+
+/* Seller Dashboard Seller ID Row title. ALL CAPITALS
+   Seller ID title text, ALL CAPITALS */
+"SELLER ID" = "SELLER ID";
+
+/* GOAT has verified the photos the seller provided. ALL CAPITALS */
+"SELLER PHOTOS VERIFIED" = "SELLER PHOTOS VERIFIED";
+
+/* Explanation of how Seller points affect the commision rate. */
+"Seller points determine your commission rate." = "Seller points determine your commission rate.";
+
+/* Label for seller score. ALL CAPITALS */
+"SELLER RATING" = "SELLER RATING";
+
+/* label. ALL CAPITALS */
+"SELLER RATING HISTORY" = "SELLER RATING HISTORY";
+
+/* title of seller application status. ALL CAPITALS */
+"SELLER REQUEST SUBMITTED" = "SELLER REQUEST SUBMITTED";
+
+/* Seller missing items order detail. */
+"Seller Says" = "Seller Says";
+
+/* seller missing title */
+"Seller Says Missing" = "Seller Says Missing";
+
+/* Product detail. */
+"Seller Says: " = "Seller Says: ";
+
+/* seller101 policy message title. ALL CAPITALS */
+"SELLER VERIFICATION POLICY" = "SELLER VERIFICATION POLICY";
+
+/* Seller application linking social description */
+"Sellers with good reputations will get approved faster. Tap to link as many of your social accounts as possible." = "Sellers with good reputations will get approved faster. Tap to link as many of your social accounts as possible.";
+
+/* Title of action for method of sorting Owns. */
+"Selling" = "Selling";
+
+/* Zendesk send photo library image button title */
+"SEND IMAGE" = "SEND IMAGE";
+
+/* Button prompt to reset password. ALL CAPITALS. */
+"SEND RESET LINK" = "SEND RESET LINK";
+
+/* Error message */
+"Server and cached response for RemoteFlipper.loadFromAPI is not valid." = "Server and cached response for RemoteFlipper.loadFromAPI is not valid.";
+
+/* Remote configuration error message */
+"Server and cached response for RemoteLegacy.loadFromAPI is not valid." = "Server and cached response for RemoteLegacy.loadFromAPI is not valid.";
+
+/* Error Title. ALL CAPITALS
+   title of error shown when GOAT servers are in maintenance mode. ALL CAPITALS */
+"SERVICE TEMPORARILY UNAVAILABLE" = "SERVICE TEMPORARILY UNAVAILABLE";
+
+/* Remote configuration error message */
+"Session Context's remoteAggregator is invalid." = "Session Context's remoteAggregator is invalid.";
+
+/* Settings Button Prompt. ALL CAPITALS
+   Title of Settings screen, ALL CAPITALS */
+"SETTINGS" = "SETTINGS";
+
+/* Settings Button Prompt */
+"Settings" = "Settings";
+
+/* Share button title. ALL CAPITALS.
+   Share contest button title, ALL CAPITALS */
+"SHARE" = "SHARE";
+
+/* `Product Template Screen` `Share` Navbar Button, ALL CAPITALS
+   Button prompt. */
+"Share" = "Share";
+
+/* Prompt to share image or video. ALL CAPITALS */
+"SHARE AND SAVE" = "SHARE AND SAVE";
+
+/* Button prompt. ALL CAPITALS. */
+"SHARE THIS LISTING" = "SHARE THIS LISTING";
+
+/* Share to earn message. */
+"Share to earn up to 125 more tickets." = "Share to earn up to 125 more tickets.";
+
+/* message */
+"Share your listing across mobile and web to help your sneakers sell more quickly. Simply tap share and select from Instagram, Twitter, Facebook, SMS and/or Email." = "Share your listing across mobile and web to help your sneakers sell more quickly. Simply tap share and select from Instagram, Twitter, Facebook, SMS and/or Email.";
+
+/* Prompt to share style photos */
+"Share your personal style." = "Share your personal style.";
+
+/* Title of share status of photo or video. ALL CAPITALS. */
+"SHARED" = "SHARED";
+
+/* Prompt to ship the stored product to a home address. ALL CAPITALS
+   title of ship button. ALL CAPITALS. */
+"SHIP" = "SHIP";
+
+/* address title albel. All CAPS
+   Apple Pay Address title. ALL CAPITALS
+   Order Shipping Address. ALL CAPITALS
+   Shipping address title label. ALL CAPITALS */
+"SHIP TO" = "SHIP TO";
+
+/* Apple Pay Address detail */
+"Ship to Apple Pay Address" = "Ship to Apple Pay Address";
+
+/* Seller Dashboard Row title for orders that have shipped. ALL CAPITALS */
+"SHIPPED" = "SHIPPED";
+
+/* Apple Pay shipping. ALL CAPS
+   Label for the shipping cost. ALL CAPITALS
+   Order Shipping Price. ALL CAPITALS
+   Shipping method title label. ALL CAPITALS
+   Shipping options navigation title. ALL CAPS
+   Shipping title. ALL CAPITALS
+   Total Cost shipping cost button title */
+"SHIPPING" = "SHIPPING";
+
+/* Shipping Address Title. */
+"Shipping Address" = "Shipping Address";
+
+/* Shipping address input title. ALL CAPS
+   Shipping Address Title, ALL CAPITALS */
+"SHIPPING ADDRESS" = "SHIPPING ADDRESS";
+
+/* button to learn more about shipping & return policies */
+"SHIPPING AND RETURNS" = "SHIPPING AND RETURNS";
+
+/* Shipping info title. ALL CAPS */
+"SHIPPING INFO" = "SHIPPING INFO";
+
+/* Shipping methods navigation title. ALL CAPS */
+"SHIPPING METHOD" = "SHIPPING METHOD";
+
+/* Invalid Shipping Option alert title text, ALL CAPITALS. */
+"SHIPPING METHOD UPDATED TO STANDARD" = "SHIPPING METHOD UPDATED TO STANDARD";
+
+/* Placeholder for Street Address of Shipping Address when text is raised. ALL CAPITALS */
+"SHIPPING STREET ADDRESS 1" = "SHIPPING STREET ADDRESS 1";
+
+/* Placeholder for Street Address of Shipping Address */
+"Shipping Street Address 1" = "Shipping Street Address 1";
+
+/* Placeholder for Street Address 2 of Shipping Address */
+"Shipping Street Address 2" = "Shipping Street Address 2";
+
+/* Placeholder for Street Address 2 of Shipping Address when text is raised. ALL CAPITALS */
+"SHIPPING STREET ADDRESS 2" = "SHIPPING STREET ADDRESS 2";
+
+/* Shipping Address List Title, ALL CAPS */
+"SHIPPING TO" = "SHIPPING TO";
+
+/* Payment Shipping cost title */
+"Shipping:" = "Shipping:";
+
+/* Product ships immediately. ALL CAPITALS */
+"SHIPS INSTANTLY" = "SHIPS INSTANTLY";
+
+/* Prompt to shop all items in list. */
+"Shop All" = "Shop All";
+
+/* Title announcing Apparel feature. */
+"Shop Apparel" = "Shop Apparel";
+
+/* Prompt to shop. ALL CAPITALS.
+   SHOP NOW promo code button. ALL CAPITALS. */
+"SHOP NOW" = "SHOP NOW";
+
+/* Title announcing Sneaker feature. */
+"Shop Sneakers" = "Shop Sneakers";
+
+/* Prompt to shop the selected style. */
+"Shop This Style" = "Shop This Style";
+
+/* Title announcing Under Retail feature. */
+"Shop Under Retail" = "Shop Under Retail";
+
+/* Button label to show hidden text
+   button title for showing the password in a textfield */
+"Show" = "Show";
+
+/* Prompt to share style photos */
+"Show off how you wear yours." = "Show off how you wear yours.";
+
+/* Prompt to show feet. ALL CAPITALS. */
+"SHOW YOUR FEET" = "SHOW YOUR FEET";
+
+/* Currency Conversion banner message text */
+"Showing approximate conversions \nOffers will transact in USD" = "Showing approximate conversions \nOffers will transact in USD";
+
+/* Currency Conversion Banner Message text for Wants */
+"Showing approximate conversions\nOffers will transact in USD" = "Showing approximate conversions\nOffers will transact in USD";
+
+/* Currency Conversion Banner Message text for Owns and Storage products */
+"Showing approximate conversions\nSelling is available in USD only" = "Showing approximate conversions\nSelling is available in USD only";
+
+/* Prompt to explain toggle to sign up for email updates */
+"Sign up for E-mail updates" = "Sign up for E-mail updates";
+
+/* shoe shape / outline. ALL CAPITALS */
+"SILHOUETTE" = "SILHOUETTE";
+
+/* Filter color for shoe. ALL CAPITALS */
+"SILVER" = "SILVER";
+
+/* Title for shopping similar styles. */
+"Similar Styles" = "Similar Styles";
+
+/* Describes the shipping speed due to our authentication process with an additional note on international shipping. */
+"Since all sneakers come to us for authentication first, domestic orders are typically received in 7-9 business days.\nInternational delivery times vary due to customs, but as soon as your sneakers are authenticated, we ship them and send you a link to track your package." = "Since all sneakers come to us for authentication first, domestic orders are typically received in 7-9 business days.\nInternational delivery times vary due to customs, but as soon as your sneakers are authenticated, we ship them and send you a link to track your package.";
+
+/* Action Prompt to see & update size preference settings. ALL CAPITALS.
+   Order Size. ALL CAPITALS
+   single gender size title
+   size category title that will be represented by a numerical value. ALL CAPITALS.
+   size title. ALL CAPS */
+"SIZE" = "SIZE";
+
+/* Filter row title
+   Label for size */
+"Size" = "Size";
+
+/* Label: Size and the actual size. */
+"Size %.01f" = "Size %.01f";
+
+/* Button prompt to choose size preferences. ALL CAPITALS. */
+"SIZE PREFERENCES" = "SIZE PREFERENCES";
+
+/* Filter for skateboarding shoes. ALL CAPITALS */
+"SKATEBOARDING" = "SKATEBOARDING";
+
+/* Order SKU. ALL CAPITALS */
+"SKU" = "SKU";
+
+/* Prompt to adjust price. */
+"Slide to adjust your price." = "Slide to adjust your price.";
+
+/* Abbreviation for 'Short Message Service' aka, a cell phone text. */
+"SMS" = "SMS";
+
+/* Error title when attempting to share on Snapchat and the Snapchat app is not installed. */
+"Snapchat App Required" = "Snapchat App Required";
+
+/* Sneaker searchbar placeholder */
+"Sneaker Name or Sku" = "Sneaker Name or Sku";
+
+/* Settings Title For `Sneaker Shipped For Verification` Notifications */
+"Sneaker shipped for verification" = "Sneaker shipped for verification";
+
+/* Settings Title For `Sneaker Shipped` Notifications */
+"Sneaker shipped to you" = "Sneaker shipped to you";
+
+/* Settings Title For `Sneaker Size Available` Notifications */
+"Sneaker size available" = "Sneaker size available";
+
+/* Sneakers title. ALL CAPITALS */
+"SNEAKERS" = "SNEAKERS";
+
+/* navigation title for home page.
+   Navigation title for user item list. */
+"Sneakers" = "Sneakers";
+
+/* Sneakers title. Param 1 = Number of results. ALL CAPITALS */
+"SNEAKERS (%1$@)" = "SNEAKERS (%1$@)";
+
+/* Prompt to choose category. Parameter 1 = count in category. */
+"Sneakers (%1$@)" = "Sneakers (%1$@)";
+
+/* Details explaining Owns */
+"Sneakers you own or list for sale will appear here." = "Sneakers you own or list for sale will appear here.";
+
+/* Details explaining Wants */
+"Sneakers you want or make offers on will appear here." = "Sneakers you want or make offers on will appear here.";
+
+/* list of what you can buy on GOAT. ALL CAPITALS. */
+"SNEAKERS\nACCESSORIES\nAPPAREL" = "SNEAKERS\nACCESSORIES\nAPPAREL";
+
+/* Button prompt. ALL CAPITALS.
+   Title of tab for sold products. ALL CAPITALS. */
+"SOLD" = "SOLD";
+
+/* Description of Instant Ship feature. MULTIPLE BREAKS. */
+"Some sneakers are pre-verified and can ship instantly from GOAT.\n\nLook for the icon, and choose the fastest shipping sneaker at checkout." = "Some sneakers are pre-verified and can ship instantly from GOAT.\n\nLook for the icon, and choose the fastest shipping sneaker at checkout.";
+
+/* Settings Title For `On Feet` Notifications */
+"Someone liked your onfeet photo" = "Someone liked your onfeet photo";
+
+/* Error title. ALL CAPITALS
+   error title. ALL CAPITALS.
+   Prompt title, ALL CAPITALS */
+"SORRY" = "SORRY";
+
+/* default error message when page does not load. */
+"Sorry! We were unable to load this page. Please try again." = "Sorry! We were unable to load this page. Please try again.";
+
+/* 2FA error alert message */
+"Sorry! We were unable to send you a 2FA code. Please try again." = "Sorry! We were unable to send you a 2FA code. Please try again.";
+
+/* Update email error alert message */
+"Sorry! We were unable to update your email. Please try again." = "Sorry! We were unable to update your email. Please try again.";
+
+/* Update full name error alert message */
+"Sorry! We were unable to update your full name. Please try again." = "Sorry! We were unable to update your full name. Please try again.";
+
+/* Update password error alert message */
+"Sorry! We were unable to update your password. Please try again." = "Sorry! We were unable to update your password. Please try again.";
+
+/* Update username error alert message */
+"Sorry! We were unable to update your username. Please try again." = "Sorry! We were unable to update your username. Please try again.";
+
+/* error message when there are no sizes available for filtering */
+"Sorry!\nThere are no sizes available." = "Sorry!\nThere are no sizes available.";
+
+/* Error message presented when the camera is not recording. */
+"Sorry, capturing isn't working right now." = "Sorry, capturing isn't working right now.";
+
+/* Error message presented when the camera is not available. */
+"Sorry, the camera isn't working right now." = "Sorry, the camera isn't working right now.";
+
+/* Error message presented when the TryOn is not working. */
+"Sorry, this feature isn't available right now." = "Sorry, this feature isn't available right now.";
+
+/* Error message presented when a particular model is not available. */
+"Sorry, this model isn't available right now." = "Sorry, this model isn't available right now.";
+
+/* Error message presented when the camera is not saving to file. */
+"Sorry, we couldn't save your media so you can share it. Please try again." = "Sorry, we couldn't save your media so you can share it. Please try again.";
+
+/* message explaining twitter file size requirement */
+"Sorry, your video is over 5MB and is too large to share on Twitter. Try taking a shorter video." = "Sorry, your video is over 5MB and is too large to share on Twitter. Try taking a shorter video.";
+
+/* Sort button text, capitalized.
+   Title of button for sorting shoes that owned or wanted. ALL CAPITALS */
+"SORT" = "SORT";
+
+/* Filter row title */
+"Sort By" = "Sort By";
+
+/* Title of action sheet for sorting Owns. */
+"Sort owns by" = "Sort owns by";
+
+/* Title of action sheet for sorting storage. */
+"Sort storage by" = "Sort storage by";
+
+/* Title of action sheet for sorting wants. */
+"Sort wants by" = "Sort wants by";
+
+/* Photo instructions. */
+"Stack the sneakers sideways to take a\nphoto of the soles." = "Stack the sneakers sideways to take a\nphoto of the soles.";
+
+/* Title of staging server */
+"Staging" = "Staging";
+
+/* 2FA text charge label */
+"Standard phone carrier charges may apply." = "Standard phone carrier charges may apply.";
+
+/* Standard Shipping option. Parameter 1 = Shipping Price */
+"Standard Shipping: %1$@" = "Standard Shipping: %1$@";
+
+/* Button: Allow user to browse app w/o log in. ALL CAPITALS */
+"Start Browsing" = "Start Browsing";
+
+/* User want update message. */
+"Start by making an offer and we'll notify sellers who own this item to list it for sale." = "Start by making an offer and we'll notify sellers who own this item to list it for sale.";
+
+/* label */
+"Start by making an offer and we’ll notify sellers who own this sneaker to list them for sale." = "Start by making an offer and we’ll notify sellers who own this sneaker to list them for sale.";
+
+/*  state field data descriptor */
+"State" = "State";
+
+/* Placeholder for State of Address */
+"State / Province" = "State / Province";
+
+/* Placeholder for State of Address when text is raised. ALL CAPITALS */
+"STATE / PROVINCE" = "STATE / PROVINCE";
+
+/* Detail text for non-resellable item. */
+"Stay up-to-date when this item is available to sell." = "Stay up-to-date when this item is available to sell.";
+
+/* GOAT Storage Shipping Option Name text
+   Storage Title
+   User item list navigation title.
+   User list item description. */
+"Storage" = "Storage";
+
+/* Title for products in storage. ALL CAPITALS */
+"STORAGE" = "STORAGE";
+
+/* List of products that we store for the user. ALL CAPITALS. Parameter 1 = number of products that we are storing for the user. */
+"STORAGE %1$d" = "STORAGE %1$d";
+
+/* GOAT Storage title label. ALL CAPITALS */
+"STORE" = "STORE";
+
+/* GOAT Storage Shipping Option Description text. */
+"Store your sneakers with GOAT Storage until you're ready to ship or list them for sale." = "Store your sneakers with GOAT Storage until you're ready to ship or list them for sale.";
+
+/* Placeholder for Street Address of Return Address when text is raised. ALL CAPITALS
+   Placeholder for Street Address of Shipping Address when text is raised. ALL CAPITALS */
+"STREET ADDRESS" = "STREET ADDRESS";
+
+/* Placeholder for Street Address of Return Address
+   Placeholder for Street Address of Shipping Address
+   Placeholder text for street address field on shipping address view */
+"Street Address" = "Street Address";
+
+/* Placeholder for Street Address 2 of Return Address */
+"Street Address 2" = "Street Address 2";
+
+/* Placeholder for Street Address 2 of Return Address when text is raised. ALL CAPITALS */
+"STREET ADDRESS 2" = "STREET ADDRESS 2";
+
+/* STYLES title. ALL CAPITALS
+   Styles title. ALL CAPITALS */
+"STYLES" = "STYLES";
+
+/* Header title for Styles
+   title for Styles tab
+   Title of styles section */
+"Styles" = "Styles";
+
+/* Header title for Styles collection name */
+"Styles: %1$@" = "Styles: %1$@";
+
+/* Button prompt to submit listing. ALL CAPITALS
+   Button prompt. ALL CAPITALS.
+   button title for submitting a request to become a seller. ALL CAPITALS
+   Prompt to enter tickets. ALL CAPITALS */
+"SUBMIT" = "SUBMIT";
+
+/* Button prompt. */
+"Submit" = "Submit";
+
+/* Apple Pay subtotal. ALL CAPS
+   Label for the subtotal of the order. ALL CAPITALS
+   Order Subtotal detail. ALL CAPITALS
+   Subtotal title label. ALL CAPITALS
+   Total Cost sub total button title */
+"SUBTOTAL" = "SUBTOTAL";
+
+/* ALL CAPITALS */
+"SUCCESS" = "SUCCESS";
+
+/* payment success label title. ALL CAPS
+   Payment successful. ALL CAPS */
+"SUCCESS!" = "SUCCESS!";
+
+/* Confirmation title of successful social media share. */
+"Success!" = "Success!";
+
+/* Seller rating description. ALL CAPITALS. */
+"SUCCESSFUL SALE: +2 / CANCELLATION: -10" = "SUCCESSFUL SALE: +2 / CANCELLATION: -10";
+
+/* Settings screen Support Section. */
+"Support" = "Support";
+
+/* Settings screen Support Section. ALL CAPITALS. */
+"SUPPORT" = "SUPPORT";
+
+/* Seller Rating descriptor */
+"SUSPENDED" = "SUSPENDED";
+
+/* Prompt to continue with payment. ALL CAPITALS */
+"SWIPE TO CONTINUE" = "SWIPE TO CONTINUE";
+
+/* Prompt to place offer. ALL CAPITALS */
+"SWIPE TO PLACE OFFER" = "SWIPE TO PLACE OFFER";
+
+/* Prompt to place order. ALL CAPITALS */
+"SWIPE TO PLACE ORDER" = "SWIPE TO PLACE ORDER";
+
+/* A faster shipping option is available. Prompt to select faster option. */
+"Switch to Instant Ship to get it faster." = "Switch to Instant Ship to get it faster.";
+
+/* Abbreviation for size. ALL CAPITALS.
+   label
+   Label title component for converted shoe size.
+   Label title component for shoe size.
+   Size abbreviation used in product cell. ALL CAPS */
+"SZ" = "SZ";
+
+/* Label: Abbreviation of 'Size' and the actual size. */
+"SZ %.01f" = "SZ %.01f";
+
+/* 2 character abbreviation of 'SIZE'. ALL CAPITALS. Parameter 1: actual shoe size number.
+   Description of size starting with two letter size abbreviation and item name. Parameter 1: size
+   Factory Size. ALL CAPITALS. Parameter 1 = Factory size starting with two letter size abbreviation. */
+"SZ %1$@" = "SZ %1$@";
+
+/* Description of size starting with two letter size abbreviation. i.e. SZ US M 7. Parameter 1 = 2 character country code. Parameter 2 = 1 character gender code. Parameter 3: size. */
+"SZ %1$@ %2$@ %3$@" = "SZ %1$@ %2$@ %3$@";
+
+/* Description of size starting with two letter size abbreviation. Parameter 1: converted size. Parameter 2: original size */
+"SZ %1$@ (%2$@)" = "SZ %1$@ (%2$@)";
+
+/* Description of size starting with two letter size abbreviation and item name. Parameter 1: size. Parameter 2: item name
+   Description of size starting with two letter size abbreviation. Parameter 1: size. Parameter 2: item name
+   Factory Size and Item Name. ALL CAPITALS. Parameter 1 = Factory size starting with two letter size abbreviation. Parameter 2 = Name of the item. */
+"SZ %1$@ / %2$@" = "SZ %1$@ / %2$@";
+
+/* Photo instructions. */
+"Take a photo of the back of\nthe sneakers." = "Take a photo of the back of\nthe sneakers.";
+
+/* Photo instructions. */
+"Take a photo of the sneaker tag." = "Take a photo of the sneaker tag.";
+
+/* Photo instructions. */
+"Take a photo of the top of\nthe sneakers." = "Take a photo of the top of\nthe sneakers.";
+
+/* Button
+   Button prompt to take a photo using the camera
+   Button prompt.
+   prompt to use camera */
+"Take Photo" = "Take Photo";
+
+/* ALL CAPITALS */
+"TAKE QUALITY PHOTOS" = "TAKE QUALITY PHOTOS";
+
+/* Filter color for shoe. ALL CAPITALS */
+"TAN" = "TAN";
+
+/* Title. */
+"Tap anywhere to close" = "Tap anywhere to close";
+
+/* Photo instructions. */
+"Tap next or retake\nthe photo." = "Tap next or retake\nthe photo.";
+
+/* Own instruction */
+"Tap the sizes you own to add the item to your profile for easy viewing and selling." = "Tap the sizes you own to add the item to your profile for easy viewing and selling.";
+
+/* Header description title */
+"Tap the sizes you own to add the sneakers to your profile for easy viewing and selling." = "Tap the sizes you own to add the sneakers to your profile for easy viewing and selling.";
+
+/* Message text for Checkout China ID Images Prompt */
+"Tap to add your China ID information for faster shipping and a lower tax rate." = "Tap to add your China ID information for faster shipping and a lower tax rate.";
+
+/* Button prompt. ALL CAPITALS. */
+"TAP TO COPY LINK" = "TAP TO COPY LINK";
+
+/* Order estimated tax. ALL CAPITALS */
+"TAX" = "TAX";
+
+/* Filter color for shoe. ALL CAPITALS */
+"TEAL" = "TEAL";
+
+/* technology the shoe is made of. ALL CAPITALS */
+"TECHNOLOGY" = "TECHNOLOGY";
+
+/* Action Prompt to view legal stuff. ALL CAPITALS. */
+"TERMS & PRIVACY" = "TERMS & PRIVACY";
+
+/* button
+   Label: Terms of Service */
+"Terms of Service" = "Terms of Service";
+
+/* Button prompt to resend code via text. */
+"Text another code" = "Text another code";
+
+/* Button prompt to request 2FA code. ALL CAPITALS. */
+"TEXT ME THE CODE" = "TEXT ME THE CODE";
+
+/* 'Thank you' message to user after purchase. ALL CAPITALS */
+"THANK YOU" = "THANK YOU";
+
+/* Heading thanking the user for exploring */
+"Thank you for exploring" = "Thank you for exploring";
+
+/* Title alert shown after making a listing. */
+"Thanks" = "Thanks";
+
+/* Message to the user acknowledging their report has been submitted successfully. */
+"Thanks for improving the community! We'll review this shortly." = "Thanks for improving the community! We'll review this shortly.";
+
+/* label */
+"The best offer for these sneakers is %@. Make an offer that is higher to increase your chances of getting them." = "The best offer for these sneakers is %@. Make an offer that is higher to increase your chances of getting them.";
+
+/* User want update message. Parameter 1: price */
+"The best offer is %1$@. Make an offer that is higher to increase your chances of getting this item." = "The best offer is %1$@. Make an offer that is higher to increase your chances of getting this item.";
+
+/* authenticity description
+   Shipping cost message string */
+"The cost of shipping is $10 to the 48 contiguous states, $15 to Hawaii and Alaska, $30 to Canada, and $40 to everywhere else. Customers may incur additional charges for sneaker packs and heavy items. Since all shoes comes to us for verification first, orders will typically arrive within 7-10 business days for domestic customers. International delivery times vary and international customers are responsible for any additional taxes once shipped." = "The cost of shipping is $10 to the 48 contiguous states, $15 to Hawaii and Alaska, $30 to Canada, and $40 to everywhere else. Customers may incur additional charges for sneaker packs and heavy items. Since all shoes comes to us for verification first, orders will typically arrive within 7-10 business days for domestic customers. International delivery times vary and international customers are responsible for any additional taxes once shipped.";
+
+/* Text explaining shipping policy. */
+"The cost of shipping is $10 to the 48 contiguous states, $15 to Hawaii and Alaska, $35 to Canada, and $50 to everywhere else. Customers may incur additional charges for sneaker packs and heavy items. Since all shoes comes to us for verification first, orders will typically arrive within 7-10 business days for domestic customers. International delivery times vary and international customers are responsible for any additional taxes once shipped." = "The cost of shipping is $10 to the 48 contiguous states, $15 to Hawaii and Alaska, $35 to Canada, and $50 to everywhere else. Customers may incur additional charges for sneaker packs and heavy items. Since all shoes comes to us for verification first, orders will typically arrive within 7-10 business days for domestic customers. International delivery times vary and international customers are responsible for any additional taxes once shipped.";
+
+/* Detailed instructions. */
+"The first sneaker listed is considered the master and it cannot be deleted. You may edit the price and box condition, but if the first listing is incorrect, please start over." = "The first sneaker listed is considered the master and it cannot be deleted. You may edit the price and box condition, but if the first listing is incorrect, please start over.";
+
+/* Alert message shown when a listing will be updated to show no box. */
+"The listing will be updated to show no box." = "The listing will be updated to show no box.";
+
+/* User product update message. Parameter 1: lowest price. Parameter 2: highest offer */
+"The lowest price for these sneakers is currently %1$@. Lower your price to increase your chances of selling them or sell them immediately for %2$@." = "The lowest price for these sneakers is currently %1$@. Lower your price to increase your chances of selling them or sell them immediately for %2$@.";
+
+/* label */
+"The lowest price for these sneakers is currently %@. Lower your price to increase your chances of selling them or sell them immediately for %@." = "The lowest price for these sneakers is currently %1$@. Lower your price to increase your chances of selling them or sell them immediately for %2$@.";
+
+/* label */
+"The lowest price for these sneakers is currently %@. Lower your price to increase your chances of selling them." = "The lowest price for these sneakers is currently %@. Lower your price to increase your chances of selling them.";
+
+/* User product update message. Parameter 1: lowest price */
+"The lowest price for this item is currently %1$@. Lower you price to increase your chances of selling." = "The lowest price for this item is currently %1$@. Lower you price to increase your chances of selling.";
+
+/* User product update message. Parameter 1: lowest price. Parameter 2: highest offer */
+"The lowest price for this item is currently %1$@. Lower your price to increase your chances of selling or sell immediately for %2$@." = "The lowest price for this item is currently %1$@. Lower your price to increase your chances of selling or sell immediately for %2$@.";
+
+/* User product update message. Parameter 1: lowest price */
+"The lowest price is currently %1$@. List your item for a lower price to increase your chances of selling." = "The lowest price is currently %1$@. List your item for a lower price to increase your chances of selling.";
+
+/* label */
+"The lowest price is currently %@. List your sneakers for a lower price to increase your chances of selling them." = "The lowest price is currently %@. List your sneakers for a lower price to increase your chances of selling them.";
+
+/* The user will be disciplined. */
+"The user will be penalized." = "The user will be penalized.";
+
+/* Message shown when there are no GOAT Clean products. */
+"There are no GOAT Clean sneakers available at this time." = "There are no GOAT Clean sneakers available at this time.";
+
+/* Message shown when there are no used shoes of this model. */
+"There are no used sneakers available at this time." = "There are no used sneakers available at this time.";
+
+/* label */
+"There is a 2.9% fee for each PayPal cash out. By entering the email address your PayPal account is associated with, you agree to the additional fee." = "There is a 2.9% fee for each PayPal cash out. By entering the email address your PayPal account is associated with, you agree to the additional fee.";
+
+/* Login error message. */
+"There was an error logging in. Please try again." = "There was an error logging in. Please try again.";
+
+/* error message */
+"There was an error saving size preferences. Please try again." = "There was an error saving size preferences. Please try again.";
+
+/* size conversion error message */
+"There was an error trying to convert your size." = "There was an error trying to convert your size.";
+
+/* error message when updating size preference fails */
+"There was an error trying to edit your size. Please try again." = "There was an error trying to edit your size. Please try again.";
+
+/* Facebook sharing error message */
+"There was an issue sharing to Facebook." = "There was an issue sharing to Facebook.";
+
+/* seller onboarding application issue message */
+"There was an issue with your seller request. Please try submitting your request again." = "There was an issue with your seller request. Please try submitting your request again.";
+
+/* label message */
+"There were no matching results. Please adjust your filters." = "There were no matching results. Please adjust your filters.";
+
+/* label
+   label message
+   Message for no resulting currency code from search. */
+"There were no matching results. Please try a different search." = "There were no matching results. Please try a different search.";
+
+/* no results message */
+"There were no matching results.\nPlease adjust your filters." = "There were no matching results.\nPlease adjust your filters.";
+
+/* Detail message for international processing fee prompt */
+"This fee is associated with processing non-USD currencies. You will not be charged currency conversion fees through your purchasing card." = "This fee is associated with processing non-USD currencies. You will not be charged currency conversion fees through your purchasing card.";
+
+/* message */
+"This info is used to verify identity and deposit earnings after your sneakers sell. We will never share it with anyone else." = "This info is used to verify identity and deposit earnings after your sneakers sell. We will never share it with anyone else.";
+
+/* Return address description message */
+"This return address will be used for shipping labels we provide." = "This return address will be used for shipping labels we provide.";
+
+/* Extra instructions about defect information. */
+"This section is to be used for defects only.\nWe reserve the right to remove any comments that do not adhere to our guidelines." = "This section is to be used for defects only.\nWe reserve the right to remove any comments that do not adhere to our guidelines.";
+
+/* Short summary of Instant Ship feature. */
+"This sneaker is pre-verified and will ship instantly!" = "This sneaker is pre-verified and will ship instantly!";
+
+/* The product is sold out, but we found a similar replacement product */
+"This sneaker you were purchasing was just bought by someone else, but we have found another shoe which may have a different price." = "This sneaker you were purchasing was just bought by someone else, but we have found another shoe which may have a different price.";
+
+/* The product is out of stock. The user will need to select a new product. */
+"This sneaker you were purchasing was just bought by someone else. Please choose another sneaker." = "This sneaker you were purchasing was just bought by someone else. Please choose another sneaker.";
+
+/* Trivia end message. */
+"This trivia game has ended for today. Start playing the next game to keep earning tickets." = "This trivia game has ended for today. Start playing the next game to keep earning tickets.";
+
+/* Screen title for tickets that are completed. ALL CAPITALS. */
+"TICKET RESOLVED" = "TICKET RESOLVED";
+
+/* Tickets earned. ALL CAPITALS. */
+"TICKETS EARNED" = "TICKETS EARNED";
+
+/* nav title. ALL CAPITALS */
+"TIPS FOR SELLING" = "TIPS FOR SELLING";
+
+/* Error message & instructions for force update view. */
+"To continue using GOAT, please update to the latest version of the app." = "To continue using GOAT, please update to the latest version of the app.";
+
+/* alert message */
+"To continue, please accept the terms of our payment processing partner by selecting the radio button." = "To continue, please accept the terms of our payment processing partner by selecting the radio button.";
+
+/* Detail for return address change. */
+"To edit your return address, you will need to use alias." = "To edit your return address, you will need to use alias.";
+
+/* China ID info screen top notice. */
+"To ensure customs inspection, please input correct information on your ID card. This photo is only used for customs clearance." = "To ensure customs inspection, please input correct information on your ID card. This photo is only used for customs clearance.";
+
+/* message */
+"To ensure you’re listing the correct sneaker model, please search by the SKU number. This can be found on either the inside of the shoe or on the box." = "To ensure you’re listing the correct sneaker model, please search by the SKU number. This can be found on either the inside of the shoe or on the box.";
+
+/* Detail prompt asking for information to become a seller */
+"To list your shoes, we need some quick info so you can get paid once your sneakers sell." = "To list your shoes, we need some quick info so you can get paid once your sneakers sell.";
+
+/* 2FA popup description */
+"To protect your account,\nwe’ve added an additional layer of security. Please follow the steps to continue." = "To protect your account,\nwe’ve added an additional layer of security. Please follow the steps to continue.";
+
+/* Instructions to contact support to switch back selling account. */
+"To switch back to your GOAT selling account,\nplease contact us" = "To switch back to your GOAT selling account,\nplease contact us";
+
+/* Missing Token Error message */
+"Token must be provided to resume an existing GOAT API v1 session." = "Token must be provided to resume an existing GOAT API v1 session.";
+
+/* Heading for Top Offer section. ALL CAPITALIZED.
+   Highest priced offer. ALL CAPITALS
+   label
+   price description. ALL CAPITALS
+   Top Offer label text, ALL CAPITALS
+   top offer title string. ALL CAPITALS */
+"TOP OFFER" = "TOP OFFER";
+
+/* The highest price offered for these shoes. ALL CAPITALS. Parameter 1: The price in USD. */
+"TOP: %1$@" = "TOP: %1$@";
+
+/* Order Total. ALL CAPITALS
+   Total checkout price. ALL CAPITALS
+   Total Cost total title */
+"TOTAL" = "TOTAL";
+
+/* Total cost label title. ALL CAPS */
+"TOTAL COST" = "TOTAL COST";
+
+/* Order Tracking. ALL CAPITALS */
+"TRACKING" = "TRACKING";
+
+/* Trending text */
+"Trending" = "Trending";
+
+/* Title for Trending Sneakers */
+"Trending Sneakers" = "Trending Sneakers";
+
+/* title for trivia ended. ALL CAPITALS */
+"TRIVIA ENDED" = "TRIVIA ENDED";
+
+/* Prompt to try on. ALL CAPITALS. */
+"TRY-ON" = "TRY-ON";
+
+/* alert title for turning vacation mode off. ALL CAPITALS */
+"TURN OFF VACATION MODE" = "TURN OFF VACATION MODE";
+
+/* message */
+"Turn on location services to help\naccurately fill in your return address." = "Turn on location services to help\naccurately fill in your return address.";
+
+/* alert title for turning vacation mode on. ALL CAPITALS */
+"TURN ON VACATION MODE" = "TURN ON VACATION MODE";
+
+/* Error title for requiring Twitter authorization. */
+"Twitter Authorization Required" = "Twitter Authorization Required";
+
+/* Alert title for error connecting to Twitter. */
+"Twitter Connect Error" = "Twitter Connect Error";
+
+/* Alert title for error logging in to Twitter, ALL CAPITALS */
+"TWITTER LOGIN ERROR" = "TWITTER LOGIN ERROR";
+
+/* Error message for missing Twitter session. */
+"Twitter session not found." = "Twitter session not found.";
+
+/* alert title text for Two factor authorization, ALL CAPITALS */
+"TWO FACTOR AUTHENTICATION" = "TWO FACTOR AUTHENTICATION";
+
+/* United Kingdom country code display name, ALL CAPITALS. */
+"UK" = "UK";
+
+/* United Kingdom sizing chart title */
+"UK Sizes" = "UK Sizes";
+
+/* Error text for failure to acquire countryService due to an undefined CountryService */
+"Unable to acquire countryService due to an undefined CountryService" = "Unable to acquire countryService due to an undefined CountryService";
+
+/* Error message for failing to save user changes to credit used for purchase. */
+"Unable to apply GOAT credit changes." = "Unable to apply GOAT credit changes.";
+
+/* Error message for attempting to delete a credit card. */
+"Unable to delete billing info." = "Unable to delete billing info.";
+
+/* Error message
+   Error message. */
+"Unable to like this photo." = "Unable to like this photo.";
+
+/* Error message */
+"Unable to load OnFeet photos." = "Unable to load OnFeet photos.";
+
+/* Failed to refresh user and retrieve updated amount of credits error message */
+"Unable to refresh user's credits." = "Unable to refresh user's credits.";
+
+/* Error message */
+"Unable to remove this photo" = "Unable to remove this photo";
+
+/* Error message */
+"Unable to report this photo." = "Unable to report this photo.";
+
+/* Error text for failure to retrieve list of states for selected country */
+"Unable to request states for isocode: \(isoCode) due to an undefined CountryService" = "Unable to request states for isocode: \(isoCode) due to an undefined CountryService";
+
+/* Alert message for failing to resume or start camera session. */
+"Unable to resume" = "Unable to resume";
+
+/* Error text for failure to save address. */
+"Unable To Save Address" = "Unable To Save Address";
+
+/* Error message for failing to save login data without valid User ID. */
+"Unable to save legacy login data without valid UserID." = "Unable to save legacy login data without valid UserID.";
+
+/* Error message for failing to select Affirm as a payment option. */
+"Unable to select Affirm." = "Unable to select Affirm.";
+
+/* Error message for failing to select Afterpay as a payment option. */
+"Unable to select Afterpay" = "Unable to select Afterpay";
+
+/* Error message for failing to select Alipay as a payment option. */
+"Unable to select Alipay" = "Unable to select Alipay";
+
+/* Error message for failing to select Apple Pay as a payment option. */
+"Unable to select Apple Pay." = "Unable to select Apple Pay.";
+
+/* Error message for failing to select credit card as a payment option. */
+"Unable to select billing info." = "Unable to select billing info.";
+
+/* Error message
+   Error message. */
+"Unable to unlike this photo." = "Unable to unlike this photo.";
+
+/* Error text for failure to update current user. */
+"Unable To Update Current User" = "Unable To Update Current User";
+
+/* Promo code is unavailable  */
+"Unavailable" = "Unavailable";
+
+/* Filter title for shoes listed under retail price */
+"Under Retail" = "Under Retail";
+
+/* box condition. ALL CAPS
+   Under Retail filter. ALL CAPITALS
+   Under retail price title. ALL CAPITALS */
+"UNDER RETAIL" = "UNDER RETAIL";
+
+/* Unit category title that will be represented by country abbreviation. ALL CAPITALS. */
+"UNIT" = "UNIT";
+
+/* Label text for `Unknown` box condition. ALL CAPITALS. */
+"UNKNOWN" = "UNKNOWN";
+
+/* Error message for failing to create a Product Share URL.
+   Error message for failing to delete inactive product.
+   Error message for failing to delete product listed for sale.
+   Error message for failing to process capture image data.
+   Error message for invalid GET photos for product response.
+   Error message for invalid GET Product API response. */
+"Unknown error" = "Unknown error";
+
+/* Error message for failing to get personalInfo from infoAdapter.
+   Error message for failing to parse credits.
+   Error message for failing to parse owns.
+   Error message for failing to parse photos for product.
+   Error message for failing to parse products for product template. */
+"Unknown Error" = "Unknown Error";
+
+/* Message to user when an unknown error has occurred. Parameter 1 = error number. */
+"Unknown error (%1$d)" = "Unknown error (%1$d)";
+
+/* Error message
+   Error message for unknown network error.
+   Network error message. */
+"Unknown network error." = "Unknown network error.";
+
+/* Filter for Newest ppcoming shoes. ALL CAPITALS */
+"UPCOMING" = "UPCOMING";
+
+/* button title text for upgrading to latest app version, ALL CAPITALS */
+"UPDATE" = "UPDATE";
+
+/* alert title */
+"Update Cash Out" = "Update Cash Out";
+
+/* Prompt to update currency, ALL CAPITALS
+   Title text for update currency prompt, ALL CAPITALS */
+"UPDATE CURRENCY" = "UPDATE CURRENCY";
+
+/* Title prompt describing the ability to change currency being shown. */
+"Update Currency" = "Update Currency";
+
+/* Button title for updating offer. ALL CAPS
+   label
+   User offer button. ALL CAPITALS */
+"UPDATE OFFER" = "UPDATE OFFER";
+
+/* label
+   User own edit button. ALL CAPITALS */
+"UPDATE PRICE" = "UPDATE PRICE";
+
+/* Settings Title For `Offer Updated` Notifications */
+"Updates on your offers" = "Updates on your offers";
+
+/* Settings Title For `Seller Status Updated` Notifications */
+"Updates on your seller status" = "Updates on your seller status";
+
+/* Settings Title For `Sneakers Ready For Sale` Notifications */
+"Updates on your sneakers for sale" = "Updates on your sneakers for sale";
+
+/* alert message */
+"Updating your cash out method will delete the one currently used. Would you like to proceed?" = "Updating your cash out method will delete the one currently used. Would you like to proceed?";
+
+/* material the shoe is made of. ALL CAPITALS */
+"UPPER MATERIAL" = "UPPER MATERIAL";
+
+/* United States country code display name, ALL CAPITALS. */
+"US" = "US";
+
+/* Filter row title */
+"US M Size" = "US M Size";
+
+/* Size Selection men's size. ALL CAPITALS. */
+"US MEN'S SIZES" = "US MEN'S SIZES";
+
+/* ALL CAPITALS */
+"US ONLY: DIRECT DEPOSIT" = "US ONLY: DIRECT DEPOSIT";
+
+/* label */
+"US Only: Direct Deposit (ACH)" = "US Only: Direct Deposit (ACH)";
+
+/* Product Batch title text for US Size. ALL CAPITALS. */
+"US SIZE" = "US SIZE";
+
+/* United States sizing chart title */
+"US Sizes" = "US Sizes";
+
+/* Size Selection women's size. ALL CAPITALS. */
+"US WOMEN'S SIZES" = "US WOMEN'S SIZES";
+
+/* Size Selection youth's size. ALL CAPITALS. */
+"US YOUTH SIZES" = "US YOUTH SIZES";
+
+/* currency abbreviation. ALL CAPITALS */
+"USD" = "USD";
+
+/* String format for USD representation of price including USD ISO Code. Param1 = formatted price in USD. ALL CAPITALS */
+"USD %1$@" = "USD %1$@";
+
+/* Prompt to use a saved address */
+"Use a Saved Address" = "Use a Saved Address";
+
+/* Label describing the ability to use the billing address information as the shipping address. */
+"Use As Shipping Address" = "Use As Shipping Address";
+
+/* Button title for selecting to use another account. ALL CAPITALS. */
+"USE OTHER ACCOUNT" = "USE OTHER ACCOUNT";
+
+/* Category of shoe: Used
+   label for `used` shoe condition
+   Label for `Used` shoe condition.
+   label for shoe condition */
+"Used" = "Used";
+
+/* ALL CAPITALS
+   Button prompt to view used shoes. ALL CAPITALS.
+   BuyBar category (unselected state). ALL CAPITALS
+   Filter for used shoes. ALL CAPITALS
+   Label. ALL CAPITALS.
+   Used shoes condition. ALL CAPS. */
+"USED" = "USED";
+
+/* Error message for empty user auth token when attempting to authenticate with Zendesk.
+   Error message for Zendesk SDK not being ready. */
+"User auth token is empty" = "User auth token is empty";
+
+/* Edit Profile username title text, ALL CAPITALS
+   Title of username settings. ALL CAPITALS. */
+"USERNAME" = "USERNAME";
+
+/* Placeholder text for username or email field */
+"Username or Email" = "Username or Email";
+
+/* Error message & instructions for login Error view. */
+"Username or password is not correct." = "Username or password is not correct.";
+
+/* label
+   User is away on vacation */
+"Vacation" = "Vacation";
+
+/* Seller Dashboard Vacation Mode Row title. ALL CAPITALS
+   Vacation Mode Screen title, ALL CAPITALS */
+"VACATION MODE" = "VACATION MODE";
+
+/* Vaction mode title */
+"Vacation Mode" = "Vacation Mode";
+
+/* Order estimated VAT. ALL CAPITALS */
+"VAT" = "VAT";
+
+/* method to withdraw money from Venmo account */
+"Venmo" = "Venmo";
+
+/* method to withdraw money from Venmo account */
+"Venmo account" = "Venmo account";
+
+/* Apple Pay verification. ALL CAPS
+   Label for verification cost. ALL CAPITALS
+   Payment verification title. ALL CAPS
+   Total Cost verification title */
+"VERIFICATION" = "VERIFICATION";
+
+/* Summary Verification title */
+"Verification:" = "Verification:";
+
+/* `Very good` quality shoe. ALL CAPITALS */
+"VERY GOOD" = "VERY GOOD";
+
+/* `Very good` quality shoe. */
+"Very Good" = "Very Good";
+
+/* Prompt to view completed offer. ALL CAPITALS */
+"VIEW OFFER" = "VIEW OFFER";
+
+/* Prompt to view completed order. ALL CAPITALS */
+"VIEW ORDER" = "VIEW ORDER";
+
+/* Prompt to view return policy. */
+"View our Purchase & Return Policy." = "View our Purchase & Return Policy.";
+
+/* Prompt to view product. ALL CAPITALS */
+"VIEW PRODUCT" = "VIEW PRODUCT";
+
+/* View Order Progress Button Text, ALL CAPITALS */
+"VIEW PROGRESS" = "VIEW PROGRESS";
+
+/* Button prompt to use the filters. ALL CAPITALS. */
+"VIEW RESULTS" = "VIEW RESULTS";
+
+/* label */
+"View results below. If you can't find it, tap here." = "View results below. If you can't find it, tap here.";
+
+/* On Feet Header Button Title, ALL CAPITALS
+   Prompt to view sneaker. ALL CAPITALS */
+"VIEW SNEAKER" = "VIEW SNEAKER";
+
+/* Text explaining that TryOn feature needs camera permission. */
+"Virtual Try On requires camera permission." = "Virtual Try On requires camera permission.";
+
+/* first initial of womens size category display name. ALL CAPITALS. */
+"W" = "W";
+
+/* `Product Template Screen` `Want` Navbar Button, ALL CAPITALS
+   User list item description. */
+"Want" = "Want";
+
+/* Want Title */
+"WANT" = "WANT";
+
+/* List of products that the user wants. ALL CAPITALS. Parameter 1 = number of products that the user wants. */
+"WANT %1$d" = "WANT %1$d";
+
+/* Want popup button title. ALL CAPS */
+"WANT ADDED" = "WANT ADDED";
+
+/* Detail prompt explaining what GOAT Storage is */
+"Want to resell these in the future or save space at home? Select GOAT Storage as your shipping option at checkout and we'll secure your sneakers until you're ready to ship." = "Want to resell these in the future or save space at home? Select GOAT Storage as your shipping option at checkout and we'll secure your sneakers until you're ready to ship.";
+
+/* Out of stock popup description. */
+"Want us to notify you when they're\navailable in your size?" = "Want us to notify you when they're\navailable in your size?";
+
+/* Wants title. ALL CAPITALS */
+"WANTS" = "WANTS";
+
+/* User item list navigation title.
+   Wants Title */
+"Wants" = "Wants";
+
+/* Message specifiying why it is not possible to make an offer on an item. */
+"We are currently not accepting listings for in season items." = "We are currently not accepting listings for in season items.";
+
+/* Message specifiying why it is not possible to make an offer on an item. */
+"We are currently not accepting offers for in season items." = "We are currently not accepting offers for in season items.";
+
+/* message to display when offers are not accepted. */
+"We are currently not accepting\noffers for in season items." = "We are currently not accepting\noffers for in season items.";
+
+/* Error message for when Apple Pay is unavailable. */
+"We cannot process your Apple Pay order." = "We cannot process your Apple Pay order.";
+
+/* Apple Pay cannot be used for this purchase. User must switch to a different payment method. */
+"We cannot process your GOAT Credit with Apple Pay. To use your credit please switch your payment method." = "We cannot process your GOAT Credit with Apple Pay. To use your credit please switch your payment method.";
+
+/* The user's search query found zero results. */
+"We couldn't find what you are looking for." = "We couldn't find what you are looking for.";
+
+/* Text explaining return policy. */
+"We gladly accept returns on New In Box and New No Box shoes that are in the same condition as when shipped. We do not accept returns on special types (Vintage, Sample, ID, Custom, Defect) or any Used Shoes. You have 3 days to request a return from the date you received your sneakers. Once we process your return, we will refund you for the amount you paid, less the shipping costs to and from you. This refund will be issued in the form of GOAT credit to use on future purchases. To initiate this return, please email help@airgoat.com." = "We gladly accept returns on New In Box and New No Box shoes that are in the same condition as when shipped. We do not accept returns on special types (Vintage, Sample, ID, Custom, Defect) or any Used Shoes. You have 3 days to request a return from the date you received your sneakers. Once we process your return, we will refund you for the amount you paid, less the shipping costs to and from you. This refund will be issued in the form of GOAT credit to use on future purchases. To initiate this return, please email help@airgoat.com.";
+
+/* authenticity description */
+"We gladly accept returns on New In Box and New No Box shoes that are in the same condition as when shipped. We do not accept returns on special types (Vintage, Sample, ID, Custom, Defect) or any Used Shoes. You have 3 days to request a return from the date you received your sneakers. Once we process your return, we will refund you for the amount you paid, less the shipping costs to and from you. This refund will be issued in the form of GOAT credit to use on future purchases. To initiate this return, please email support@goat.com." = "We gladly accept returns on New In Box and New No Box shoes that are in the same condition as when shipped. We do not accept returns on special types (Vintage, Sample, ID, Custom, Defect) or any Used Shoes. You have 3 days to request a return from the date you received your sneakers. Once we process your return, we will refund you for the amount you paid, less the shipping costs to and from you. This refund will be issued in the form of GOAT credit to use on future purchases. To initiate this return, please email support@goat.com.";
+
+/* Message for updating offer price. Parameter 1: price, Parameter 2: date and time. */
+"We have updated your offer to %1$@, expiring on %2$@." = "We have updated your offer to %1$@, expiring on %2$@.";
+
+/* Alert title for updating offer price. */
+"We have updated your offer." = "We have updated your offer.";
+
+/* GOAT has verified the product details the seller provided. */
+"We have verified the size, condition and authenticity of the seller's photos." = "We have verified the size, condition and authenticity of the seller's photos.";
+
+/* Prompt to make a higher offer. */
+"We recommend an offer higher than the top offer. Slide to adjust." = "We recommend an offer higher than the top offer. Slide to adjust.";
+
+/* message */
+"We show you the highest and lowest prices that your sneakers have sold for elsewhere and recommend a price for you based on data we gather daily. You can also sell instantly by accepting the highest offer." = "We show you the highest and lowest prices that your sneakers have sold for elsewhere and recommend a price for you based on data we gather daily. You can also sell instantly by accepting the highest offer.";
+
+/* seller onboarding message */
+"We understand that boxes may have some damage\nfrom the original retailer. You can still list them\nas new, but it must be noted in the listing." = "We understand that boxes may have some damage\nfrom the original retailer. You can still list them\nas new, but it must be noted in the listing.";
+
+/* detailed description of what this feature does */
+"We use this information to help you shop and show size conversions in the app." = "We use this information to help you shop and show size conversions in the app.";
+
+/* OwnWant Want Description */
+"We will alert you when this is for sale in the sizes you want." = "We will alert you when this is for sale in the sizes you want.";
+
+/* Title for size conversion summary page */
+"We will show size conversions based on this size so you know what size to buy in any sneaker." = "We will show size conversions based on this size so you know what size to buy in any sneaker.";
+
+/* Zendesk ticket created success message */
+"We'll get back to you as soon as we can." = "We'll get back to you as soon as we can.";
+
+/* Want popup description. */
+"We'll notify you when your\ndefault size is listed or there's a\nprice drop. To get it at your own\nprice, make an offer." = "We'll notify you when your\ndefault size is listed or there's a\nprice drop. To get it at your own\nprice, make an offer.";
+
+/* 2FA instructions label */
+"We'll text you a code to verify your device, so your information is safely updated." = "We'll text you a code to verify your device, so your information is safely updated.";
+
+/* WEB PHOTO title. ALL CAPITALS */
+"WEB PHOTO" = "WEB PHOTO";
+
+/* A prompt to open the notification to drop off an order. */
+"Welcome to %1$@! Tap here to view your seller barcode and drop-off your shoes." = "Welcome to %1$@! Tap here to view your seller barcode and drop-off your shoes.";
+
+/* A prompt to open the notification to drop off an order. */
+"Welcome to your drop-off location! Tap here to view your seller barcode and drop-off your shoes." = "Welcome to your drop-off location! Tap here to view your seller barcode and drop-off your shoes.";
+
+/* No comment provided by engineer. */
+"We’re currently accepting a limited number of Apparel resellers.\n\nSign up below to be added to the list and notified once you’re able to sell." = "We’re currently accepting a limited number of Apparel resellers.\n\nSign up below to be added to the list and notified once you’re able to sell.";
+
+/* Empty state GOAT storage list title.
+   Title for GOAT Storage details
+   Title prompt describing GOAT Storage */
+"What is GOAT Storage?" = "What is GOAT Storage?";
+
+/* Box Condition Description Label text. */
+"What is the condition of the box?" = "What is the condition of the box?";
+
+/* Shoe Condition description text. */
+"What is the sneaker condition?" = "What is the sneaker condition?";
+
+/* Title question for size conversion feature */
+"What kind of sneaker fits you best?" = "What kind of sneaker fits you best?";
+
+/* Filter color for shoe. ALL CAPITALS */
+"WHITE" = "WHITE";
+
+/* A question asking why users are being charged sales tax. ALL CAPITALS */
+"WHY AM I BEING CHARGED SALES TAX?" = "WHY AM I BEING CHARGED SALES TAX?";
+
+/* Filter Gender for women. ALL CAPITALS
+   Women size category display name. ALL CAPITALS */
+"WOMEN" = "WOMEN";
+
+/* Payment Affirm alert message */
+"Would you like to continue with the monthly payment plan?" = "Would you like to continue with the monthly payment plan?";
+
+/* first initial of youth size category display name. ALL CAPITALS. */
+"Y" = "Y";
+
+/* Filter color for shoe. ALL CAPITALS */
+"YELLOW" = "YELLOW";
+
+/* Title for used shoe condition with yellow discoloring. ALL CAPITALS. */
+"YELLOWING" = "YELLOWING";
+
+/* Out of stock yes button title. ALL CAPS
+   Yes to size conversion prompt. ALL CAPS */
+"YES" = "YES";
+
+/* alert title
+   Alert yes button prompt */
+"Yes" = "Yes";
+
+/* label */
+"You are transferring %@ to %@." = "You are transferring %1$@ to %2$@.";
+
+/* Size Preference detail text/instructions */
+"You can change this in your profile settings anytime." = "You can change this in your profile settings anytime.";
+
+/* Detail prompt explaining that you can localize your currency. */
+"You can now localize your currency. \nWould you like to update yours?" = "You can now localize your currency. \nWould you like to update yours?";
+
+/* Error message. */
+"You can only use this feature on a device with a camera" = "You can only use this feature on a device with a camera";
+
+/* label */
+"You can only withdraw earnings from sales." = "You can only withdraw earnings from sales.";
+
+/* transition to delete own alert message */
+"You can't remove this own because you have some for sale in this size. To edit, head to your profile." = "You can't remove this own because you have some for sale in this size. To edit, head to your profile.";
+
+/* transition to delete want alert message */
+"You can’t remove this want because you have an offer placed on it. Go to your profile to remove your want." = "You can’t remove this want because you have an offer placed on it. Go to your profile to remove your want.";
+
+/* User want update message. */
+"You currently have the best offer and sellers have been notified to list this item for sale." = "You currently have the best offer and sellers have been notified to list this item for sale.";
+
+/* label */
+"You currently have the best offer on these sneakers and sellers have been notified to list them for sale." = "You currently have the best offer on these sneakers and sellers have been notified to list them for sale.";
+
+/* label */
+"You currently have the best offer on these sneakers. Increase your offer to improve your chances of getting them." = "You currently have the best offer on these sneakers. Increase your offer to improve your chances of getting them.";
+
+/* User want update message. */
+"You currently have the best offer. Increase your offer to improve your chances of getting this item." = "You currently have the best offer. Increase your offer to improve your chances of getting this item.";
+
+/* label */
+"You currently have the lowest price for these sneakers. Lower your price further to increase your chances of selling them or sell them immediately for %@." = "You currently have the lowest price for these sneakers. Lower your price further to increase your chances of selling them or sell them immediately for %@.";
+
+/* label */
+"You currently have the lowest price for these sneakers. Lower your price further to increase your chances of selling them." = "You currently have the lowest price for these sneakers. Lower your price further to increase your chances of selling them.";
+
+/* User product update message */
+"You currently have the lowest price for this item. Lower your price further to increase your chances of selling." = "You currently have the lowest price for this item. Lower your price further to increase your chances of selling.";
+
+/* Description of the current price relative to the lowest price. */
+"You currently have the lowest price." = "You currently have the lowest price.";
+
+/* User product update message. Parameter 1: highest offer */
+"You currently have the lowest price. Lower your price further to increase your chances of selling or sell immediately for %1$@." = "You currently have the lowest price. Lower your price further to increase your chances of selling or sell immediately for %1$@.";
+
+/* Description of offer price state. */
+"You currently have the top offer." = "You currently have the top offer.";
+
+/* Seller rating format. Placeholder 1 = seller rating */
+"You have a seller rating of %i." = "You have a seller rating of %i.";
+
+/* Error message describing that permission needs to be given to use camera. */
+"You have not given permission to use the camera" = "You have not given permission to use the camera";
+
+/* Affirm description. */
+"You have sufficient GOAT credits to purchase." = "You have sufficient GOAT credits to purchase.";
+
+/* modal title. ALL CAPITALS */
+"YOU HAVE THE BEST OFFER" = "YOU HAVE THE BEST OFFER";
+
+/* modal title. ALL CAPITALS */
+"YOU HAVE THE BEST PRICE" = "YOU HAVE THE BEST PRICE";
+
+/* Description of recommended products section */
+"You May Also Like" = "You May Also Like";
+
+/* detail text describing that the user may list multiple sizes at the same time. */
+"You may list multiple sizes at the same time." = "You may list multiple sizes at the same time.";
+
+/* Seller Onboarding age requirement alert message */
+"You must be at least 18 years old." = "You must be at least 18 years old.";
+
+/* Detail prompt asking for the user to add an address to continue. */
+"You must have a shipping address on file to use GOAT storage. Your shoes will still be shipped to GOAT." = "You must have a shipping address on file to use GOAT storage. Your shoes will still be shipped to GOAT.";
+
+/* Alert message about requirement to link a social media account */
+"You must link at least one social account to continue." = "You must link at least one social account to continue.";
+
+/* Confirmation message. */
+"You will not be able to recover your listing." = "You will not be able to recover your listing.";
+
+/* Description of how offers work */
+"You won't be charged unless your offer is\naccepted by a seller. " = "You won't be charged unless your offer is\naccepted by a seller. ";
+
+/* Label. Instruction to place an offer. */
+"You won’t be charged unless your offer is accepted." = "You won’t be charged unless your offer is accepted.";
+
+/* Seller Onboarding Applied description text */
+"You'll be notified by email when it has been reviewed." = "You'll be notified by email when it has been reviewed.";
+
+/* Description of proceeds from selling the product. Parameter 1: amount. */
+"You'll make %1$@" = "You'll make %1$@";
+
+/* Description of how payment is handled for offers. */
+"Your accepted offer price will transact in USD. You won't be charged unless your offer is accepted." = "Your accepted offer price will transact in USD. You won't be charged unless your offer is accepted.";
+
+/* Description of how offers work with transaction currency disclaimer */
+"Your accepted offer price will transact in USD.\nYou won't be charged unless your offer is\naccepted by a seller. " = "Your accepted offer price will transact in USD.\nYou won't be charged unless your offer is\naccepted by a seller. ";
+
+/* Inform user that their GOAT account is linked to alias */
+"Your account is linked and good to go. Access your listings and manage your orders on alias." = "Your account is linked and good to go. Access your listings and manage your orders on alias.";
+
+/* label */
+"Your cash out method has been added." = "Your cash out method has been added.";
+
+/* Nav bar title. ALL CAPITALS */
+"YOUR LISTING" = "YOUR LISTING";
+
+/* Alert message for creating multiple listings. */
+"Your listings will be activated momentarily." = "Your listings will be activated momentarily.";
+
+/* Description of offer price. ALL CAPITALS
+   Description of offer price. ALL CAPITALS.
+   label
+   Your offer label. ALL CAPITALS */
+"YOUR OFFER" = "YOUR OFFER";
+
+/* Description of offer price in United States Dollars. ALL CAPITALS. */
+"YOUR OFFER (USD)" = "YOUR OFFER (USD)";
+
+/* Offer success message body. */
+"Your offer has been placed. To view details, go to your profile." = "Your offer has been placed. To view details, go to your profile.";
+
+/* Offer confirmation message */
+"Your offer is being processed and you will receive an email confirmation once confirmed." = "Your offer is being processed and you will receive an email confirmation once confirmed.";
+
+/* Payment success message body. */
+"Your order has been placed. To view order details, go to your profile." = "Your order has been placed. To view order details, go to your profile.";
+
+/* Order confirmation message */
+"Your order is being processed and you will receive an email confirmation once confirmed." = "Your order is being processed and you will receive an email confirmation once confirmed.";
+
+/* Edit Profile photo title text, ALL CAPITALS */
+"YOUR PHOTO" = "YOUR PHOTO";
+
+/* Message explaining that the listing is being reviewed. */
+"Your photos are currently being reviewed by our verification team. They will be activated shortly." = "Your photos are currently being reviewed by our verification team. They will be activated shortly.";
+
+/* Error message. */
+"Your photos are currently being saved. Please try again in a few seconds." = "Your photos are currently being saved. Please try again in a few seconds.";
+
+/* Description of sell price. ALL CAPITALS.
+   label
+   price description. ALL CAPITALS
+   User's selling price. ALL CAPITALS
+   Your price label text, ALL CAPITALS
+   Your price label. ALL CAPITALS */
+"YOUR PRICE" = "YOUR PRICE";
+
+/* Description of the current price relative to the lowest price. */
+"Your price is above the lowest available." = "Your price is above the lowest available.";
+
+/* Description of the authentication process. */
+"Your purchase will be sent to GOAT for verification before shipping to you." = "Your purchase will be sent to GOAT for verification before shipping to you.";
+
+/* Title of request detail screen. ALL CAPITALS. */
+"YOUR REQUEST" = "YOUR REQUEST";
+
+/* message
+   seller onboarding applicationed submitted message */
+"Your request has been submitted. You’ll be notified by email when it has been reviewed." = "Your request has been submitted. You’ll be notified by email when it has been reviewed.";
+
+/* Title of list of requests. ALL CAPITALS. */
+"YOUR REQUESTS" = "YOUR REQUESTS";
+
+/* navigation bar title. ALL CAPITALS. */
+"YOUR SELLER RATING" = "YOUR SELLER RATING";
+
+/* label */
+"Your seller rating history\nwill appear here." = "Your seller rating history\nwill appear here.";
+
+/* Confirmation message. */
+"Your share was successfully sent." = "Your share was successfully sent.";
+
+/* Prompt that tells the user to confirm shipping address during checkout. */
+"Your shipping address will be confirmed once you finish checking out with Apple Pay." = "Your shipping address will be confirmed once you finish checking out with Apple Pay.";
+
+/* Size Preference Screen navigation bar title. ALL CAPITALS */
+"YOUR SIZE" = "YOUR SIZE";
+
+/* label */
+"Your sneaker photos are currently being reviewed by our verification team. They will be activated shortly." = "Your sneaker photos are currently being reviewed by our verification team. They will be activated shortly.";
+
+/* Settings Title For `Sneaker Sold` Notifications */
+"Your sneaker sold" = "Your sneaker sold";
+
+/* Filter Gender for youth. ALL CAPITALS
+   Youth size category display name. ALL CAPITALS */
+"YOUTH" = "YOUTH";
+
+/* Instructions. */
+"You’re a trusted seller. You may submit without adding photos." = "You’re a trusted seller. You may submit without adding photos.";
+
+/* Error message describing invalid Zendesk response. */
+"Zendesk did not return response" = "Zendesk did not return response";
+
+/* Error message for failing to upload attachment to Zendesk. */
+"Zendesk upload didn't return attachment" = "Zendesk upload didn't return attachment";
+
+/* zip code field data descriptor */
+"Zip Code" = "Zip Code";
+
+/* Instruct user to take an action when shoe is out of stock */
+"‌Add to your wants and be notified once in stock." = "‌Add to your wants and be notified once in stock.";
+
+/* label */
+"—" = "—";
+
