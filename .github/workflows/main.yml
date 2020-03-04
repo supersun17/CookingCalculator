@@ -1,6 +1,6 @@
 name: translation file encoding
 on: 
-  pull_request:
+  push:
     branches: 
       - phraseapp-locales
 jobs:
@@ -9,8 +9,3 @@ jobs:
     steps:
     - name: update encoding
       run: echo "asdfasdfsdf" >> abcd.text
-    - name: commit change
-      run: |
-        git add .
-        git commit -m "convert utf16be to utf8"
-        git push
