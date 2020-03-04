@@ -1,6 +1,6 @@
 name: translation file encoding
 on: 
-  push:
+  pull_request:
     branches: 
       - 'phrase-locales'
 jobs:
