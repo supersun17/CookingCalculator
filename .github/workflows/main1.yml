@@ -1,13 +1,16 @@
-name: binary-to-utf8
-on: push
+name: translation file encoding
+on: 
+  pull_request:
+
 jobs:
-  resources:
-    name: binary-to-utf8
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: conversion
+    - name: update encoding
+      run: sh ./Scripts/ConvertUTF16.sh
+    - name: commit change
       run: |
-        mkdir ./GOAT/fr.lproj/temp
-        cp ./GOAT/fr.lproj/Localizable.strings ./GOAT/fr.lproj/temp/Localizable.strings 
-        iconv -f UTF-16 -t UTF-8 ./GOAT/fr.lproj/temp/Localizable.strings  > ./GOAT/fr.lproj/Localizable.strings
-        rm -f ./GOAT/fr.lproj/temp
+        git add .
+        git commit -m "convert utf16be to utf8"
+        git push
+
