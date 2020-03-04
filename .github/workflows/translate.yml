@@ -10,18 +10,18 @@ jobs:
     - name: update encoding
       run: |
         UTF8="text/plain; charset=utf-8"
-        LANGS=$(find ./CookingCalculator/*.lproj/Localizable.strings)
+        LANGS=$(find CookingCalculator/*.lproj/Localizable.strings)
 
         mkdir ./CookingCalculator/temp
         for LANG in $LANGS
         do
         CURRENT_TYPE=$(file -bI $LANG)
         if [ "$CURRENT_TYPE" != "$UTF8" ]; then
-        iconv -f UTF-16 -t UTF-8 $LANG > ./CookingCalculator/temp/Localizable.strings
-        mv ./CookingCalculator/temp/Localizable.strings $LANG
+        iconv -f UTF-16 -t UTF-8 $LANG > CookingCalculator/temp/Localizable.strings
+        mv CookingCalculator/temp/Localizable.strings $LANG
         fi
         done
-        rm -r ./CookingCalculator/temp
+        rm -r CookingCalculator/temp
     - name: commit change
       run: |
         git add .
