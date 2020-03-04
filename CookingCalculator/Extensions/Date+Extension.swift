@@ -9,7 +9,7 @@
 import Foundation
 
 extension Date {
-    // date to iso string, ioioio
+    // date to iso string
     var toISOString: String? {
         let formatter = DateFormatter()
         return formatter.string(from: self)
