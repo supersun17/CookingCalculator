@@ -10,8 +10,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: update encoding
         run: |
-          apt-get update
-          apt-get install -y file
+          sudo apt-get update
+          sudo apt-get install -y file
           
           UTF8="text/plain; charset=utf-8"
           LANGS=$(find **/*/Localizable.strings)
