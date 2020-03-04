@@ -25,6 +25,10 @@ jobs:
           rm -r CookingCalculator/temp
       - name: commit change
         run: |
-          git add .
-          git commit -m "convert utf16be to utf8"
-          git push origin
+          git config --local user.email "mingsun.nolan@gmail.com"
+          git config --local user.name "supersun17"
+          git commit -m "commig all changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
