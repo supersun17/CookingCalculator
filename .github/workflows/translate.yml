@@ -10,7 +10,7 @@ jobs:
     - name: update encoding
       run: |
         echo $(ls)
-        sh CookingCalculator/ConvertUTF16.sh
+        sh ConvertUTF16.sh
     - name: commit change
       run: |
         git add .
