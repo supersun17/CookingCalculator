@@ -1,5 +1,5 @@
 name: binary-to-utf8
-on: pull_request
+on: push
 jobs:
   resources:
     name: binary-to-utf8
