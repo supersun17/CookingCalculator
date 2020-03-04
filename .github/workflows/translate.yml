@@ -2,7 +2,7 @@ name: translation file encoding
 on: 
   push:
     branches: 
-      - phrase-locales
+      - 'phrase-locales'
 jobs:
   build:
     runs-on: ubuntu-latest
