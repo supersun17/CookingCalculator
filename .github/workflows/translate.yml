@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: update encoding
-      run: sh .CookingCalculator/ConvertUTF16.sh
+      run: sh ./CookingCalculator/ConvertUTF16.sh
     - name: commit change
       run: |
         git add .
