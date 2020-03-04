@@ -1,6 +1,8 @@
 name: translation file encoding
 on: 
   pull_request:
+    branches:
+      - phraseapp-locales
 
 jobs:
   build:
