@@ -12,7 +12,7 @@ jobs:
         UTF8="text/plain; charset=utf-8"
         LANGS=$(find CookingCalculator/*.lproj/Localizable.strings)
 
-        mkdir ./CookingCalculator/temp
+        mkdir CookingCalculator/temp
         for LANG in $LANGS
         do
         CURRENT_TYPE=$(file -bI $LANG)
