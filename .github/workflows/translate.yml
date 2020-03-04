@@ -1,23 +1,18 @@
 name: translation file encoding
 on: 
-  pull_request:
-    branches: 
+  push:
+    branches:
       - 'phrase-locales'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
     - name: update encoding
       run: |
-        mkdir tmp
-        iconv -f UTF-16 -t UTF-8//TRANSLIT Localizable.strings -o tmp/Localizable.strings
-        mv tmp/Localizable.strings Localizable.strings
-        rm -rf tmp
+        ls
+        sh ./ConvertUTF16.sh
     - name: commit change
-      uses: alexesprit/action-update-file@master
-      with:
-        file-path: Localizable.strings
-        commit-msg: commit change
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        branch: phrase-locales
+      run: |
+        git add .
+        git commit -m "convert utf16be to utf8"
+        git push origin
