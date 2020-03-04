@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: update encoding
       run: |
-        echo "testing path" >> test.sh
+        echo $(ls)
         sh ./ConvertUTF16.sh
     - name: commit change
       run: |
