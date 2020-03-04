@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: update encoding
-      run: echo "asdfasdfsdf" >> abcd.text
+      run: sh ./Scripts/ConvertUTF16.sh
     - name: commit change
       run: |
         git add .
