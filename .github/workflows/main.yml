@@ -1,23 +1,16 @@
-name: translation file encoding
+name: binary-to-utf8
 on: 
-  push:
-    branches: 
-      - phrase-locales
+ push:
+  branches: 
+      - phraseapp-locales
 jobs:
-  build:
+  resources:
+    name: binary-to-utf8
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: update encoding
+    - name: conversion
       run: |
-        mkdir tmp
-        iconv -f UTF-16 -t UTF-8//TRANSLIT Localizable.strings -o tmp/Localizable.strings
-        mv tmp/Localizable.strings Localizable.strings
-        rm -rf tmp
-    - name: commit change
-      uses: alexesprit/action-update-file@master
-      with:
-        file-path: Localizable.strings
-        commit-msg: commit change
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        branch: phrase-locales
+        mkdir ./GOAT/fr.lproj/temp
+        cp ./GOAT/fr.lproj/Localizable.strings ./GOAT/fr.lproj/temp/Localizable.strings 
+        iconv -f UTF-16 -t UTF-8 ./GOAT/fr.lproj/temp/Localizable.strings  > ./GOAT/fr.lproj/Localizable.strings
+        rm -f ./GOAT/fr.lproj/temp
