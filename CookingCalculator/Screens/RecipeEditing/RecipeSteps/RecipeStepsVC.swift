@@ -10,6 +10,8 @@ import UIKit
 
 class RecipeStepsVC: BaseVC, SplitScreenMenu {
     var contentView: RecipeStepsCV { view as? RecipeStepsCV ?? RecipeStepsCV() }
+    weak var master: SplitScreenMasterVC?
+    
     var recipe: Recipe?
 
     var recipeName: UILabel { contentView.recipeName }
@@ -17,7 +19,6 @@ class RecipeStepsVC: BaseVC, SplitScreenMenu {
     var reorderButton: UIButton { contentView.reorderButton }
     var instructionTableView: UITableView { contentView.instructionTableView }
 
-    weak var master: SplitScreenMasterVC?
 
     override func loadView() {
         view = RecipeStepsCV()
@@ -41,7 +42,9 @@ class RecipeStepsVC: BaseVC, SplitScreenMenu {
         reorderButton.addTarget(self, action: #selector(toggleRearrange), for: .touchUpInside)
         setupTableView()
     }
-    
+}
+
+extension RecipeStepsVC {
     func updateUI() {
         recipeName.text = recipe?.recipeName
         recipeClass.text = recipe?.recipeClassName
@@ -80,13 +83,12 @@ extension RecipeStepsVC: UITableViewDelegate, UITableViewDataSource {
         } else {
             cell = UITableViewCell(style: .subtitle, reuseIdentifier: "ReusableCell")
             cell.selectionStyle = .gray
+            cell.textLabel?.numberOfLines = 0
         }
         guard let step = recipe?.steps?[indexPath.row] else {
             return cell
         }
-        cell.textLabel?.text = step.recipeName
-        cell.detailTextLabel?.numberOfLines = 0
-        cell.detailTextLabel?.text = String(format: "In %1$.02f seconds \n%2$@", step.timePeriod, step.instructionStart ?? "")
+        update(cell: cell, with: step)
         return cell
     }
     
@@ -113,10 +115,22 @@ extension RecipeStepsVC: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        master?.showDetail()
+        let step = recipe?.steps?[indexPath.row]
+        master?.showDetail(step)
     }
 
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        if let step = master?.detail.updatedData() as? Step,
+           let cell = tableView.cellForRow(at: indexPath) {
+            update(cell: cell, with: step)
+            recipe?.steps?[indexPath.row] = step
+        }
         master?.hideDetail()
+    }
+
+    private func update(cell: UITableViewCell, with step: Step) {
+        cell.textLabel?.text = step.recipeName
+        cell.detailTextLabel?.numberOfLines = 0
+        cell.detailTextLabel?.text = String(format: "In %1$.02f seconds \n%2$@", step.timePeriod, step.instructionStart ?? "")
     }
 }

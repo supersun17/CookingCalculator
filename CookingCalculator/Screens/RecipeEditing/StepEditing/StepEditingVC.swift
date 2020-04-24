@@ -9,10 +9,13 @@
 import UIKit
 
 class StepEditingVC: UIViewController, SplitScreenDetail, UIGestureRecognizerDelegate {
-    var contentView: UIView { view as? StepEditingCV ?? StepEditingCV() }
+    var contentView: StepEditingCV { view as? StepEditingCV ?? StepEditingCV() }
 
     weak var master: SplitScreenMasterVC?
 
+    private var step: Step?
+
+    
     override func loadView() {
         view = StepEditingCV()
     }
@@ -38,6 +41,20 @@ class StepEditingVC: UIViewController, SplitScreenDetail, UIGestureRecognizerDel
 
 extension StepEditingVC {
     func updateUI(_ data: Any?) {
+        guard let step = data as? Step else { return }
+        self.step = step
 
+        contentView.timePeriod.content.text = step.timePeriod.description
+        contentView.occupied.content.text = step.occupied.description
+        contentView.instructionStart.content.text = step.instructionStart
+        contentView.instructionEnd.content.text = step.instructionEnd
+    }
+
+    func updatedData() -> Any? {
+        step?.timePeriod = Double(contentView.timePeriod.content.text ?? "0.0") ?? 0.0
+        step?.occupied = contentView.occupied.content.text?.lowercased() == "true"
+        step?.instructionStart = contentView.instructionStart.content.text
+        step?.instructionEnd = contentView.instructionEnd.content.text
+        return step
     }
 }

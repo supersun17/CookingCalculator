@@ -47,6 +47,7 @@ class StepEditingCV: UIView {
         setupLayout()
     }
 
+    
     required init?(coder: NSCoder) { fatalError("no xib nor storyboard") }
 
     func setupViews() {
